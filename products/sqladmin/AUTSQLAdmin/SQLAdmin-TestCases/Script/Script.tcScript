@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="item0000000000">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TC12287_ATSLaunchpad_ManageServerGroups.svb"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{A15D8027-C85B-4EAB-8389-73CC9FCEB64F}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="item0000000001">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ServersCredentials.svb"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{FDFE11A0-2721-43DF-B96D-03E30569F031}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="item0000000002">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ATSLaunchPad_Launcher.svb"/>
+				</Node>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="key" type="S" value="{208F57DD-6AF3-4D55-93DE-1BE2E0CE0F6F}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="item0000000003">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="HoldExecution.svb"/>
+				</Node>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="key" type="S" value="{288D14BF-9C67-4E81-A449-516F10D97BFB}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="item0000000004">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Unit1.svb"/>
+				</Node>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="key" type="S" value="{B9E28B69-1B04-48AF-84A4-3E16134793DB}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="item0000000005">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TC12290_ATS_AllLoadServerGroup.svb"/>
+				</Node>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="key" type="S" value="{945389A6-9A12-4B9A-B182-F9D7BFED9B83}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+		</Node>
+		<Node name="folders">
+			<Node name="folders">
+				<Node name="folder0000000000">
+					<Node name="folders"/>
+					<Node name="references">
+						<Node name="ref0000000000">
+							<Prp name="index" type="I" value="0"/>
+							<Prp name="key" type="S" value="{FDFE11A0-2721-43DF-B96D-03E30569F031}"/>
+						</Node>
+						<Node name="ref0000000001">
+							<Prp name="index" type="I" value="1"/>
+							<Prp name="key" type="S" value="{208F57DD-6AF3-4D55-93DE-1BE2E0CE0F6F}"/>
+						</Node>
+						<Node name="ref0000000002">
+							<Prp name="index" type="I" value="2"/>
+							<Prp name="key" type="S" value="{288D14BF-9C67-4E81-A449-516F10D97BFB}"/>
+						</Node>
+					</Node>
+					<Prp name="caption" type="S" value="Lib"/>
+					<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+					<Prp name="index" type="I" value="0"/>
+					<Prp name="moniker" type="S" value=""/>
+				</Node>
+			</Node>
+		</Node>
+		<Prp name="settingsversion" type="S" value="9.20"/>
+		<Prp name="signature" type="S" value="{9252F941-DB23-4FCA-AA50-858B33BB4A19}"/>
+		<Prp name="version" type="S" value="9.0"/>
+	</Node>
+</Nodes>
