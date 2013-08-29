@@ -1,0 +1,8 @@
+TCID,Variables,Val1,Val2,Val3,Val4,Val5,Val6,Val7,Val8,Val9,Val10,Val11,Val12,Val13,Val14,Val15,Val16,Val17,Val18,Val19,Val20
+"0","verbose,desktopClient",TRUE,C:\Program Files (x86)\Idera\SQL doctor\SQLdoctor.exe,,,,,,,,,,,,,,,,,,
+TC12624,installerFile,c:\last_build\sqldoctor.msi,,,,,,,,,,,,,,,,,,,
+TC12625,testServerInstanceName,AUT-SQLDOC-001,,,,,,,,,,,,,,,,,,,
+TC12614,"testServerInstanceName,analysisDuration",AUT-SQLDOC-001,1,,,,,,,,,,,,,,,,,,
+TC12623,"chmFile,webhelpFile",C:\Program Files (x86)\Idera\SQL doctor\Documentation\SQLdoctor Help.chm,C:\Program Files (x86)\Idera\SQL doctor\WebHelp.exe,,,,,,,,,,,,,,,,,,
+TC12627,"testServerInstanceName,recurrence,analysisDuration,userAccount,passwordAccount",AUT-SQLDOC-001,Daily,1,SP1\Administrator,control*88,,,,,,,,,,,,,,,
+TC19315,testServerInstanceName,AUT-SQLDOC-001,,,,,,,,,,,,,,,,,,,

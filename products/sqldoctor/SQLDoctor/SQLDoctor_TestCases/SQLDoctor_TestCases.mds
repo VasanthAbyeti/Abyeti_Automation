@@ -1,0 +1,1420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="analysis">
+			<Prp name="key" type="S" value="{AB25B196-47CF-4AAD-B205-EF3EF8E15DD3}"/>
+		</Node>
+		<Node name="child list">
+			<Node name="item0000000000">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Stores\Stores.tcStores"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{AF25C06F-41CF-4458-A868-036D59BD0559}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}"/>
+				<Prp name="typename" type="S" value="Stores"/>
+			</Node>
+			<Node name="item0000000001">
+				<Node name="item data">
+					<Prp name="storage" type="S" value="TestedApps\TestedApps.tcTAs"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{34CB272C-E2DA-41EC-86AE-1F575EF0F2C9}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
+				<Prp name="typename" type="S" value="Tested Applications"/>
+			</Node>
+			<Node name="item0000000002">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="NameMapping\NameMapping.tcNM"/>
+				</Node>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="key" type="S" value="{0D5D3C41-9A19-4FE2-9987-37F10289A579}"/>
+				<Prp name="pluginname" type="S" value="NameMapping"/>
+				<Prp name="type" type="S" value="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}"/>
+				<Prp name="typename" type="S" value="Name Mapping"/>
+			</Node>
+			<Node name="item0000000003">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Script\Script.tcScript"/>
+				</Node>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="key" type="S" value="{E4D8B078-2C61-47EB-AF44-42DB658C78AB}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{9252F941-DB23-4FCA-AA50-858B33BB4A19}"/>
+				<Prp name="typename" type="S" value="Script"/>
+			</Node>
+			<Node name="item0000000004">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="KeywordTests\KeywordTests.tcKDT"/>
+				</Node>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="key" type="S" value="{4B7A637F-DFF6-436F-9E85-474AE89D31AA}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}"/>
+				<Prp name="typename" type="S" value="Keyword Testing"/>
+			</Node>
+		</Node>
+		<Node name="config">
+			<Prp name="language" type="S" value="{897793E3-73F3-4895-A956-3D41D3A24A45}"/>
+		</Node>
+		<Node name="files">
+			<Node name="keywordtests\keywordtests.tckdt">
+				<Prp name="relpath" type="S" value="KeywordTests\KeywordTests.tcKDT"/>
+			</Node>
+			<Node name="namemapping\namemapping.tcnm">
+				<Prp name="relpath" type="S" value="NameMapping\NameMapping.tcNM"/>
+			</Node>
+			<Node name="script\checktree.svb">
+				<Prp name="relpath" type="S" value="Script\checkTree.svb"/>
+			</Node>
+			<Node name="script\cleanup.svb">
+				<Prp name="relpath" type="S" value="Script\CleanUp.svb"/>
+			</Node>
+			<Node name="script\connectionstring.svb">
+				<Prp name="relpath" type="S" value="Script\ConnectionString.svb"/>
+			</Node>
+			<Node name="script\dbhelper.svb">
+				<Prp name="relpath" type="S" value="Script\DBHelper.svb"/>
+			</Node>
+			<Node name="script\holdexecution.svb">
+				<Prp name="relpath" type="S" value="Script\HoldExecution.svb"/>
+			</Node>
+			<Node name="script\scheduledtaskcheck.svb">
+				<Prp name="relpath" type="S" value="Script\ScheduledTaskCheck.svb"/>
+			</Node>
+			<Node name="script\script.tcscript">
+				<Prp name="relpath" type="S" value="Script\Script.tcScript"/>
+			</Node>
+			<Node name="script\sqldoctoraddnetworkinstanceserver.svb">
+				<Prp name="relpath" type="S" value="Script\SQLDoctorAddNetworkInstanceServer.svb"/>
+			</Node>
+			<Node name="script\sqldoctoraddserver.svb">
+				<Prp name="relpath" type="S" value="Script\SQLDoctorAddServer.svb"/>
+			</Node>
+			<Node name="script\sqldoctoranalyzeserver.svb">
+				<Prp name="relpath" type="S" value="Script\SQLDoctorAnalyzeServer.svb"/>
+			</Node>
+			<Node name="script\sqldoctorlauncher.svb">
+				<Prp name="relpath" type="S" value="Script\SQLDoctorLauncher.svb"/>
+			</Node>
+			<Node name="script\sqldoctorregister.svb">
+				<Prp name="relpath" type="S" value="Script\SQLDoctorRegister.svb"/>
+			</Node>
+			<Node name="script\sqldoctorremoveserver.svb">
+				<Prp name="relpath" type="S" value="Script\SQLDoctorRemoveServer.svb"/>
+			</Node>
+			<Node name="script\tc12618_bvtsessionsview.svb">
+				<Prp name="relpath" type="S" value="Script\TC12618_BVTSessionsView.svb"/>
+			</Node>
+			<Node name="script\tc19306_bvtaddserverwithanalysisnetworkinstance.svb">
+				<Prp name="relpath" type="S" value="Script\TC19306_BVTAddServerWithAnalysisNetworkInstance.svb"/>
+			</Node>
+			<Node name="script\tc19307_addserverwindowsauthentication.svb">
+				<Prp name="relpath" type="S" value="Script\TC19307_AddServerWindowsAuthentication.svb"/>
+			</Node>
+			<Node name="script\tc19308_addserversqlauthentication.svb">
+				<Prp name="relpath" type="S" value="Script\TC19308_AddServerSQLAuthentication.svb"/>
+			</Node>
+			<Node name="script\tc19309_addserverserveroptionsproductionserver.svb">
+				<Prp name="relpath" type="S" value="Script\TC19309_AddServerServerOptionsProductionServer.svb"/>
+			</Node>
+			<Node name="script\tc19310_addserveradvancedconnectionsettingsole.svb">
+				<Prp name="relpath" type="S" value="Script\TC19310_AddServerAdvancedConnectionSettingsOLE.svb"/>
+			</Node>
+			<Node name="script\tc19311_addserveradvancedconnectionsettingswmioptions.svb">
+				<Prp name="relpath" type="S" value="Script\TC19311_AddServerAdvancedConnectionSettingsWMIOptions.svb"/>
+			</Node>
+			<Node name="script\tc19316_bvtremoveservernetworkinstance.svb">
+				<Prp name="relpath" type="S" value="Script\TC19316_BVTRemoveServerNetworkInstance.svb"/>
+			</Node>
+			<Node name="script\tc19319_removeservermultipleinstances.svb">
+				<Prp name="relpath" type="S" value="Script\TC19319_RemoveServerMultipleInstances.svb"/>
+			</Node>
+			<Node name="script\tc19343_manualanalysiscategories.svb">
+				<Prp name="relpath" type="S" value="Script\TC19343_ManualAnalysisCategories.svb"/>
+			</Node>
+			<Node name="script\tc19350_manualanalysisdatabases.svb">
+				<Prp name="relpath" type="S" value="Script\TC19350_ManualAnalysisDatabases.svb"/>
+			</Node>
+			<Node name="script\tc19351_manualanalysisapplicationssingleapplication.svb">
+				<Prp name="relpath" type="S" value="Script\TC19351_ManualAnalysisApplicationsSingleApplication.svb"/>
+			</Node>
+			<Node name="script\tc19352_manualanalysisduration.svb">
+				<Prp name="relpath" type="S" value="Script\TC19352_ManualAnalysisDuration.svb"/>
+			</Node>
+			<Node name="script\tc19356_scheduledanalysisweeklyscheduledtask.svb">
+				<Prp name="relpath" type="S" value="Script\TC19356_ScheduledAnalysisWeeklyScheduledTask.svb"/>
+			</Node>
+			<Node name="script\tc19439_addservernoanalysislocalinstance.svb">
+				<Prp name="relpath" type="S" value="Script\TC19439_AddServerNoAnalysisLocalInstance.svb"/>
+			</Node>
+			<Node name="script\tc19440_manualanalysiscancel.svb">
+				<Prp name="relpath" type="S" value="Script\TC19440_ManualAnalysisCancel.svb"/>
+			</Node>
+			<Node name="script\tc19442_addservenoanalysisnetworkinstance.svb">
+				<Prp name="relpath" type="S" value="Script\TC19442_AddServeNoAnalysisNetworkInstance.svb"/>
+			</Node>
+			<Node name="script\tc19458_addserverserveroptionsonlinetransactionprocessing.svb">
+				<Prp name="relpath" type="S" value="Script\TC19458_AddServerServerOptionsOnlineTransactionProcessing.svb"/>
+			</Node>
+			<Node name="script\tc19491_removeserverallinstances.svb">
+				<Prp name="relpath" type="S" value="Script\TC19491_RemoveServerAllInstances.svb"/>
+			</Node>
+			<Node name="script\tc19492_removeserverunavailableserver.svb">
+				<Prp name="relpath" type="S" value="Script\TC19492_RemoveServerUnavailableServer.svb"/>
+			</Node>
+			<Node name="script\tc19525_manualanalysisapplicationsmultipleapplications.svb">
+				<Prp name="relpath" type="S" value="Script\TC19525_ManualAnalysisApplicationsMultipleApplications.svb"/>
+			</Node>
+			<Node name="script\tc19657_scheduledanalysiscancel.svb">
+				<Prp name="relpath" type="S" value="Script\TC19657_ScheduledAnalysisCancel.svb"/>
+			</Node>
+			<Node name="script\tc19703_blockedrecommendationssetforindividualserver.svb">
+				<Prp name="relpath" type="S" value="Script\TC19703_BlockedRecommendationsSetForIndividualServer.svb"/>
+			</Node>
+			<Node name="script\tc19707_blockedrecommendationsnotinanalysisresults.svb">
+				<Prp name="relpath" type="S" value="Script\TC19707_BlockedRecommendationsNotInAnalysisResults.svb"/>
+			</Node>
+			<Node name="script\tc19714_blockeddatabasesnotinanalysisresults.svb">
+				<Prp name="relpath" type="S" value="Script\TC19714_BlockedDatabasesNotInAnalysisResults.svb"/>
+			</Node>
+			<Node name="script\tc19910_blockeddatabasesalldatabaseslisted.svb">
+				<Prp name="relpath" type="S" value="Script\TC19910_BlockedDatabasesAlldatabaseslisted.svb"/>
+			</Node>
+			<Node name="script\tc19929_generalsettings_analysisresultslocation.svb">
+				<Prp name="relpath" type="S" value="Script\TC19929_GeneralSettings_AnalysisResultsLocation.svb"/>
+			</Node>
+			<Node name="script\tc19930_generalsettingscredentialsforindividualserver.svb">
+				<Prp name="relpath" type="S" value="Script\TC19930_GeneralSettingsCredentialsforindividualserver.svb"/>
+			</Node>
+			<Node name="script\tc19931_generalsettingsproductionserver.svb">
+				<Prp name="relpath" type="S" value="Script\TC19931_GeneralSettingsProductionServer.svb"/>
+			</Node>
+			<Node name="script\tc19932_generalsettingsonlinetransactionprocessing.svb">
+				<Prp name="relpath" type="S" value="Script\TC19932_GeneralSettingsOnlineTransactionProcessing.svb"/>
+			</Node>
+			<Node name="script\tc19933_generalsettingsadvancedconnectionsettingsole.svb">
+				<Prp name="relpath" type="S" value="Script\TC19933_GeneralSettingsAdvancedConnectionSettingsOLE.svb"/>
+			</Node>
+			<Node name="script\tc19934_generalsettingsadvancedconnectionsettingswmiconnectionoptions.svb">
+				<Prp name="relpath" type="S" value="Script\TC19934_GeneralSettingsAdvancedConnectionSettingsWMIConnectionOptions.svb"/>
+			</Node>
+			<Node name="script\tc19967_dashboardviewallserverslinks.svb">
+				<Prp name="relpath" type="S" value="Script\TC19967_DashboardViewAllServersLinks.svb"/>
+			</Node>
+			<Node name="script\tc20007_dashboardviewallserversanalysisiinformation.svb">
+				<Prp name="relpath" type="S" value="Script\TC20007_DashboardViewAllServersAnalysisIinformation.svb"/>
+			</Node>
+			<Node name="script\tc20041_dashboardviewanalysishistory.svb">
+				<Prp name="relpath" type="S" value="Script\TC20041_DashboardViewAnalysisHistory.svb"/>
+			</Node>
+			<Node name="script\tc20042_dashboardviewanalysishistorychangelocation.svb">
+				<Prp name="relpath" type="S" value="Script\TC20042_DashboardViewAnalysisHistoryChangelocation.svb"/>
+			</Node>
+			<Node name="script\tc20090_dashboardviewanalysishistorymanuallygroomresults.svb">
+				<Prp name="relpath" type="S" value="Script\TC20090_DashboardViewAnalysisHistoryManuallyGroomResults.svb"/>
+			</Node>
+			<Node name="script\visualizer\cleanup_svb\cleanup.svb.tcvis">
+				<Prp name="relpath" type="S" value="Script\Visualizer\CleanUp_svb\CleanUp.svb.tcVis"/>
+			</Node>
+			<Node name="script\visualizer\cleanup_svb\tcvi73161.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\CleanUp_svb\tcvi73161.png"/>
+			</Node>
+			<Node name="script\visualizer\cleanup_svb\tcvi73161.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\CleanUp_svb\tcvi73161.xml"/>
+			</Node>
+			<Node name="script\visualizer\cleanup_svb\tcvi73162.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\CleanUp_svb\tcvi73162.png"/>
+			</Node>
+			<Node name="script\visualizer\cleanup_svb\tcvi73162.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\CleanUp_svb\tcvi73162.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc12618_bvtsessionsview_svb\tc12618_bvtsessionsview.svb.tcvis">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12618_BVTSessionsView_svb\TC12618_BVTSessionsView.svb.tcVis"/>
+			</Node>
+			<Node name="script\visualizer\tc19440_manualanalysiscancel_svb\tc19440_manualanalysiscancel.svb.tcvis">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19440_ManualAnalysisCancel_svb\TC19440_ManualAnalysisCancel.svb.tcVis"/>
+			</Node>
+			<Node name="script\visualizer\tc19440_manualanalysiscancel_svb\tcvi100120.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19440_ManualAnalysisCancel_svb\tcvi100120.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19440_manualanalysiscancel_svb\tcvi100120.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19440_ManualAnalysisCancel_svb\tcvi100120.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19440_manualanalysiscancel_svb\tcvi100121.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19440_ManualAnalysisCancel_svb\tcvi100121.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19440_manualanalysiscancel_svb\tcvi100121.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19440_ManualAnalysisCancel_svb\tcvi100121.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19440_manualanalysiscancel_svb\tcvi1001210.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19440_ManualAnalysisCancel_svb\tcvi1001210.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19440_manualanalysiscancel_svb\tcvi1001210.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19440_ManualAnalysisCancel_svb\tcvi1001210.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19440_manualanalysiscancel_svb\tcvi1001211.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19440_ManualAnalysisCancel_svb\tcvi1001211.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19440_manualanalysiscancel_svb\tcvi1001211.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19440_ManualAnalysisCancel_svb\tcvi1001211.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19440_manualanalysiscancel_svb\tcvi100125.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19440_ManualAnalysisCancel_svb\tcvi100125.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19440_manualanalysiscancel_svb\tcvi100125.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19440_ManualAnalysisCancel_svb\tcvi100125.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19440_manualanalysiscancel_svb\tcvi100127.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19440_ManualAnalysisCancel_svb\tcvi100127.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19440_manualanalysiscancel_svb\tcvi100127.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19440_ManualAnalysisCancel_svb\tcvi100127.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19440_manualanalysiscancel_svb\tcvi100128.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19440_ManualAnalysisCancel_svb\tcvi100128.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19440_manualanalysiscancel_svb\tcvi100128.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19440_ManualAnalysisCancel_svb\tcvi100128.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19440_manualanalysiscancel_svb\tcvi100129.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19440_ManualAnalysisCancel_svb\tcvi100129.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19440_manualanalysiscancel_svb\tcvi100129.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19440_ManualAnalysisCancel_svb\tcvi100129.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19492_removeserverunavailableserver_svb\tc19492_removeserverunavailableserver.svb.tcvis">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19492_RemoveServerUnavailableServer_svb\TC19492_RemoveServerUnavailableServer.svb.tcVis"/>
+			</Node>
+			<Node name="script\visualizer\tc19492_removeserverunavailableserver_svb\tcvi140880.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19492_RemoveServerUnavailableServer_svb\tcvi140880.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19492_removeserverunavailableserver_svb\tcvi140880.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19492_RemoveServerUnavailableServer_svb\tcvi140880.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19492_removeserverunavailableserver_svb\tcvi140881.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19492_RemoveServerUnavailableServer_svb\tcvi140881.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19492_removeserverunavailableserver_svb\tcvi140881.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19492_RemoveServerUnavailableServer_svb\tcvi140881.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19492_removeserverunavailableserver_svb\tcvi140882.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19492_RemoveServerUnavailableServer_svb\tcvi140882.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19492_removeserverunavailableserver_svb\tcvi140882.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19492_RemoveServerUnavailableServer_svb\tcvi140882.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19492_removeserverunavailableserver_svb\tcvi140886.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19492_RemoveServerUnavailableServer_svb\tcvi140886.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19492_removeserverunavailableserver_svb\tcvi140886.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19492_RemoveServerUnavailableServer_svb\tcvi140886.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19492_removeserverunavailableserver_svb\tcvi140888.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19492_RemoveServerUnavailableServer_svb\tcvi140888.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19492_removeserverunavailableserver_svb\tcvi140888.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19492_RemoveServerUnavailableServer_svb\tcvi140888.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19492_removeserverunavailableserver_svb\tcvi140889.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19492_RemoveServerUnavailableServer_svb\tcvi140889.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19492_removeserverunavailableserver_svb\tcvi140889.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19492_RemoveServerUnavailableServer_svb\tcvi140889.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19929_generalsettings_analysisresultslocation_svb\tc19929_generalsettings_analysisresultslocation.svb.tcvis">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19929_GeneralSettings_AnalysisResultsLocation_svb\TC19929_GeneralSettings_AnalysisResultsLocation.svb.tcVis"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tc19930_generalsettingscredentialsforindividualserver.svb.tcvis">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\TC19930_GeneralSettingsCredentialsforindividualserver.svb.tcVis"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi132600.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi132600.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi132600.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi132600.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326010.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326010.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326010.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326010.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326011.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326011.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326011.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326011.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326012.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326012.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326012.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326012.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326013.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326013.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326013.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326013.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326014.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326014.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326014.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326014.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326015.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326015.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326015.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326015.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326016.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326016.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326016.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326016.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326017.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326017.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326017.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326017.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326021.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326021.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326021.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326021.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326023.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326023.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326023.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326023.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326024.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326024.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326024.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326024.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326034.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326034.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326034.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326034.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326035.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326035.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi1326035.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi1326035.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi132605.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi132605.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19930_generalsettingscredentialsforindividualserver_svb\tcvi132605.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19930_GeneralSettingsCredentialsforindividualserver_svb\tcvi132605.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tc19931_generalsettingsproductionserver.svb.tcvis">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\TC19931_GeneralSettingsProductionServer.svb.tcVis"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi101880.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi101880.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi101880.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi101880.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi1018813.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi1018813.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi1018813.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi1018813.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi1018815.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi1018815.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi1018815.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi1018815.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi1018816.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi1018816.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi1018816.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi1018816.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi1018817.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi1018817.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi1018817.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi1018817.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi1018821.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi1018821.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi1018821.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi1018821.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi1018824.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi1018824.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi1018824.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi1018824.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi1018825.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi1018825.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi1018825.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi1018825.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi101884.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi101884.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi101884.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi101884.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi101887.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi101887.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi101887.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi101887.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi101888.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi101888.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi101888.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi101888.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi101889.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi101889.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19931_generalsettingsproductionserver_svb\tcvi101889.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19931_GeneralSettingsProductionServer_svb\tcvi101889.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tc19967_dashboardviewallserverslinks.svb.tcvis">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\TC19967_DashboardViewAllServersLinks.svb.tcVis"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi260410.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi260410.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi260410.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi260410.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi260411.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi260411.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi260411.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi260411.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi260412.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi260412.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi260412.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi260412.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi260413.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi260413.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi260413.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi260413.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi26042.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi26042.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi26042.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi26042.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi26043.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi26043.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi26043.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi26043.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi26044.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi26044.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi26044.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi26044.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi26045.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi26045.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi26045.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi26045.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi26046.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi26046.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi26046.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi26046.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi26047.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi26047.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi26047.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi26047.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi26048.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi26048.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi26048.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi26048.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi26049.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi26049.png"/>
+			</Node>
+			<Node name="script\visualizer\tc19967_dashboardviewallserverslinks_svb\tcvi26049.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC19967_DashboardViewAllServersLinks_svb\tcvi26049.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tc20007_dashboardviewallserversanalysisiinformation.svb.tcvis">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\TC20007_DashboardViewAllServersAnalysisIinformation.svb.tcVis"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi85120.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi85120.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi85120.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi85120.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi85121.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi85121.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi85121.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi85121.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851210.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851210.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851210.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851210.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851211.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851211.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851211.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851211.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851212.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851212.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851212.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851212.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851213.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851213.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851213.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851213.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851214.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851214.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851214.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851214.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851215.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851215.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851215.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851215.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851216.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851216.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851216.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851216.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851217.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851217.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851217.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851217.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851218.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851218.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851218.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851218.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851219.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851219.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851219.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851219.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851220.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851220.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851220.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851220.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851221.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851221.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851221.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851221.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851222.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851222.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851222.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851222.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851223.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851223.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851223.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851223.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851224.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851224.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851224.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851224.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851225.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851225.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi851225.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi851225.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi85125.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi85125.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi85125.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi85125.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi85127.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi85127.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi85127.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi85127.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi85128.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi85128.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi85128.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi85128.xml"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi85129.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi85129.png"/>
+			</Node>
+			<Node name="script\visualizer\tc20007_dashboardviewallserversanalysisiinformation_svb\tcvi85129.xml">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC20007_DashboardViewAllServersAnalysisIinformation_svb\tcvi85129.xml"/>
+			</Node>
+			<Node name="sqldoctor_testcases.mds">
+				<Prp name="relpath" type="S" value="SQLDoctor_TestCases.mds"/>
+			</Node>
+			<Node name="stores\objects.tcobjects">
+				<Prp name="relpath" type="S" value="Stores\Objects.tcObjects"/>
+			</Node>
+			<Node name="stores\objects\addserverdialog1.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\AddServerDialog1.tcObject"/>
+			</Node>
+			<Node name="stores\objects\analysisstatedialog1.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\AnalysisStateDialog1.tcObject"/>
+			</Node>
+			<Node name="stores\objects\analysisstatedialog2.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\AnalysisStateDialog2.tcObject"/>
+			</Node>
+			<Node name="stores\objects\analysisstatedialog3.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\AnalysisStateDialog3.tcObject"/>
+			</Node>
+			<Node name="stores\objects\analysisstatedialog4.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\AnalysisStateDialog4.tcObject"/>
+			</Node>
+			<Node name="stores\objects\analyzeserverwizard1.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\AnalyzeServerWizard1.tcObject"/>
+			</Node>
+			<Node name="stores\objects\analyzeserverwizard2.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\AnalyzeServerWizard2.tcObject"/>
+			</Node>
+			<Node name="stores\objects\analyzeserverwizard3.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\AnalyzeServerWizard3.tcObject"/>
+			</Node>
+			<Node name="stores\objects\analyzeserverwizard4.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\AnalyzeServerWizard4.tcObject"/>
+			</Node>
+			<Node name="stores\objects\dlgiderasqldoctorcredentials1.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\dlgIderaSQLDoctorCredentials1.tcObject"/>
+			</Node>
+			<Node name="stores\objects\exceptionmessageboxform1.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\ExceptionMessageBoxForm1.tcObject"/>
+			</Node>
+			<Node name="stores\objects\exceptionmessageboxform2.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\ExceptionMessageBoxForm2.tcObject"/>
+			</Node>
+			<Node name="stores\objects\exceptionmessageboxform3.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\ExceptionMessageBoxForm3.tcObject"/>
+			</Node>
+			<Node name="stores\objects\exceptionmessageboxform4.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\ExceptionMessageBoxForm4.tcObject"/>
+			</Node>
+			<Node name="stores\objects\exceptionmessageboxform5.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\ExceptionMessageBoxForm5.tcObject"/>
+			</Node>
+			<Node name="stores\objects\exceptionmessageboxform6.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\ExceptionMessageBoxForm6.tcObject"/>
+			</Node>
+			<Node name="stores\objects\exceptionmessageboxform7.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\ExceptionMessageBoxForm7.tcObject"/>
+			</Node>
+			<Node name="stores\objects\schedulesettingsdialog1.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\ScheduleSettingsDialog1.tcObject"/>
+			</Node>
+			<Node name="stores\objects\schedulesettingsdialog2.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\ScheduleSettingsDialog2.tcObject"/>
+			</Node>
+			<Node name="stores\objects\schedulesettingsdialog3.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\ScheduleSettingsDialog3.tcObject"/>
+			</Node>
+			<Node name="stores\objects\serversettingsdialog1.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\ServerSettingsDialog1.tcObject"/>
+			</Node>
+			<Node name="stores\objects\serversettingsdialog2.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\ServerSettingsDialog2.tcObject"/>
+			</Node>
+			<Node name="stores\objects\serversettingsdialog3.tcobject">
+				<Prp name="relpath" type="S" value="Stores\Objects\ServerSettingsDialog3.tcObject"/>
+			</Node>
+			<Node name="stores\regions.tcregions">
+				<Prp name="relpath" type="S" value="Stores\Regions.tcRegions"/>
+			</Node>
+			<Node name="stores\regions\zblockedgrid1.png">
+				<Prp name="relpath" type="S" value="Stores\Regions\zblockedGrid1.png"/>
+			</Node>
+			<Node name="stores\stores.tcstores">
+				<Prp name="relpath" type="S" value="Stores\Stores.tcStores"/>
+			</Node>
+			<Node name="testedapps\testedapps.tctas">
+				<Prp name="relpath" type="S" value="TestedApps\TestedApps.tcTAs"/>
+			</Node>
+		</Node>
+		<Node name="folders">
+			<Node name="folders">
+				<Node name="folder0000000000">
+					<Node name="folders"/>
+					<Node name="references">
+						<Node name="ref0000000000">
+							<Prp name="index" type="I" value="0"/>
+							<Prp name="key" type="S" value="{E4D8B078-2C61-47EB-AF44-42DB658C78AB}"/>
+						</Node>
+					</Node>
+					<Prp name="caption" type="S" value="Advanced"/>
+					<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+					<Prp name="index" type="I" value="0"/>
+					<Prp name="moniker" type="S" value="{69583268-92F3-49FA-B573-C831F5ABC27B}"/>
+				</Node>
+			</Node>
+		</Node>
+		<Node name="issue tracking">
+			<Prp name="key" type="S" value="{7591123C-46A1-44AF-B435-F7241C952668}"/>
+		</Node>
+		<Node name="scc"/>
+		<Node name="settings">
+			<Node name="{0787aa13-4c49-418a-a688-b23be9f226f4}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{0bd6ae2e-e5d9-4ad0-9bf3-2483d329b22a}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{0be15905-46a9-40d6-9be2-892ec4aabbd4}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{0cc2421a-8395-402e-b303-80ae4d4658a4}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{0def6033-13d4-4335-97e9-cc6f1fc04342}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{1398b0be-92b7-4650-a467-751b8faab738}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="2"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="Update existing frames and capture new frames, if needed"/>
+				<Prp name="val0x1" type="S" value="Update existing frames only"/>
+			</Node>
+			<Node name="{15c8845f-53e4-4045-9800-74766abc4b34}">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="0"/>
+			</Node>
+			<Node name="{18fd096e-e6b8-4d3d-9619-71670fc81d48}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{1db8307d-fa4b-43e7-8e11-9f8f41abd7e9}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{2044dc7f-423e-4668-8114-68d23ae97ad6}">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="50"/>
+			</Node>
+			<Node name="{239ae5e0-d898-415d-8ecb-ebeb31d3f66f}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="1"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="2"/>
+				<Prp name="colindex" type="I" value="1"/>
+				<Prp name="rowcount" type="I" value="1"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="B" value="0"/>
+				<Prp name="val1x0" type="S" value="*"/>
+			</Node>
+			<Node name="{24db98d6-5ef8-47bf-977e-c2fd2c5f5fb3}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value="Log"/>
+			</Node>
+			<Node name="{2fcb2eb2-336e-4fd4-96a3-8710a73addd8}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{323facda-38e8-4c1b-b22c-99e0ab90eadc}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value=""/>
+			</Node>
+			<Node name="{33c0a94e-7f58-493c-bccc-91685352f9b4}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="1"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="*"/>
+			</Node>
+			<Node name="{3a4f97b3-d3d3-41e5-be37-c419b02d488a}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="col2enabled" type="B" value="-1"/>
+				<Prp name="col2type" type="I" value="2"/>
+				<Prp name="col3enabled" type="B" value="-1"/>
+				<Prp name="col3type" type="I" value="2"/>
+				<Prp name="col4enabled" type="B" value="-1"/>
+				<Prp name="col4type" type="I" value="5"/>
+				<Prp name="col5enabled" type="B" value="-1"/>
+				<Prp name="col5type" type="I" value="1"/>
+				<Prp name="colcount" type="I" value="6"/>
+				<Prp name="colindex" type="I" value="5"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="{3ae91bbd-f37d-40e6-b49d-d2f1ef68e285}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{3b76535b-58ad-456c-837e-091a5c480f6c}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{3baa9083-ae46-48ce-bff4-a656decf8e2f}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{3e8baa4f-ea09-4dd1-bd8e-da765c8cf39b}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{3eadafe2-0cd4-4b1e-a2a9-b184e94fdcc7}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="4"/>
+				<Prp name="rowindex" type="I" value="3"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="UTF-16"/>
+				<Prp name="val0x1" type="S" value="UTF-8"/>
+				<Prp name="val0x2" type="S" value="ANSI"/>
+				<Prp name="val0x3" type="S" value="Auto"/>
+			</Node>
+			<Node name="{3eddd87d-14fb-46fb-9609-cede76c0ced7}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{3fc03b2f-1b76-433d-86ae-20b18b2ca600}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{3fc2a7b4-f4af-4807-8d37-c3ee096dd330}">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="1024"/>
+			</Node>
+			<Node name="{45ae3709-5569-4f74-bd85-c222c71981ed}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{47a56f4f-f2d3-4697-bec8-632b29d5a344}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="1"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="2"/>
+				<Prp name="colindex" type="I" value="1"/>
+				<Prp name="rowcount" type="I" value="12"/>
+				<Prp name="rowindex" type="I" value="11"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="B" value="0"/>
+				<Prp name="val0x1" type="B" value="-1"/>
+				<Prp name="val0x10" type="B" value="-1"/>
+				<Prp name="val0x11" type="B" value="-1"/>
+				<Prp name="val0x2" type="B" value="-1"/>
+				<Prp name="val0x3" type="B" value="-1"/>
+				<Prp name="val0x4" type="B" value="-1"/>
+				<Prp name="val0x5" type="B" value="-1"/>
+				<Prp name="val0x6" type="B" value="0"/>
+				<Prp name="val0x7" type="B" value="-1"/>
+				<Prp name="val0x8" type="B" value="-1"/>
+				<Prp name="val0x9" type="B" value="-1"/>
+				<Prp name="val1x0" type="S" value="*"/>
+				<Prp name="val1x1" type="S" value="MsoCommandBar*"/>
+				<Prp name="val1x10" type="S" value="XTPReport"/>
+				<Prp name="val1x11" type="S" value="XTPPopupBar"/>
+				<Prp name="val1x2" type="S" value="_Ww*"/>
+				<Prp name="val1x3" type="S" value="OpusApp"/>
+				<Prp name="val1x4" type="S" value="Vfp*"/>
+				<Prp name="val1x5" type="S" value="bosa_sdm_Microsoft Word *"/>
+				<Prp name="val1x6" type="S" value="Internet Explorer_Server"/>
+				<Prp name="val1x7" type="S" value="XTPToolBar"/>
+				<Prp name="val1x8" type="S" value="XTPDockingPaneTabbedContainer"/>
+				<Prp name="val1x9" type="S" value="XTPTaskPanel"/>
+			</Node>
+			<Node name="{4fd668cc-c8c3-46b4-a220-8dde5cd7a39f}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="1"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="col2enabled" type="B" value="-1"/>
+				<Prp name="col2type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="3"/>
+				<Prp name="colindex" type="I" value="2"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="{542b9fa0-35ea-4c4d-bf0b-661005cb94e9}">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="60000"/>
+			</Node>
+			<Node name="{596ca0d0-27cb-40d3-baa5-bc1cecff25ac}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="1"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="col2enabled" type="B" value="-1"/>
+				<Prp name="col2type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="3"/>
+				<Prp name="colindex" type="I" value="2"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="{6ba39d6a-88c9-49b1-a310-a31f46136dfb}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{6be019a2-a836-4b31-84d9-f9de78869d51}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="2"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="Tree"/>
+				<Prp name="val0x1" type="S" value="Flat"/>
+			</Node>
+			<Node name="{74cc9f3b-2e52-4b16-844a-9ee33532b51e}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{7e9d3e8b-dff5-4737-a877-e94b6b932bcd}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{85cd048a-29ff-4abf-95a6-b915aea2c10d}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{890c6d5a-4706-498e-a6ea-ca765851bb97}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="4"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="Use all processes"/>
+				<Prp name="val0x1" type="S" value="Use only tested applications"/>
+				<Prp name="val0x2" type="S" value="Use only selected processes"/>
+				<Prp name="val0x3" type="S" value="Ignore selected processes"/>
+			</Node>
+			<Node name="{90fd1116-f071-44c8-ab72-f1916c2b3a1b}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{9273e75a-1d1d-4f5f-9421-28a4bd60d485}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{94ace9b9-2204-49e3-89a5-87766c9a615e}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="{95e3327a-7433-4a00-9257-6e9a4b4f1795}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="2"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="ID"/>
+				<Prp name="val0x1" type="S" value="Name"/>
+			</Node>
+			<Node name="{98c6a210-59ef-4cd6-aa7e-b41953dec74a}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{9eb8e8e6-d2f2-4a8a-adfb-492e8c0eafef}">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="10000"/>
+			</Node>
+			<Node name="{a2568cc8-7e8e-42c5-a87d-b69684a1e616}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{a4d0b1b0-14da-4afa-8afc-e82d0400e7e9}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{abe9c069-5d2d-4fba-b1b0-ff96c0f0b1f6}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="4"/>
+				<Prp name="rowindex" type="I" value="3"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="DOM"/>
+				<Prp name="val0x1" type="S" value="Tag"/>
+				<Prp name="val0x2" type="S" value="Hybrid"/>
+				<Prp name="val0x3" type="S" value="Tree"/>
+			</Node>
+			<Node name="{ae3f26d8-a5bd-4172-9f50-f2b9d1d03611}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{bc2725ab-c90d-4761-beb2-abace30fe554}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{be6d588c-bdc7-42e0-8bae-3e3d8b0f7e83}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{bf9b6482-cea1-4402-ba61-9702404f1f12}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{c3267834-69e4-4cd8-b16a-b60a9bb8a3b4}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{c32b04f8-59f6-4f95-8e50-12818e0decc7}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="5"/>
+				<Prp name="rowindex" type="I" value="3"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="pmLowest"/>
+				<Prp name="val0x1" type="S" value="pmLower"/>
+				<Prp name="val0x2" type="S" value="pmNormal"/>
+				<Prp name="val0x3" type="S" value="pmHigher"/>
+				<Prp name="val0x4" type="S" value="pmHighest"/>
+			</Node>
+			<Node name="{c8f95d39-4ac0-4855-9d60-6e7e3bd87b30}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{ce0b0b5b-f813-482e-bbec-6e12a96d3b83}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{d5773345-4407-4a8a-ace6-0f0a9c8787c8}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{d80391d4-892f-4cec-865e-b7facb3fac84}">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="10"/>
+			</Node>
+			<Node name="{e3ac1830-9216-4dc9-ab7b-884f3b0e9a48}">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="0"/>
+			</Node>
+			<Node name="{e47a2931-ee5d-42d2-8cb7-3796de597aa1}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value=""/>
+			</Node>
+			<Node name="{e5242a20-9b70-4540-aefd-7012791d3284}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{ef07b18f-c1b0-489e-84ef-a6a0a578c45c}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="2"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="Top-level parent"/>
+				<Prp name="val0x1" type="S" value="Desktop"/>
+			</Node>
+			<Node name="{ef65967b-5d67-41d0-9e90-1e07d7ece759}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="14"/>
+				<Prp name="rowindex" type="I" value="13"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="NativeSlObject"/>
+				<Prp name="val0x1" type="S" value="NativeWebObject"/>
+				<Prp name="val0x10" type="S" value="NativeJavaFXObject"/>
+				<Prp name="val0x11" type="S" value="NativeQtObject"/>
+				<Prp name="val0x12" type="S" value="NativeUIAObject"/>
+				<Prp name="val0x13" type="S" value="NativeMSAA"/>
+				<Prp name="val0x2" type="S" value="NativeVBObject"/>
+				<Prp name="val0x3" type="S" value="NativeDelphiObject"/>
+				<Prp name="val0x4" type="S" value="NativeTextObject"/>
+				<Prp name="val0x5" type="S" value="NativeJavaObject"/>
+				<Prp name="val0x6" type="S" value="NativeChromeObject"/>
+				<Prp name="val0x7" type="S" value="NativeClrObject"/>
+				<Prp name="val0x8" type="S" value="NativeCPPObject"/>
+				<Prp name="val0x9" type="S" value="NativeFirefoxObject"/>
+			</Node>
+			<Node name="{f544bc81-7a86-4230-b1fc-1b685211a0b4}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value="Format: PNG; Compression level: 4"/>
+			</Node>
+			<Node name="{fb1caf99-7fa6-447c-b963-d862ca8bff89}">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="3000"/>
+			</Node>
+			<Node name="{fe195f25-7dc0-457f-9336-71ed39243753}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_0_"/>
+			</Node>
+			<Node name="agopenapp_extendedsilverlightobjecttree">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="applicationhangingprocessfiltermode">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="5"/>
+				<Prp name="rowindex" type="I" value="4"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="Use all processes"/>
+				<Prp name="val0x1" type="S" value="Use only tested applications"/>
+				<Prp name="val0x2" type="S" value="Use only selected processes"/>
+				<Prp name="val0x3" type="S" value="Ignore selected processes"/>
+				<Prp name="val0x4" type="S" value="Ignore all processes"/>
+			</Node>
+			<Node name="applicationhangingprocesslist">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="applicationhangingtimeout">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="30000"/>
+			</Node>
+			<Node name="clrbridge_preferredapartmentmodel">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="3"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="Does not matter"/>
+				<Prp name="val0x1" type="S" value="Single-threaded apartment"/>
+				<Prp name="val0x2" type="S" value="Multi-threaded apartment"/>
+			</Node>
+			<Node name="clrbridge_preferredarchitecture">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="3"/>
+				<Prp name="rowindex" type="I" value="1"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="The same as the operating system"/>
+				<Prp name="val0x1" type="S" value="32-bit"/>
+				<Prp name="val0x2" type="S" value="64-bit"/>
+			</Node>
+			<Node name="clrbridge_selectedcomponents">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="1"/>
+				<Prp name="colcount" type="I" value="2"/>
+				<Prp name="colindex" type="I" value="1"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="countprocessesofallusers">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="draggingdelay">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="5"/>
+			</Node>
+			<Node name="javabridge_classes">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="javabridge_classpaths">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="javafxopenapp_donotrecognizejavafxstageasawtcomponent">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="javafxopenapp_exposedcustomnodes">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="1"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="col2enabled" type="B" value="-1"/>
+				<Prp name="col2type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="3"/>
+				<Prp name="colindex" type="I" value="2"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="javaopenapp_donotrecognizechildswtasparent">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="keypressingdelay">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="0"/>
+			</Node>
+			<Node name="mousemovementdelay">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="0"/>
+			</Node>
+			<Node name="objectmapping_objects">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="col2enabled" type="B" value="-1"/>
+				<Prp name="col2type" type="I" value="2"/>
+				<Prp name="col3enabled" type="B" value="-1"/>
+				<Prp name="col3type" type="I" value="2"/>
+				<Prp name="colcount" type="I" value="4"/>
+				<Prp name="colindex" type="I" value="3"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Node name="recording_testedappsonly">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="recreateactivexobjects">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="textrecognizer_acceptedwindows">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="1"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="2"/>
+				<Prp name="colindex" type="I" value="1"/>
+				<Prp name="rowcount" type="I" value="0"/>
+				<Prp name="rowindex" type="I" value="-1"/>
+				<Prp name="type" type="I" value="6"/>
+			</Node>
+			<Prp name="key" type="S" value="{862451C9-8AAD-4EA8-A133-BB006BD68748}"/>
+			<Prp name="settingsversion" type="S" value="9.20"/>
+		</Node>
+		<Node name="test data">
+			<Node name="child list"/>
+			<Prp name="key" type="S" value="{38381227-27B4-45DF-83CC-F13C8F39ACB3}"/>
+		</Node>
+		<Node name="variables">
+			<Prp name="key" type="S" value="{6247DB74-D0B3-4CB8-A80A-335A5D0E112F}"/>
+		</Node>
+		<Prp name="signature" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+		<Prp name="version" type="S" value="9.0"/>
+	</Node>
+</Nodes>

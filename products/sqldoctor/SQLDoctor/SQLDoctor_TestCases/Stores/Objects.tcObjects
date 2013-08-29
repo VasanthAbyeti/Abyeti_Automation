@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="item0000000000">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="AnalyzeServerWizard1"/>
+					<Prp name="filename" type="S" value="Objects\AnalyzeServerWizard1.tcObject"/>
+					<Prp name="id" type="S" value="{076223D6-4105-4C67-B87D-62DA472FF65A}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{076223D6-4105-4C67-B87D-62DA472FF65A}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000001">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="AnalysisStateDialog1"/>
+					<Prp name="filename" type="S" value="Objects\AnalysisStateDialog1.tcObject"/>
+					<Prp name="id" type="S" value="{17C20482-103A-459F-849D-6935EAAA2E43}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{17C20482-103A-459F-849D-6935EAAA2E43}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000002">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="ExceptionMessageBoxForm1"/>
+					<Prp name="filename" type="S" value="Objects\ExceptionMessageBoxForm1.tcObject"/>
+					<Prp name="id" type="S" value="{B9DB8596-0249-497B-87AC-8864F6937C3A}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="key" type="S" value="{B9DB8596-0249-497B-87AC-8864F6937C3A}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000003">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="AnalyzeServerWizard2"/>
+					<Prp name="filename" type="S" value="Objects\AnalyzeServerWizard2.tcObject"/>
+					<Prp name="id" type="S" value="{5E62585E-D12A-4948-8A41-F88C6368ED32}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="key" type="S" value="{5E62585E-D12A-4948-8A41-F88C6368ED32}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000004">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="ExceptionMessageBoxForm2"/>
+					<Prp name="filename" type="S" value="Objects\ExceptionMessageBoxForm2.tcObject"/>
+					<Prp name="id" type="S" value="{10D4107A-3AC3-4530-B93D-E286AF5398D1}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="key" type="S" value="{10D4107A-3AC3-4530-B93D-E286AF5398D1}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000005">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="AnalysisStateDialog2"/>
+					<Prp name="filename" type="S" value="Objects\AnalysisStateDialog2.tcObject"/>
+					<Prp name="id" type="S" value="{F01CB790-6424-42B7-9FCA-4E4F5CFC367A}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="key" type="S" value="{F01CB790-6424-42B7-9FCA-4E4F5CFC367A}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000006">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="ScheduleSettingsDialog1"/>
+					<Prp name="filename" type="S" value="Objects\ScheduleSettingsDialog1.tcObject"/>
+					<Prp name="id" type="S" value="{A23580E3-4368-4583-8131-EFA5D37953EC}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="6"/>
+				<Prp name="key" type="S" value="{A23580E3-4368-4583-8131-EFA5D37953EC}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000007">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="dlgIderaSQLDoctorCredentials1"/>
+					<Prp name="filename" type="S" value="Objects\dlgIderaSQLDoctorCredentials1.tcObject"/>
+					<Prp name="id" type="S" value="{71865EC6-F299-4B63-9CE1-28604B150C9D}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="7"/>
+				<Prp name="key" type="S" value="{71865EC6-F299-4B63-9CE1-28604B150C9D}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000008">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="ScheduleSettingsDialog2"/>
+					<Prp name="filename" type="S" value="Objects\ScheduleSettingsDialog2.tcObject"/>
+					<Prp name="id" type="S" value="{0DA2D277-52A4-4664-BE0C-B131430692D1}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="8"/>
+				<Prp name="key" type="S" value="{0DA2D277-52A4-4664-BE0C-B131430692D1}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000009">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="ExceptionMessageBoxForm3"/>
+					<Prp name="filename" type="S" value="Objects\ExceptionMessageBoxForm3.tcObject"/>
+					<Prp name="id" type="S" value="{301F8492-08CA-43CC-985C-71849E22DC9E}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="9"/>
+				<Prp name="key" type="S" value="{301F8492-08CA-43CC-985C-71849E22DC9E}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000010">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="ExceptionMessageBoxForm4"/>
+					<Prp name="filename" type="S" value="Objects\ExceptionMessageBoxForm4.tcObject"/>
+					<Prp name="id" type="S" value="{91C53BB1-80CE-464C-9D64-8125A598D75B}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="10"/>
+				<Prp name="key" type="S" value="{91C53BB1-80CE-464C-9D64-8125A598D75B}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000011">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="ServerSettingsDialog1"/>
+					<Prp name="filename" type="S" value="Objects\ServerSettingsDialog1.tcObject"/>
+					<Prp name="id" type="S" value="{D8158194-97F4-4877-AD64-FD1B5F493E44}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="11"/>
+				<Prp name="key" type="S" value="{D8158194-97F4-4877-AD64-FD1B5F493E44}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000012">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="ServerSettingsDialog2"/>
+					<Prp name="filename" type="S" value="Objects\ServerSettingsDialog2.tcObject"/>
+					<Prp name="id" type="S" value="{F68E8739-0B5B-4726-814C-BE302A251DED}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="12"/>
+				<Prp name="key" type="S" value="{F68E8739-0B5B-4726-814C-BE302A251DED}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000013">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="AnalyzeServerWizard3"/>
+					<Prp name="filename" type="S" value="Objects\AnalyzeServerWizard3.tcObject"/>
+					<Prp name="id" type="S" value="{17902214-06D3-4ECA-B611-6CBBF1C729E2}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="13"/>
+				<Prp name="key" type="S" value="{17902214-06D3-4ECA-B611-6CBBF1C729E2}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000014">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="AnalysisStateDialog3"/>
+					<Prp name="filename" type="S" value="Objects\AnalysisStateDialog3.tcObject"/>
+					<Prp name="id" type="S" value="{49BCF673-1A00-4EC5-87AA-C8FAF224930C}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="14"/>
+				<Prp name="key" type="S" value="{49BCF673-1A00-4EC5-87AA-C8FAF224930C}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000015">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="ExceptionMessageBoxForm5"/>
+					<Prp name="filename" type="S" value="Objects\ExceptionMessageBoxForm5.tcObject"/>
+					<Prp name="id" type="S" value="{E62C3364-0255-4B75-AE17-BB5AA7A745C9}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="15"/>
+				<Prp name="key" type="S" value="{E62C3364-0255-4B75-AE17-BB5AA7A745C9}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000016">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="AddServerDialog1"/>
+					<Prp name="filename" type="S" value="Objects\AddServerDialog1.tcObject"/>
+					<Prp name="id" type="S" value="{44B40F3F-D66D-4AFE-88BE-1726849D2B70}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="16"/>
+				<Prp name="key" type="S" value="{44B40F3F-D66D-4AFE-88BE-1726849D2B70}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000017">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="ExceptionMessageBoxForm6"/>
+					<Prp name="filename" type="S" value="Objects\ExceptionMessageBoxForm6.tcObject"/>
+					<Prp name="id" type="S" value="{3ADC82B0-8D5C-496B-94A5-CE3A6BCF6864}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="17"/>
+				<Prp name="key" type="S" value="{3ADC82B0-8D5C-496B-94A5-CE3A6BCF6864}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000018">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="ServerSettingsDialog3"/>
+					<Prp name="filename" type="S" value="Objects\ServerSettingsDialog3.tcObject"/>
+					<Prp name="id" type="S" value="{BF1A51EF-823E-409D-8D9B-7F9BCE9EBA78}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="18"/>
+				<Prp name="key" type="S" value="{BF1A51EF-823E-409D-8D9B-7F9BCE9EBA78}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000019">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="AnalyzeServerWizard4"/>
+					<Prp name="filename" type="S" value="Objects\AnalyzeServerWizard4.tcObject"/>
+					<Prp name="id" type="S" value="{DB5F19D4-ABCF-413B-AA5F-70D3768F90E7}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="19"/>
+				<Prp name="key" type="S" value="{DB5F19D4-ABCF-413B-AA5F-70D3768F90E7}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000020">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="AnalysisStateDialog4"/>
+					<Prp name="filename" type="S" value="Objects\AnalysisStateDialog4.tcObject"/>
+					<Prp name="id" type="S" value="{1B1772EF-8832-4589-B1BA-589CC0128E4F}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="20"/>
+				<Prp name="key" type="S" value="{1B1772EF-8832-4589-B1BA-589CC0128E4F}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000021">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="ExceptionMessageBoxForm7"/>
+					<Prp name="filename" type="S" value="Objects\ExceptionMessageBoxForm7.tcObject"/>
+					<Prp name="id" type="S" value="{001496DB-2E38-4077-8A2C-3165CB35ECD2}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="21"/>
+				<Prp name="key" type="S" value="{001496DB-2E38-4077-8A2C-3165CB35ECD2}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="item0000000022">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="ScheduleSettingsDialog3"/>
+					<Prp name="filename" type="S" value="Objects\ScheduleSettingsDialog3.tcObject"/>
+					<Prp name="id" type="S" value="{9A8570EA-D632-48AB-861A-8CA8E46BB71E}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="22"/>
+				<Prp name="key" type="S" value="{9A8570EA-D632-48AB-861A-8CA8E46BB71E}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+		</Node>
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{30501691-969F-4007-923F-BA4459E51E6A}"/>
+		<Prp name="version" type="S" value="9.0"/>
+	</Node>
+</Nodes>

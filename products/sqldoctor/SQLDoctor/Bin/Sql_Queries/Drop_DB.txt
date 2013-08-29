@@ -1,0 +1,1 @@
+Drop DataBase [NewDB];

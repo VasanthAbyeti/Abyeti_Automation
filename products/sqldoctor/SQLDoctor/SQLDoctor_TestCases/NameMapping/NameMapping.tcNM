@@ -1,0 +1,3266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="321">
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Properties />
+		<Children>
+			<Child0 Name="Sys" Key="{C215CDA8-8661-46B2-8F91-0A64CC2690B4}">
+				<Properties>
+					<Property0 Name="Name" Cookie="50" />
+					<Property1 Name="Id" Cookie="51" />
+				</Properties>
+				<Children>
+					<Child0 Name="SQLdoctor" Key="{36A3E62B-9165-473C-B255-C4807469CD6C}">
+						<Properties>
+							<Property0 Name="ProcessName" Cookie="52" />
+						</Properties>
+						<Children>
+							<Child0 Name="MainForm" Key="{BD16BA8E-E974-4D21-93ED-25261CCCB4CE}">
+								<Properties>
+									<Property0 Name="NativeClrObject.Name" Cookie="53" />
+								</Properties>
+								<Children>
+									<Child0 Name="splitMain" Key="{1C25F2CC-23ED-4059-9E06-F64D72AC8FEE}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="54" />
+										</Properties>
+										<Children>
+											<Child0 Name="SplitterPanel" Key="{EBFB822F-C8A0-4D27-9B71-93A7AF6ADFB5}">
+												<Properties>
+													<Property0 Name="ClrFullClassName" Cookie="55" />
+													<Property1 Name="WndCaption" Cookie="56" />
+													<Property2 Name="Index" Cookie="57" />
+												</Properties>
+												<Children>
+													<Child0 Name="serverTree" Key="{BB177B8C-9EE0-4295-A4CD-3059003DAF18}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="58" />
+														</Properties>
+														<Children>
+															<Child0 Name="treeServers" Key="{68513FE6-EC15-45DC-896A-B85632156CEC}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="59" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="0" />
+															</Child0>
+														</Children>
+													</Child0>
+												</Children>
+											</Child0>
+											<Child1 Name="SplitterPanel1" Key="{D4763352-0587-44D3-811A-039356538203}">
+												<Properties>
+													<Property0 Name="ClrFullClassName" Cookie="60" />
+													<Property1 Name="WndCaption" Cookie="61" />
+													<Property2 Name="Index" Cookie="62" />
+												</Properties>
+												<Children>
+													<Child0 Name="viewManager" Key="{8BC40217-5C15-40FD-B00D-713860949C50}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="63" />
+														</Properties>
+														<Children>
+															<Child0 Name="SessionsView" Key="{59682A62-3419-4FD0-A88C-B6CBFF00F559}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="64" />
+																</Properties>
+																<Children>
+																	<Child0 Name="HeaderPanel" Key="{E384DE05-4543-4818-831B-F13E4A97800D}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="65" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="HeaderToolStrip" Key="{84989457-2573-46CD-BBD9-860F232313DF}">
+																				<Properties>
+																					<Property0 Name="NativeClrObject.Name" Cookie="71" />
+																				</Properties>
+																				<Children />
+																				<TypeInfo Item0="1" />
+																			</Child0>
+																			<Child1 Name="HeaderTable" Key="{6254BF7A-756A-4B1E-AB15-B17C4D9F5E06}">
+																				<Properties>
+																					<Property0 Name="NativeClrObject.Name" Cookie="139" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="Heading" Key="{B73E13D4-64EF-43C9-A995-EC1B8F88D54E}">
+																						<Properties>
+																							<Property0 Name="NativeClrObject.Name" Cookie="140" />
+																						</Properties>
+																						<Children />
+																					</Child0>
+																				</Children>
+																			</Child1>
+																		</Children>
+																	</Child0>
+																	<Child1 Name="split" Key="{5262C496-9812-4319-9CBD-3499CDC17E28}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="66" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="SplitterPanel" Key="{2BAEC255-19FA-4D46-8F84-EAB3D9C58175}">
+																				<Properties>
+																					<Property0 Name="ClrFullClassName" Cookie="67" />
+																					<Property1 Name="WndCaption" Cookie="68" />
+																					<Property2 Name="Index" Cookie="69" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="gridActiveQueries" Key="{F7085BA4-E886-43D3-8D14-708BCFE018A7}">
+																						<Properties>
+																							<Property0 Name="NativeClrObject.Name" Cookie="70" />
+																						</Properties>
+																						<Children />
+																					</Child0>
+																				</Children>
+																			</Child0>
+																		</Children>
+																	</Child1>
+																</Children>
+															</Child0>
+															<Child1 Name="AnalysisResultView" Key="{E3A12DC2-B45D-44C8-B001-7F4F7A412DA6}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="72" />
+																</Properties>
+																<Children>
+																	<Child0 Name="HeaderPanel" Key="{2559D88E-F9C3-4FEE-8664-4A7D84478826}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="73" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="HeaderTable" Key="{47FE32C5-7371-40AE-81C7-44CD5A6B5507}">
+																				<Properties>
+																					<Property0 Name="NativeClrObject.Name" Cookie="74" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="Heading" Key="{FD5E1FBD-4D77-43C4-A31F-0AF6FF5998B1}">
+																						<Properties>
+																							<Property0 Name="NativeClrObject.Name" Cookie="75" />
+																						</Properties>
+																						<Children />
+																					</Child0>
+																				</Children>
+																			</Child0>
+																		</Children>
+																	</Child0>
+																	<Child1 Name="recommendationList" Key="{5DC21E75-74E7-4D67-B5A9-871E1A5FB119}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="191" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="splitView" Key="{857B2233-B5DF-4D6E-A046-0D2BF322930B}">
+																				<Properties>
+																					<Property0 Name="NativeClrObject.Name" Cookie="192" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="SplitterPanel" Key="{EC18AB89-21D4-4252-8E9D-5689D2F9A0A0}">
+																						<Properties>
+																							<Property0 Name="ClrFullClassName" Cookie="193" />
+																							<Property1 Name="WndCaption" Cookie="194" />
+																							<Property2 Name="Index" Cookie="195" />
+																						</Properties>
+																						<Children>
+																							<Child0 Name="zrecommendationsGrid" Key="{0F569001-970D-4CFD-A1F2-CCED1277BA91}">
+																								<Properties>
+																									<Property0 Name="NativeClrObject.Name" Cookie="196" />
+																								</Properties>
+																								<Children />
+																							</Child0>
+																						</Children>
+																					</Child0>
+																				</Children>
+																			</Child0>
+																		</Children>
+																	</Child1>
+																</Children>
+															</Child1>
+															<Child2 Name="DashboardView" Key="{C88CA8EC-32E7-4244-B6FB-CDBBB5CBA554}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="128" />
+																</Properties>
+																<Children>
+																	<Child0 Name="label24" Key="{6C5AA7D6-400D-42AB-9B66-24FD5CDABD0C}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="129" />
+																		</Properties>
+																		<Children />
+																	</Child0>
+																	<Child1 Name="tabsDashboard" Key="{D90F0835-1ACC-4679-AB2D-6A91F2A26F5B}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="179" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="tabServerGroup" Key="{90CBCA87-0137-4F31-A933-D38D32C3810B}">
+																				<Properties>
+																					<Property0 Name="NativeClrObject.Name" Cookie="180" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="serverGroupControl1" Key="{03340EC5-1E9A-4305-A0B6-FB22CF0FDC24}">
+																						<Properties>
+																							<Property0 Name="NativeClrObject.Name" Cookie="181" />
+																						</Properties>
+																						<Children>
+																							<Child0 Name="flowlayout" Key="{7DBD2BC3-2122-4829-BE07-662D52B1E6C1}">
+																								<Properties>
+																									<Property0 Name="NativeClrObject.Name" Cookie="182" />
+																								</Properties>
+																								<Children>
+																									<Child0 Name="ServerThumbnail" Key="{BA32F8F2-5772-4C30-9139-FC57B6D63C1F}">
+																										<Properties>
+																											<Property0 Name="NativeClrObject.Name" Cookie="183" />
+																										</Properties>
+																										<Children>
+																											<Child0 Name="lblInstance" Key="{D44CE091-8612-42FF-9D27-7C3CB61E10D9}">
+																												<Properties>
+																													<Property0 Name="NativeClrObject.Name" Cookie="184" />
+																												</Properties>
+																												<Children />
+																											</Child0>
+																											<Child1 Name="analysisSummary" Key="{CD6F416C-5D37-4D1E-BF40-A4AFAA128B81}">
+																												<Properties>
+																													<Property0 Name="NativeClrObject.Name" Cookie="185" />
+																												</Properties>
+																												<Children>
+																													<Child0 Name="tableLayoutPanel1" Key="{1383B0A3-446A-43F7-890F-4CED7E291A5B}">
+																														<Properties>
+																															<Property0 Name="NativeClrObject.Name" Cookie="186" />
+																														</Properties>
+																														<Children>
+																															<Child0 Name="zstartedOnLabel" Key="{9B0DC2A0-5993-4231-A5B2-F324C540B9F7}">
+																																<Properties>
+																																	<Property0 Name="NativeClrObject.Name" Cookie="187" />
+																																</Properties>
+																																<Children />
+																															</Child0>
+																															<Child1 Name="zdurationLabel" Key="{A50EED5E-EC49-42A5-ACE3-668448AF1A75}">
+																																<Properties>
+																																	<Property0 Name="NativeClrObject.Name" Cookie="188" />
+																																</Properties>
+																																<Children />
+																															</Child1>
+																														</Children>
+																													</Child0>
+																													<Child1 Name="tableRecommendationSummary" Key="{BCBC2F5F-1564-44F5-91E9-C6592DB8616F}">
+																														<Properties>
+																															<Property0 Name="NativeClrObject.Name" Cookie="189" />
+																														</Properties>
+																														<Children>
+																															<Child0 Name="zallRecommendationsLinkLabel" Key="{153887F3-F8FD-463E-A3D8-E0EB153A4452}">
+																																<Properties>
+																																	<Property0 Name="NativeClrObject.Name" Cookie="190" />
+																																</Properties>
+																																<Children />
+																															</Child0>
+																															<Child1 Name="zcategory1LinkLabel" Key="{C2D1761F-1E69-40E5-AFFF-674E53F5A29A}">
+																																<Properties>
+																																	<Property0 Name="NativeClrObject.Name" Cookie="197" />
+																																</Properties>
+																																<Children />
+																															</Child1>
+																															<Child2 Name="zcategory2LinkLabel" Key="{0C111748-7508-46EA-86F7-4ACFA9F7ACD6}">
+																																<Properties>
+																																	<Property0 Name="NativeClrObject.Name" Cookie="198" />
+																																</Properties>
+																																<Children />
+																															</Child2>
+																															<Child3 Name="zcategory3LinkLabel" Key="{E7ACBFD7-9C3E-4AF0-BFA8-C7221B5A08F6}">
+																																<Properties>
+																																	<Property0 Name="NativeClrObject.Name" Cookie="199" />
+																																</Properties>
+																																<Children />
+																															</Child3>
+																															<Child4 Name="zcategory4LinkLabel" Key="{92A655F4-8CF1-4CE2-9C02-1A87C9422BAE}">
+																																<Properties>
+																																	<Property0 Name="NativeClrObject.Name" Cookie="201" />
+																																</Properties>
+																																<Children />
+																															</Child4>
+																														</Children>
+																													</Child1>
+																												</Children>
+																											</Child1>
+																										</Children>
+																									</Child0>
+																								</Children>
+																							</Child0>
+																						</Children>
+																					</Child0>
+																				</Children>
+																			</Child0>
+																		</Children>
+																	</Child1>
+																</Children>
+															</Child2>
+															<Child3 Name="ServerView2" Key="{A65C6805-7C04-40DA-A256-28A1FA77BFD1}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="130" />
+																</Properties>
+																<Children>
+																	<Child0 Name="HeaderPanel" Key="{ED20290C-DF8A-4A1E-AB4E-BA2FA729C8F5}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="131" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="HeaderTable" Key="{3DB19811-C876-4624-845C-38CBD124D020}">
+																				<Properties>
+																					<Property0 Name="NativeClrObject.Name" Cookie="132" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="Heading" Key="{7FE2F4C3-78D0-43F4-90E5-F2ACB332DEA2}">
+																						<Properties>
+																							<Property0 Name="NativeClrObject.Name" Cookie="133" />
+																						</Properties>
+																						<Children />
+																					</Child0>
+																				</Children>
+																			</Child0>
+																		</Children>
+																	</Child0>
+																</Children>
+															</Child3>
+															<Child4 Name="AnalysisResultsGroupView" Key="{12153E5D-F39A-43C5-A043-364B99A89C06}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="135" />
+																</Properties>
+																<Children>
+																	<Child0 Name="lblHeading" Key="{15C1A3A3-AC64-401E-B385-637E0FA0C517}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="136" />
+																		</Properties>
+																		<Children />
+																	</Child0>
+																	<Child1 Name="analysisResultsList" Key="{31383113-54CE-45C1-9423-3064B5D24C9A}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="137" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="zhistoryGrid" Key="{08F172D8-FC54-470C-8EBB-6365938E92BB}">
+																				<Properties>
+																					<Property0 Name="NativeClrObject.Name" Cookie="138" />
+																				</Properties>
+																				<Children />
+																			</Child0>
+																		</Children>
+																	</Child1>
+																</Children>
+															</Child4>
+															<Child5 Name="WaitsView" Key="{FCAB3A54-D1CB-4D6F-9705-BBE4A66E2A1E}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="141" />
+																</Properties>
+																<Children>
+																	<Child0 Name="HeaderPanel" Key="{0E43F75C-73B3-49C5-B0DF-1001897789EA}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="142" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="HeaderTable" Key="{AF17241A-CD04-4D33-92B1-C455FBFC7D14}">
+																				<Properties>
+																					<Property0 Name="NativeClrObject.Name" Cookie="143" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="Heading" Key="{6DD7AB2F-8855-4A46-9CD0-F713EBA66C4E}">
+																						<Properties>
+																							<Property0 Name="NativeClrObject.Name" Cookie="144" />
+																						</Properties>
+																						<Children />
+																					</Child0>
+																				</Children>
+																			</Child0>
+																		</Children>
+																	</Child0>
+																	<Child1 Name="split" Key="{76573C98-B804-4710-A9C9-CD2DA0A6882A}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="145" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="SplitterPanel" Key="{CE62D896-4B75-45DC-8605-ED6C592021EF}">
+																				<Properties>
+																					<Property0 Name="ClrFullClassName" Cookie="146" />
+																					<Property1 Name="WndCaption" Cookie="147" />
+																					<Property2 Name="Index" Cookie="148" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="splitWaits" Key="{D1760920-4AF7-419D-AE88-D6046641469A}">
+																						<Properties>
+																							<Property0 Name="NativeClrObject.Name" Cookie="149" />
+																						</Properties>
+																						<Children>
+																							<Child0 Name="SplitterPanel" Key="{CEC439D7-7922-41E7-8E4C-C2ADF1A7D510}">
+																								<Properties>
+																									<Property0 Name="ClrFullClassName" Cookie="150" />
+																									<Property1 Name="WndCaption" Cookie="151" />
+																									<Property2 Name="Index" Cookie="152" />
+																								</Properties>
+																								<Children>
+																									<Child0 Name="label2" Key="{EB4DB0C4-2934-4A45-9BD0-520D94738E61}">
+																										<Properties>
+																											<Property0 Name="NativeClrObject.Name" Cookie="153" />
+																										</Properties>
+																										<Children />
+																									</Child0>
+																									<Child1 Name="gridActiveQueries" Key="{FD2190C6-D56C-4E86-9FFA-9263E4F27CBE}">
+																										<Properties>
+																											<Property0 Name="NativeClrObject.Name" Cookie="158" />
+																										</Properties>
+																										<Children />
+																									</Child1>
+																								</Children>
+																							</Child0>
+																							<Child1 Name="SplitterPanel1" Key="{77DBC1AA-6BF4-4CDA-91E2-3F24D4EDF346}">
+																								<Properties>
+																									<Property0 Name="ClrFullClassName" Cookie="154" />
+																									<Property1 Name="WndCaption" Cookie="155" />
+																									<Property2 Name="Index" Cookie="156" />
+																								</Properties>
+																								<Children>
+																									<Child0 Name="gridWaitStats" Key="{AA662281-3EDD-4A8E-ADD6-FD519E31BDEC}">
+																										<Properties>
+																											<Property0 Name="NativeClrObject.Name" Cookie="157" />
+																										</Properties>
+																										<Children />
+																									</Child0>
+																								</Children>
+																							</Child1>
+																						</Children>
+																					</Child0>
+																				</Children>
+																			</Child0>
+																		</Children>
+																	</Child1>
+																</Children>
+															</Child5>
+															<Child6 Name="ActiveQueriesView" Key="{7CF19BAB-B72F-4C9F-9F9D-DCA20BB45266}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="159" />
+																</Properties>
+																<Children>
+																	<Child0 Name="HeaderPanel" Key="{BDF985A4-7B98-4869-A0F0-FB199910080D}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="160" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="HeaderTable" Key="{FE75BF07-BBF0-4953-B791-E8FA0E9A655A}">
+																				<Properties>
+																					<Property0 Name="NativeClrObject.Name" Cookie="161" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="Heading" Key="{FA31A10E-EEC4-4E82-B6CA-1974AF66952B}">
+																						<Properties>
+																							<Property0 Name="NativeClrObject.Name" Cookie="162" />
+																						</Properties>
+																						<Children />
+																					</Child0>
+																				</Children>
+																			</Child0>
+																		</Children>
+																	</Child0>
+																	<Child1 Name="split" Key="{004946D6-391C-401E-913A-5972CA1D9683}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="168" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="SplitterPanel" Key="{5A8FCD6C-B753-4D1D-B4F8-EB2476EA60FE}">
+																				<Properties>
+																					<Property0 Name="ClrFullClassName" Cookie="169" />
+																					<Property1 Name="WndCaption" Cookie="170" />
+																					<Property2 Name="Index" Cookie="171" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="gridActiveQueries" Key="{3EB56F23-8376-4CC8-938D-B0816A98C992}">
+																						<Properties>
+																							<Property0 Name="NativeClrObject.Name" Cookie="172" />
+																						</Properties>
+																						<Children />
+																					</Child0>
+																				</Children>
+																			</Child0>
+																		</Children>
+																	</Child1>
+																</Children>
+															</Child6>
+															<Child7 Name="WelcomeView" Key="{762F1D77-D515-42A3-A58D-F623354CC9AA}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="241" />
+																</Properties>
+																<Children>
+																	<Child0 Name="label24" Key="{BD33A709-C500-48D1-985C-5337B92FD889}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="242" />
+																		</Properties>
+																		<Children />
+																		<TypeInfo Item0="11" />
+																	</Child0>
+																</Children>
+																<TypeInfo Item0="11" />
+															</Child7>
+														</Children>
+													</Child0>
+												</Children>
+											</Child1>
+											<Child2 Name="SplitterPanel2" Key="{0561737B-7DC9-4771-9445-E618F4880B1B}">
+												<Properties>
+													<Property0 Name="ClrFullClassName" Cookie="209" />
+													<Property1 Name="WndCaption" Cookie="210" />
+													<Property2 Name="Index" Cookie="211" />
+												</Properties>
+												<Children>
+													<Child0 Name="viewManager" Key="{EFDBB876-9576-42E6-A840-4386AB589420}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="212" />
+														</Properties>
+														<Children>
+															<Child0 Name="DashboardView" Key="{37B5225B-7773-4527-B2F6-0883E66D9045}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="213" />
+																</Properties>
+																<Children>
+																	<Child0 Name="tabsDashboard" Key="{A601E66C-F16E-453A-9461-9071FDE6BB46}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="214" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="ultraTabPageControl1" Key="{A2B22EF5-9E89-4255-9AF7-CB0812EC29DA}">
+																				<Properties>
+																					<Property0 Name="NativeClrObject.Name" Cookie="215" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="analysisResultsList" Key="{DD89C75F-AA3C-48C4-9A30-392854FCFA50}">
+																						<Properties>
+																							<Property0 Name="NativeClrObject.Name" Cookie="216" />
+																						</Properties>
+																						<Children>
+																							<Child0 Name="zhistoryGrid" Key="{B1D53A52-E8E7-4E9A-B6B3-20C38F2B8B2F}">
+																								<Properties>
+																									<Property0 Name="NativeClrObject.Name" Cookie="217" />
+																								</Properties>
+																								<Children />
+																								<TypeInfo Item0="11" />
+																							</Child0>
+																							<Child1 Name="footer" Key="{38164700-F1A9-467E-951D-1E9960037D94}">
+																								<Properties>
+																									<Property0 Name="NativeClrObject.Name" Cookie="218" />
+																								</Properties>
+																								<Children>
+																									<Child0 Name="zdeleteSelectedButton" Key="{57FF8D77-75B0-4974-9269-38B3DA085F1D}">
+																										<Properties>
+																											<Property0 Name="NativeClrObject.Name" Cookie="219" />
+																										</Properties>
+																										<Children />
+																										<TypeInfo Item0="11" />
+																									</Child0>
+																								</Children>
+																								<TypeInfo Item0="11" />
+																							</Child1>
+																						</Children>
+																						<TypeInfo Item0="11" />
+																					</Child0>
+																				</Children>
+																				<TypeInfo Item0="11" />
+																			</Child0>
+																			<Child1 Name="tabServerGroup" Key="{02182DCD-2ED3-4257-B1A3-CAA8E214A143}">
+																				<Properties>
+																					<Property0 Name="NativeClrObject.Name" Cookie="220" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="serverGroupControl1" Key="{E7CFC9DE-4E03-48F4-B0F0-8F7E6DBC7CF6}">
+																						<Properties>
+																							<Property0 Name="NativeClrObject.Name" Cookie="221" />
+																						</Properties>
+																						<Children>
+																							<Child0 Name="flowlayout" Key="{85F55520-1F03-4F2F-8BC7-D727C2A58E8A}">
+																								<Properties>
+																									<Property0 Name="NativeClrObject.Name" Cookie="222" />
+																								</Properties>
+																								<Children>
+																									<Child0 Name="ServerThumbnail" Key="{75F1C347-7C18-4203-8FFE-EFDC5224A035}">
+																										<Properties>
+																											<Property0 Name="ClrFullClassName" Cookie="262" />
+																											<Property1 Name="WndCaption" Cookie="263" />
+																										</Properties>
+																										<Children>
+																											<Child0 Name="lblInstance" Key="{A9DE0A8C-B9BB-40C6-8480-88881FF38419}">
+																												<Properties>
+																													<Property0 Name="NativeClrObject.Name" Cookie="264" />
+																												</Properties>
+																												<Children />
+																												<TypeInfo Item0="11" />
+																											</Child0>
+																											<Child1 Name="analysisSummary" Key="{D7901F61-EF7A-4BEA-9009-78B3A9B6963D}">
+																												<Properties>
+																													<Property0 Name="NativeClrObject.Name" Cookie="265" />
+																												</Properties>
+																												<Children>
+																													<Child0 Name="tableRecommendationSummary" Key="{23255F8D-5715-4DDB-8379-F607A25CDA21}">
+																														<Properties>
+																															<Property0 Name="NativeClrObject.Name" Cookie="266" />
+																														</Properties>
+																														<Children>
+																															<Child0 Name="zcategory2LinkLabel" Key="{4B447BB0-81B3-44D9-85D9-3757611A521E}">
+																																<Properties>
+																																	<Property0 Name="NativeClrObject.Name" Cookie="267" />
+																																</Properties>
+																																<Children />
+																																<TypeInfo Item0="11" />
+																															</Child0>
+																															<Child1 Name="zcategory1LinkLabel" Key="{44A598A7-2C8B-4A74-BB3B-1C718C2948C6}">
+																																<Properties>
+																																	<Property0 Name="NativeClrObject.Name" Cookie="268" />
+																																</Properties>
+																																<Children />
+																																<TypeInfo Item0="11" />
+																															</Child1>
+																															<Child2 Name="zcategory3LinkLabel" Key="{5753EFEC-AE80-42F7-BB5E-5FBAA60E9EA4}">
+																																<Properties>
+																																	<Property0 Name="NativeClrObject.Name" Cookie="269" />
+																																</Properties>
+																																<Children />
+																																<TypeInfo Item0="11" />
+																															</Child2>
+																															<Child3 Name="zcategory4LinkLabel" Key="{C2272B3E-B2C1-4828-9E2B-BAA21EE4F6A3}">
+																																<Properties>
+																																	<Property0 Name="NativeClrObject.Name" Cookie="270" />
+																																</Properties>
+																																<Children />
+																																<TypeInfo Item0="11" />
+																															</Child3>
+																														</Children>
+																														<TypeInfo Item0="11" />
+																													</Child0>
+																													<Child1 Name="zerrorPanel" Key="{1FC6B683-D05C-48AB-A1BA-EDBDB0DCACDC}">
+																														<Properties>
+																															<Property0 Name="NativeClrObject.Name" Cookie="271" />
+																														</Properties>
+																														<Children>
+																															<Child0 Name="zerrorInnerPanel" Key="{DAE34A45-949B-4749-ADAA-790C2C95F7CF}">
+																																<Properties>
+																																	<Property0 Name="NativeClrObject.Name" Cookie="272" />
+																																</Properties>
+																																<Children>
+																																	<Child0 Name="zerrorImage" Key="{5F382216-BBEC-47E8-A90A-4AFCEEAB1F1E}">
+																																		<Properties>
+																																			<Property0 Name="NativeClrObject.Name" Cookie="273" />
+																																		</Properties>
+																																		<Children />
+																																		<TypeInfo Item0="11" />
+																																	</Child0>
+																																</Children>
+																															</Child0>
+																														</Children>
+																													</Child1>
+																												</Children>
+																												<TypeInfo Item0="11" />
+																											</Child1>
+																										</Children>
+																										<TypeInfo Item0="11" />
+																									</Child0>
+																								</Children>
+																								<TypeInfo Item0="11" />
+																							</Child0>
+																						</Children>
+																						<TypeInfo Item0="11" />
+																					</Child0>
+																				</Children>
+																				<TypeInfo Item0="11" />
+																			</Child1>
+																		</Children>
+																		<TypeInfo Item0="11" />
+																	</Child0>
+																	<Child1 Name="label24" Key="{FD72FDD8-5968-4E26-AA47-0B64B5A000FD}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="274" />
+																		</Properties>
+																		<Children />
+																		<TypeInfo Item0="11" />
+																	</Child1>
+																</Children>
+																<TypeInfo Item0="11" />
+															</Child0>
+															<Child1 Name="AnalysisResultView" Key="{370DF915-73D1-4753-A51A-27BDA7523348}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="223" />
+																</Properties>
+																<Children>
+																	<Child0 Name="recommendationList" Key="{2CBF1263-FA28-476B-BCAD-2BADB7A6F7CD}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="224" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="splitView" Key="{2D2F48DD-8F1E-4B2C-8CEE-BCA51414E6CD}">
+																				<Properties>
+																					<Property0 Name="NativeClrObject.Name" Cookie="225" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="SplitterPanel" Key="{123773CF-2212-4157-8C8B-29DDBFFD3C96}">
+																						<Properties>
+																							<Property0 Name="ClrFullClassName" Cookie="226" />
+																							<Property1 Name="WndCaption" Cookie="227" />
+																							<Property2 Name="Index" Cookie="228" />
+																						</Properties>
+																						<Children>
+																							<Child0 Name="zrecommendationsGrid" Key="{1D2D9302-6B5D-424F-8C13-C335AD25A423}">
+																								<Properties>
+																									<Property0 Name="NativeClrObject.Name" Cookie="229" />
+																								</Properties>
+																								<Children />
+																								<TypeInfo Item0="11" />
+																							</Child0>
+																						</Children>
+																					</Child0>
+																				</Children>
+																			</Child0>
+																		</Children>
+																	</Child0>
+																	<Child1 Name="HeaderPanel" Key="{6A11CB24-3D7A-4AEF-9712-7CD782EC8350}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="230" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="HeaderTable" Key="{4D671B46-1424-4393-B8FE-911E2C2278C6}">
+																				<Properties>
+																					<Property0 Name="NativeClrObject.Name" Cookie="231" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="Heading" Key="{BD7CFC81-9754-4D27-995C-2CC6AF0F6E91}">
+																						<Properties>
+																							<Property0 Name="NativeClrObject.Name" Cookie="232" />
+																						</Properties>
+																						<Children />
+																						<TypeInfo Item0="11" />
+																					</Child0>
+																				</Children>
+																				<TypeInfo Item0="11" />
+																			</Child0>
+																		</Children>
+																		<TypeInfo Item0="11" />
+																	</Child1>
+																</Children>
+															</Child1>
+														</Children>
+														<TypeInfo Item0="11" />
+													</Child0>
+												</Children>
+												<TypeInfo Item0="11" />
+											</Child2>
+										</Children>
+									</Child0>
+									<Child1 Name="mainToolStrip" Key="{DE31EED7-6D2E-485F-B25A-3DDCB27ED4ED}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="111" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child1>
+								</Children>
+							</Child0>
+							<Child1 Name="ServerSettingsDialog" Key="{4A2A68CA-FBED-47B3-9CB3-10132BAC7777}">
+								<Properties>
+									<Property0 Name="NativeClrObject.Name" Cookie="76" />
+								</Properties>
+								<Children>
+									<Child0 Name="tabSettings" Key="{C03E94A6-7130-4165-9A6D-E6B3407958C7}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="77" />
+										</Properties>
+										<Children>
+											<Child0 Name="tabGeneral" Key="{06E0CED2-0955-43B7-A26A-13B85A7DA7D4}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="78" />
+												</Properties>
+												<Children>
+													<Child0 Name="generalSettings" Key="{42AA5FA1-FD85-48A2-925D-DB4BBC7A7AFA}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="79" />
+														</Properties>
+														<Children>
+															<Child0 Name="zanalysisResultsLocationTextBox" Key="{C5B2B094-10B1-4EC6-BE27-2546AE433919}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="80" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="2" />
+															</Child0>
+															<Child1 Name="tableLayoutPanel1" Key="{27CF1D56-4601-4E54-866A-9C2D51920295}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="95" />
+																</Properties>
+																<Children>
+																	<Child0 Name="zauthenticationTypeComboBox" Key="{8ECB0317-4754-4737-92F6-7F9087491CBC}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="96" />
+																		</Properties>
+																		<Children />
+																	</Child0>
+																	<Child1 Name="zusernameTextBox" Key="{3009A51D-CF78-40B7-AE7D-631A0BC34FD0}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="97" />
+																		</Properties>
+																		<Children />
+																		<TypeInfo Item0="8" />
+																	</Child1>
+																	<Child2 Name="zpasswordTextBox" Key="{DB0EF800-5E7F-404F-83DB-68BC71480D90}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="98" />
+																		</Properties>
+																		<Children />
+																		<TypeInfo Item0="9" />
+																	</Child2>
+																</Children>
+															</Child1>
+															<Child2 Name="chkProduction" Key="{873B3E59-D0C9-4C67-BB29-952A959CE60A}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="100" />
+																</Properties>
+																<Children />
+															</Child2>
+															<Child3 Name="lblAdvancedConnection" Key="{B65F593E-482E-4CF1-8EE1-F414FC6FFAB8}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="115" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="11" />
+															</Child3>
+															<Child4 Name="chkOLTP" Key="{5353E507-E5DA-4D94-971B-80F7B4F6613B}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="202" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="11" />
+															</Child4>
+														</Children>
+													</Child0>
+												</Children>
+											</Child0>
+											<Child1 Name="tabBlockRecommendations" Key="{06CBE73A-CDDF-46A8-889A-F0D9D6B9A53A}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="275" />
+												</Properties>
+												<Children>
+													<Child0 Name="blockedRecommendations" Key="{A41F676E-55B3-4C35-BAE9-CA0C3FCB1E24}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="276" />
+														</Properties>
+														<Children>
+															<Child0 Name="zblockedGrid" Key="{BDDF822E-4673-476D-961C-A65474DB9CAC}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="277" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="11" />
+															</Child0>
+														</Children>
+														<TypeInfo Item0="11" />
+													</Child0>
+												</Children>
+												<TypeInfo Item0="11" />
+											</Child1>
+											<Child2 Name="tabBlockDatabases" Key="{D2A8FD3E-3BA9-4013-909B-108E9C75DA66}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="318" />
+												</Properties>
+												<Children>
+													<Child0 Name="blockedDatabases" Key="{FA858135-EDC4-4F36-A8E6-FE24D133BF11}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="319" />
+														</Properties>
+														<Children>
+															<Child0 Name="zblockedGrid" Key="{D1E3FF67-8420-4BB3-A75E-C4083A285906}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="320" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="11" />
+															</Child0>
+														</Children>
+														<TypeInfo Item0="11" />
+													</Child0>
+												</Children>
+												<TypeInfo Item0="11" />
+											</Child2>
+										</Children>
+									</Child0>
+									<Child1 Name="okButton" Key="{C686D90D-D5F7-4E90-AE40-157E47C51956}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="86" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="4" />
+									</Child1>
+									<Child2 Name="cancelButton" Key="{017EC159-7448-4E0D-A86F-8D1EC3EE1CB4}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="99" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="10" />
+									</Child2>
+									<Child3 Name="zserverComboBox" Key="{7CA33EA9-6C61-40EC-A4D3-A2686ECD13B9}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="203" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child3>
+								</Children>
+							</Child1>
+							<Child2 Name="AnalyzeServerWizard" Key="{73078DB0-75E6-464B-85FA-C01DB0D2F3A0}">
+								<Properties>
+									<Property0 Name="NativeClrObject.Name" Cookie="81" />
+								</Properties>
+								<Children>
+									<Child0 Name="ultraTabControl1" Key="{D1699015-152E-491E-BEB4-06896F8EEF09}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="82" />
+										</Properties>
+										<Children>
+											<Child0 Name="ultraTabPageControl16" Key="{87689431-D2D0-4075-A83C-2DCE276EA570}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="83" />
+												</Properties>
+												<Children>
+													<Child0 Name="NumericAnalysisDuration" Key="{EC150416-081E-43A1-9407-23318DB0474C}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="84" />
+														</Properties>
+														<Children>
+															<Child0 Name="UpDownEdit" Key="{354D5B09-ED65-47CA-AC08-88D24D623914}">
+																<Properties>
+																	<Property0 Name="ClrFullClassName" Cookie="85" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="3" />
+															</Child0>
+														</Children>
+													</Child0>
+													<Child1 Name="label3" Key="{D358F361-05CA-40D1-B5AF-D888EB2701D4}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="278" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="11" />
+													</Child1>
+													<Child2 Name="TextBoxApplicationFilter" Key="{3BA8CED2-95A5-4AB7-9660-DB33E0E77637}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="279" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="11" />
+													</Child2>
+													<Child3 Name="comboBoxDatabaseFilter" Key="{4B41B353-C8B5-49C3-AED5-E113FFC61BFF}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="280" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="11" />
+													</Child3>
+												</Children>
+											</Child0>
+											<Child1 Name="ultraTabPageControl18" Key="{9F1A07EF-0B04-4C3E-9F4E-93613DF59FBD}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="124" />
+												</Properties>
+												<Children>
+													<Child0 Name="zcmbxServers" Key="{F6772BF3-2D2B-43A7-80F9-FB5106B144B0}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="125" />
+														</Properties>
+														<Children />
+													</Child0>
+												</Children>
+											</Child1>
+											<Child2 Name="ultraTabPageControl1" Key="{49E6A70E-E6CF-4AAD-94E4-3BE3C5D84235}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="208" />
+												</Properties>
+												<Children>
+													<Child0 Name="labelCategoryTree" Key="{F059C48C-7862-4B5A-8EFD-CAD58CB0E8FC}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="281" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="11" />
+													</Child0>
+													<Child1 Name="TreeViewCategories" Key="{0DFB3A9B-3CFC-484E-8213-3DFC961ECB6B}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="282" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="11" />
+													</Child1>
+												</Children>
+												<TypeInfo Item0="11" />
+											</Child2>
+										</Children>
+									</Child0>
+									<Child1 Name="panel1" Key="{2262586B-DC21-419B-B163-C10F848F03FA}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="91" />
+										</Properties>
+										<Children>
+											<Child0 Name="tableLayoutPanel1" Key="{B6132BEA-8EA0-45C0-84BA-13C6F163F926}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="92" />
+												</Properties>
+												<Children>
+													<Child0 Name="btnNext" Key="{FD6A38EF-A606-4EB5-B0A0-F73F27F40F27}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="93" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="6" />
+													</Child0>
+													<Child1 Name="btnFinish" Key="{1E55085B-07FA-414A-A166-B92CE499235A}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="94" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="7" />
+													</Child1>
+													<Child2 Name="btnCancel" Key="{EB7C4FDC-7C7F-4452-88C9-EDD5254AF8FC}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="283" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="11" />
+													</Child2>
+												</Children>
+											</Child0>
+										</Children>
+									</Child1>
+									<Child2 Name="label23" Key="{34276AB1-26D4-4ACE-BD97-65A29AEBDBAE}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="284" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child2>
+								</Children>
+							</Child2>
+							<Child3 Name="ExceptionMessageBoxForm" Key="{E5E7DE78-5F28-426F-82F4-9CA16080D143}">
+								<Properties>
+									<Property0 Name="NativeClrObject.Name" Cookie="87" />
+								</Properties>
+								<Children>
+									<Child0 Name="pnlForm" Key="{8C3B868D-6EEC-41BE-BB13-0B23ECD72F90}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="88" />
+										</Properties>
+										<Children>
+											<Child0 Name="pnlButtons" Key="{AE896AA4-F604-4239-A924-531A168D2842}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="89" />
+												</Properties>
+												<Children>
+													<Child0 Name="button1" Key="{FA06B557-5AA3-41BD-9780-6A0141CE4D6A}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="90" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="5" />
+													</Child0>
+													<Child1 Name="button2" Key="{03F0CD5C-B9A8-4989-9F7E-4B431E8BE0F0}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="112" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="11" />
+													</Child1>
+												</Children>
+											</Child0>
+											<Child1 Name="pnlMessage" Key="{5C24717E-8ACA-41DD-B16B-D85389B8BB13}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="113" />
+												</Properties>
+												<Children>
+													<Child0 Name="lblTopMessage" Key="{292AF538-F1A0-45C8-9C17-AEF457072AB7}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="114" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="11" />
+													</Child0>
+												</Children>
+												<TypeInfo Item0="11" />
+											</Child1>
+										</Children>
+									</Child0>
+								</Children>
+							</Child3>
+							<Child4 Name="AddServerDialog" Key="{E774470E-1B9D-441B-B787-32B37ECDAAE2}">
+								<Properties>
+									<Property0 Name="NativeClrObject.Name" Cookie="101" />
+								</Properties>
+								<Children>
+									<Child0 Name="comboAuthentication" Key="{9F9334DB-D5AE-4768-9C1D-8A7C2DC7F4F6}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="102" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child0>
+									<Child1 Name="comboServerName" Key="{FB59B9D4-90E5-435A-ADC8-F6FF4489A01A}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="103" />
+										</Properties>
+										<Children>
+											<Child0 Name="ComboBoxChildNativeWindow" Key="{CF7E2843-F152-4EB6-9808-38EED6216EE7}">
+												<Properties>
+													<Property0 Name="WndClass" Cookie="104" />
+													<Property1 Name="WndCaption" Cookie="105" />
+												</Properties>
+												<Children />
+												<TypeInfo Item0="11" />
+											</Child0>
+										</Children>
+										<TypeInfo Item0="11" />
+									</Child1>
+									<Child2 Name="btnAdd" Key="{0E488935-170B-49AA-BDDE-0B8390A9E430}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="106" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child2>
+									<Child3 Name="txtUsername" Key="{A9953DE5-3ED4-40B5-8A92-DB8948E560D3}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="107" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child3>
+									<Child4 Name="txtPassword" Key="{5D2F1D25-D47A-478C-AED9-CB4992886194}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="108" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child4>
+									<Child5 Name="chkProduction" Key="{311D20F5-43C3-4B7E-80F5-791AC9E451A5}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="109" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child5>
+									<Child6 Name="lblAdvancedConnection" Key="{53FEDAA2-B944-4388-AB63-60884ABBA8E3}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="110" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child6>
+									<Child7 Name="chkOLTP" Key="{9EF286AF-DFFF-4856-86F3-B06341C4D351}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="207" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child7>
+								</Children>
+								<TypeInfo Item0="11" />
+							</Child4>
+							<Child5 Name="WmiOptionsDialog" Key="{E8500A7A-0730-4906-85AE-02B212461279}">
+								<Properties>
+									<Property0 Name="NativeClrObject.Name" Cookie="116" />
+								</Properties>
+								<Children>
+									<Child0 Name="chkOleAutomation" Key="{69109E4B-6712-4054-B4D0-467128604CA6}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="117" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child0>
+									<Child1 Name="btnOK" Key="{B58FB4D8-5C91-4262-9492-6AD9908BA341}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="118" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child1>
+									<Child2 Name="txtMachineName" Key="{F5300D9A-6075-420C-BECE-F65BE4428E1F}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="119" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child2>
+									<Child3 Name="txtUsername" Key="{0D1FCC03-BB61-4509-995D-C88F19E13811}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="120" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child3>
+									<Child4 Name="txtPassword" Key="{F733E7FB-4D9C-4E5F-A093-F284A2930B63}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="121" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child4>
+									<Child5 Name="txtAuthority" Key="{E5AA7F01-3600-4F64-BAB4-C926BA3FD7A3}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="122" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child5>
+									<Child6 Name="btnCancel" Key="{99309B5E-0826-41BF-A15E-6AA128CA94CD}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="123" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child6>
+								</Children>
+							</Child5>
+							<Child6 Name="AnalysisStateDialog" Key="{FD37D019-C42F-4696-AEB8-844594880162}">
+								<Properties>
+									<Property0 Name="NativeClrObject.Name" Cookie="126" />
+								</Properties>
+								<Children>
+									<Child0 Name="zcancelAnalysisButton" Key="{1C674587-DAB4-4337-A3AC-C3D61845AACE}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="127" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="12" />
+									</Child0>
+								</Children>
+							</Child6>
+							<Child7 Name="DiagnoseQueryDialog" Key="{187063FD-70D2-44D6-A59D-5CDBD57E596F}">
+								<Properties>
+									<Property0 Name="NativeClrObject.Name" Cookie="173" />
+								</Properties>
+								<Children>
+									<Child0 Name="toolStrip1" Key="{63CADC81-E2DB-4C5E-85A4-66CC2C6F74F5}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="174" />
+										</Properties>
+										<Children>
+											<Child0 Name="ToolStripComboBoxControl" Key="{EFB56509-46C8-4948-ABC8-E598E0789D1F}">
+												<Properties>
+													<Property0 Name="ClrFullClassName" Cookie="175" />
+													<Property1 Name="WndCaption" Cookie="176" />
+													<Property2 Name="Index" Cookie="177" />
+												</Properties>
+												<Children />
+											</Child0>
+										</Children>
+									</Child0>
+									<Child1 Name="btnCancel" Key="{A9323F0F-F1B9-4550-A5E9-1CC68F36C35B}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="178" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="13" />
+									</Child1>
+								</Children>
+							</Child7>
+							<Child8 Name="RemoveServerDialog" Key="{AD04E617-611F-4A9E-BEF0-70175C028B96}">
+								<Properties>
+									<Property0 Name="NativeClrObject.Name" Cookie="204" />
+								</Properties>
+								<Children>
+									<Child0 Name="btnRemove" Key="{039CBFAF-96D0-4ED3-B1C7-680442B3B1D6}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="205" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child0>
+									<Child1 Name="listServers" Key="{0DE09B42-BFB1-482B-9942-E21D77F113CC}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="206" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child1>
+									<Child2 Name="btnCancel" Key="{7AE0C70E-1896-48E1-874A-A41761915A23}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="261" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="14" />
+									</Child2>
+								</Children>
+								<TypeInfo Item0="11" />
+							</Child8>
+							<Child9 Name="SqlServerBrowserDialog" Key="{4F132BEB-ABF4-4A67-B238-071DC22A36C7}">
+								<Properties>
+									<Property0 Name="NativeClrObject.Name" Cookie="233" />
+								</Properties>
+								<Children>
+									<Child0 Name="searchScopeTabControl" Key="{6638FDB2-10F7-4B04-B8C3-AB7072678A4C}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="234" />
+										</Properties>
+										<Children>
+											<Child0 Name="localInstancesTab" Key="{0F727C0F-C14E-4757-AC86-384BBEDCE162}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="235" />
+												</Properties>
+												<Children>
+													<Child0 Name="localInstancesTreeView" Key="{BC56ADE8-7A71-494F-994B-4AD0ADFD1E5E}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="236" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="11" />
+													</Child0>
+												</Children>
+											</Child0>
+											<Child1 Name="networkInstancesTab" Key="{D76543C2-FA02-43AA-9533-DAFDA5993E29}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="237" />
+												</Properties>
+												<Children>
+													<Child0 Name="networkInstancesTreeView" Key="{28EB69C1-ED34-44ED-AE50-8C0DAAE50A0A}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="238" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="11" />
+													</Child0>
+												</Children>
+												<TypeInfo Item0="11" />
+											</Child1>
+										</Children>
+									</Child0>
+									<Child1 Name="cancelButton" Key="{9F252CEB-A3FD-418F-8C5E-8BE983DB6EDD}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="239" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child1>
+									<Child2 Name="okButton" Key="{1931AA5E-D714-4B44-9D66-A919F6EFBB60}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="240" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child2>
+								</Children>
+							</Child9>
+							<Child10 Name="SuperForm" Key="{A2406431-42BC-49A2-B8CE-4A6EA3C5B464}">
+								<Properties>
+									<Property0 Name="NativeClrObject.Name" Cookie="243" />
+								</Properties>
+								<Children>
+									<Child0 Name="zclientPanel" Key="{A51D3EDA-9007-47BD-8B28-455C5CF58855}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="244" />
+										</Properties>
+										<Children>
+											<Child0 Name="zbottomPanel" Key="{E0C69F11-3BB4-4539-B171-141ED5348A1F}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="245" />
+												</Properties>
+												<Children>
+													<Child0 Name="zcontrolPanel" Key="{BBE050E5-7A54-4ACB-9B1F-DA1AFAD87300}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="246" />
+														</Properties>
+														<Children>
+															<Child0 Name="zUI_Try" Key="{DB738CB1-AA58-48A4-94B6-649A8DB000D7}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="247" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="11" />
+															</Child0>
+															<Child1 Name="UI_Register" Key="{C6019DFA-5224-4693-86F6-E1233EDBED6A}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="248" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="11" />
+															</Child1>
+															<Child2 Name="UI_OK" Key="{C6E15099-0AA5-4F92-BF05-560918EAE2B7}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="249" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="11" />
+															</Child2>
+														</Children>
+														<TypeInfo Item0="11" />
+													</Child0>
+												</Children>
+												<TypeInfo Item0="11" />
+											</Child0>
+											<Child1 Name="zhostPanel" Key="{EDB3D29B-43B7-4CE3-ABF0-D0B2D578D4B5}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="250" />
+												</Properties>
+												<Children>
+													<Child0 Name="RegistrationPanel" Key="{340DD719-638C-4559-8B1F-85899E6F9C58}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="251" />
+														</Properties>
+														<Children>
+															<Child0 Name="BodyPanel" Key="{6A4179E0-3DBC-4A6C-AD6B-077696C94B32}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="252" />
+																</Properties>
+																<Children>
+																	<Child0 Name="zregistrationPanel" Key="{F21805F8-0BB8-4E37-80A6-921B369ACC71}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="253" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="zregControlsPanel" Key="{62CC6775-6F87-4A30-9FD4-9EFAAABA000B}">
+																				<Properties>
+																					<Property0 Name="NativeClrObject.Name" Cookie="254" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="serialNumber" Key="{ACB69549-E3CF-448B-B73A-1A57B365791F}">
+																						<Properties>
+																							<Property0 Name="NativeClrObject.Name" Cookie="255" />
+																						</Properties>
+																						<Children>
+																							<Child0 Name="V" Key="{A993EB8E-322F-4B82-8361-39BFA63D1131}">
+																								<Properties>
+																									<Property0 Name="ClrFullClassName" Cookie="256" />
+																								</Properties>
+																								<Children />
+																								<TypeInfo Item0="11" />
+																							</Child0>
+																						</Children>
+																					</Child0>
+																					<Child1 Name="name" Key="{23EA1C73-36F4-4DB7-AC90-9958A11B8926}">
+																						<Properties>
+																							<Property0 Name="NativeClrObject.Name" Cookie="257" />
+																						</Properties>
+																						<Children />
+																						<TypeInfo Item0="11" />
+																					</Child1>
+																				</Children>
+																			</Child0>
+																		</Children>
+																	</Child0>
+																</Children>
+															</Child0>
+														</Children>
+													</Child0>
+													<Child1 Name="ActivationPanel" Key="{272351B6-5622-4ABC-BA6F-A3413144960F}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="258" />
+														</Properties>
+														<Children>
+															<Child0 Name="BodyPanel" Key="{B896CD81-E3B1-429E-AC44-B9392720EE43}">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="259" />
+																</Properties>
+																<Children>
+																	<Child0 Name="zactivateOnline" Key="{754AEB66-BA3B-46F9-A4D5-20545E5A91AD}">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="260" />
+																		</Properties>
+																		<Children />
+																		<TypeInfo Item0="11" />
+																	</Child0>
+																</Children>
+															</Child0>
+														</Children>
+													</Child1>
+												</Children>
+											</Child1>
+										</Children>
+										<TypeInfo Item0="11" />
+									</Child0>
+								</Children>
+								<TypeInfo Item0="11" />
+							</Child10>
+							<Child11 Name="menuServerNode" Key="{2EBFDA19-1356-4FF9-873F-7C62FB92064C}">
+								<Properties>
+									<Property0 Name="NativeClrObject.Name" Cookie="285" />
+								</Properties>
+								<Children />
+								<TypeInfo Item0="11" />
+							</Child11>
+							<Child12 Name="ScheduleSettingsDialog" Key="{25E24904-8BAF-473F-9B4E-02F9317BAFFA}">
+								<Properties>
+									<Property0 Name="NativeClrObject.Name" Cookie="286" />
+								</Properties>
+								<Children>
+									<Child0 Name="zscheduleSettingsPanel" Key="{FF518879-B7F7-46F6-98CB-3DEAABD1C71E}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="287" />
+										</Properties>
+										<Children>
+											<Child0 Name="panel1" Key="{FB711AC8-6CEE-488F-99FC-DA0F3A50A9D1}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="288" />
+												</Properties>
+												<Children>
+													<Child0 Name="zstartTimePicker" Key="{B160E8D0-84C1-4E42-B643-A2B6E96CBD05}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="289" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="11" />
+													</Child0>
+												</Children>
+											</Child0>
+											<Child1 Name="zweeklyRecurrencePanel" Key="{B0F9AAD7-1E81-4C3E-816E-0340ABB46B63}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="290" />
+												</Properties>
+												<Children>
+													<Child0 Name="zthursdayCheckBox" Key="{FBF98A5F-5253-41C5-90C6-E11E43C8EC2C}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="291" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="11" />
+													</Child0>
+													<Child1 Name="ztuesdayCheckBox" Key="{34BBD651-BACE-44BF-B4BE-7A9FA3FC6815}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="292" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="11" />
+													</Child1>
+													<Child2 Name="zfridayCheckBox" Key="{6A0E5BA4-217F-402E-9412-F8AB4B46EDA4}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="293" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="11" />
+													</Child2>
+												</Children>
+											</Child1>
+											<Child2 Name="zserverNameComboBox" Key="{66D1F91B-9024-4B02-ACEF-9B46D956EB8B}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="294" />
+												</Properties>
+												<Children />
+												<TypeInfo Item0="11" />
+											</Child2>
+											<Child3 Name="zrecurrenceComboBox" Key="{3E6F84E3-A81E-4044-B66E-535A54A8A3E7}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="295" />
+												</Properties>
+												<Children />
+												<TypeInfo Item0="11" />
+											</Child3>
+											<Child4 Name="panel3" Key="{F5D27DA3-35D8-42BA-9BBB-3B1CA398CCC8}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="296" />
+												</Properties>
+												<Children>
+													<Child0 Name="NumericAnalysisDuration" Key="{D7E363F4-6918-4640-8C57-E29C800423DA}">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="297" />
+														</Properties>
+														<Children>
+															<Child0 Name="UpDownEdit" Key="{1DA89323-278B-4F75-B549-7665DA7121BF}">
+																<Properties>
+																	<Property0 Name="ClrFullClassName" Cookie="298" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="11" />
+															</Child0>
+														</Children>
+													</Child0>
+												</Children>
+											</Child4>
+										</Children>
+									</Child0>
+									<Child1 Name="panelButtons" Key="{972FF527-2691-4F26-B670-0B91206D7F15}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="299" />
+										</Properties>
+										<Children>
+											<Child0 Name="btnOK" Key="{EA83E81A-F23D-467B-8075-4C927E0D08A4}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="300" />
+												</Properties>
+												<Children />
+												<TypeInfo Item0="11" />
+											</Child0>
+											<Child1 Name="btnCancel" Key="{8D581AC4-69D2-4B48-8B74-FA7DBFD33231}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="301" />
+												</Properties>
+												<Children />
+												<TypeInfo Item0="11" />
+											</Child1>
+										</Children>
+									</Child1>
+									<Child2 Name="panel2" Key="{68376A22-0DB4-4E5E-A961-A26993F08F6B}">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="302" />
+										</Properties>
+										<Children>
+											<Child0 Name="zscheduleEnabledCheckBox" Key="{A7BCE179-3BB6-4254-A820-EDD235DDF6AD}">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="303" />
+												</Properties>
+												<Children />
+												<TypeInfo Item0="11" />
+											</Child0>
+										</Children>
+										<TypeInfo Item0="11" />
+									</Child2>
+								</Children>
+							</Child12>
+							<Child13 Name="dlgIderaSQLDoctorCredentials" Key="{1745898E-8C4A-4213-A36D-1A6737BFBEAF}">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="304" />
+									<Property1 Name="WndCaption" Cookie="305" />
+								</Properties>
+								<Children>
+									<Child0 Name="SysCredential" Key="{513E07F7-4CBE-4EE4-839B-5E893986F151}">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="306" />
+										</Properties>
+										<Children>
+											<Child0 Name="Edit" Key="{07C4EF6E-5E45-4EF8-A4EE-CF0A6F8F51EC}">
+												<Properties>
+													<Property0 Name="WndClass" Cookie="307" />
+												</Properties>
+												<Children />
+												<TypeInfo Item0="11" />
+											</Child0>
+											<Child1 Name="ComboBoxEx32" Key="{33E00870-B3A5-42DE-99DE-D6621BFEC690}">
+												<Properties>
+													<Property0 Name="WndClass" Cookie="308" />
+												</Properties>
+												<Children>
+													<Child0 Name="ComboBox" Key="{BA8D6464-91F0-4522-B691-B526EEEB5FDE}">
+														<Properties>
+															<Property0 Name="WndClass" Cookie="309" />
+														</Properties>
+														<Children>
+															<Child0 Name="Edit" Key="{BD881CAF-5DBE-4281-B209-23F2DB2FE3AA}">
+																<Properties>
+																	<Property0 Name="WndClass" Cookie="310" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="11" />
+															</Child0>
+														</Children>
+														<TypeInfo Item0="11" />
+													</Child0>
+												</Children>
+											</Child1>
+										</Children>
+									</Child0>
+									<Child1 Name="btnOK" Key="{707BA2E7-57E0-4A24-8A4B-E6F11FCA605A}">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="311" />
+											<Property1 Name="WndCaption" Cookie="312" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child1>
+									<Child2 Name="btnCancel" Key="{54321CBD-3894-40EC-8064-45D75A159A05}">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="313" />
+											<Property1 Name="WndCaption" Cookie="314" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="11" />
+									</Child2>
+								</Children>
+								<TypeInfo Item0="11" />
+							</Child13>
+							<Child14 Name="ToolStripDropDownMenu" Key="{0BD9E5B8-2C25-4EB3-8D41-0856A4756508}">
+								<Properties>
+									<Property0 Name="ClrFullClassName" Cookie="315" />
+									<Property1 Name="WndCaption" Cookie="316" />
+									<Property2 Name="Index" Cookie="317" />
+								</Properties>
+								<Children />
+								<TypeInfo Item0="11" />
+							</Child14>
+						</Children>
+					</Child0>
+				</Children>
+			</Child0>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child0 Name="SQLdoctor" Owner="{36A3E62B-9165-473C-B255-C4807469CD6C}">
+			<Child0 Name="MainForm" Owner="{BD16BA8E-E974-4D21-93ED-25261CCCB4CE}">
+				<Child0 Name="splitMain" Owner="{1C25F2CC-23ED-4059-9E06-F64D72AC8FEE}">
+					<Child0 Name="SplitterPanel" Owner="{EBFB822F-C8A0-4D27-9B71-93A7AF6ADFB5}">
+						<Child0 Name="serverTree" Owner="{BB177B8C-9EE0-4295-A4CD-3059003DAF18}">
+							<Child0 Name="treeServers" Owner="{68513FE6-EC15-45DC-896A-B85632156CEC}" />
+						</Child0>
+					</Child0>
+					<Child1 Name="SplitterPanel1" Owner="{D4763352-0587-44D3-811A-039356538203}">
+						<Child0 Name="viewManager" Owner="{8BC40217-5C15-40FD-B00D-713860949C50}">
+							<Child0 Name="SessionsView" Owner="{59682A62-3419-4FD0-A88C-B6CBFF00F559}">
+								<Child0 Name="HeaderPanel" Owner="{E384DE05-4543-4818-831B-F13E4A97800D}">
+									<Child0 Name="HeaderToolStrip" Owner="{84989457-2573-46CD-BBD9-860F232313DF}" />
+									<Child1 Name="HeaderTable" Owner="{6254BF7A-756A-4B1E-AB15-B17C4D9F5E06}">
+										<Child0 Name="Heading" Owner="{B73E13D4-64EF-43C9-A995-EC1B8F88D54E}" />
+									</Child1>
+								</Child0>
+								<Child1 Name="split" Owner="{5262C496-9812-4319-9CBD-3499CDC17E28}">
+									<Child0 Name="SplitterPanel" Owner="{2BAEC255-19FA-4D46-8F84-EAB3D9C58175}">
+										<Child0 Name="gridActiveQueries" Owner="{F7085BA4-E886-43D3-8D14-708BCFE018A7}" />
+									</Child0>
+								</Child1>
+							</Child0>
+							<Child1 Name="AnalysisResultView" Owner="{E3A12DC2-B45D-44C8-B001-7F4F7A412DA6}">
+								<Child0 Name="HeaderPanel" Owner="{2559D88E-F9C3-4FEE-8664-4A7D84478826}">
+									<Child0 Name="HeaderTable" Owner="{47FE32C5-7371-40AE-81C7-44CD5A6B5507}">
+										<Child0 Name="Heading" Owner="{FD5E1FBD-4D77-43C4-A31F-0AF6FF5998B1}" />
+									</Child0>
+								</Child0>
+								<Child1 Name="recommendationList" Owner="{5DC21E75-74E7-4D67-B5A9-871E1A5FB119}">
+									<Child0 Name="splitView" Owner="{857B2233-B5DF-4D6E-A046-0D2BF322930B}">
+										<Child0 Name="SplitterPanel" Owner="{EC18AB89-21D4-4252-8E9D-5689D2F9A0A0}">
+											<Child0 Name="zrecommendationsGrid" Owner="{0F569001-970D-4CFD-A1F2-CCED1277BA91}" />
+										</Child0>
+									</Child0>
+								</Child1>
+							</Child1>
+							<Child2 Name="DashboardView" Owner="{C88CA8EC-32E7-4244-B6FB-CDBBB5CBA554}">
+								<Child0 Name="label24" Owner="{6C5AA7D6-400D-42AB-9B66-24FD5CDABD0C}" />
+								<Child1 Name="tabsDashboard" Owner="{D90F0835-1ACC-4679-AB2D-6A91F2A26F5B}">
+									<Child0 Name="tabServerGroup" Owner="{90CBCA87-0137-4F31-A933-D38D32C3810B}">
+										<Child0 Name="serverGroupControl1" Owner="{03340EC5-1E9A-4305-A0B6-FB22CF0FDC24}">
+											<Child0 Name="flowlayout" Owner="{7DBD2BC3-2122-4829-BE07-662D52B1E6C1}">
+												<Child0 Name="ServerThumbnail" Owner="{BA32F8F2-5772-4C30-9139-FC57B6D63C1F}">
+													<Child0 Name="lblInstance" Owner="{D44CE091-8612-42FF-9D27-7C3CB61E10D9}" />
+													<Child1 Name="analysisSummary" Owner="{CD6F416C-5D37-4D1E-BF40-A4AFAA128B81}">
+														<Child0 Name="tableLayoutPanel1" Owner="{1383B0A3-446A-43F7-890F-4CED7E291A5B}">
+															<Child0 Name="zstartedOnLabel" Owner="{9B0DC2A0-5993-4231-A5B2-F324C540B9F7}" />
+															<Child1 Name="zdurationLabel" Owner="{A50EED5E-EC49-42A5-ACE3-668448AF1A75}" />
+														</Child0>
+														<Child1 Name="tableRecommendationSummary" Owner="{BCBC2F5F-1564-44F5-91E9-C6592DB8616F}">
+															<Child0 Name="zallRecommendationsLinkLabel" Owner="{153887F3-F8FD-463E-A3D8-E0EB153A4452}" />
+															<Child1 Name="zcategory1LinkLabel" Owner="{C2D1761F-1E69-40E5-AFFF-674E53F5A29A}" />
+															<Child2 Name="zcategory2LinkLabel" Owner="{0C111748-7508-46EA-86F7-4ACFA9F7ACD6}" />
+															<Child3 Name="zcategory3LinkLabel" Owner="{E7ACBFD7-9C3E-4AF0-BFA8-C7221B5A08F6}" />
+															<Child4 Name="zcategory4LinkLabel" Owner="{92A655F4-8CF1-4CE2-9C02-1A87C9422BAE}" />
+														</Child1>
+													</Child1>
+												</Child0>
+											</Child0>
+										</Child0>
+									</Child0>
+								</Child1>
+							</Child2>
+							<Child3 Name="ServerView2" Owner="{A65C6805-7C04-40DA-A256-28A1FA77BFD1}">
+								<Child0 Name="HeaderPanel" Owner="{ED20290C-DF8A-4A1E-AB4E-BA2FA729C8F5}">
+									<Child0 Name="HeaderTable" Owner="{3DB19811-C876-4624-845C-38CBD124D020}">
+										<Child0 Name="Heading" Owner="{7FE2F4C3-78D0-43F4-90E5-F2ACB332DEA2}" />
+									</Child0>
+								</Child0>
+							</Child3>
+							<Child4 Name="AnalysisResultsGroupView" Owner="{12153E5D-F39A-43C5-A043-364B99A89C06}">
+								<Child0 Name="lblHeading" Owner="{15C1A3A3-AC64-401E-B385-637E0FA0C517}" />
+								<Child1 Name="analysisResultsList" Owner="{31383113-54CE-45C1-9423-3064B5D24C9A}">
+									<Child0 Name="zhistoryGrid" Owner="{08F172D8-FC54-470C-8EBB-6365938E92BB}" />
+								</Child1>
+							</Child4>
+							<Child5 Name="WaitsView" Owner="{FCAB3A54-D1CB-4D6F-9705-BBE4A66E2A1E}">
+								<Child0 Name="HeaderPanel" Owner="{0E43F75C-73B3-49C5-B0DF-1001897789EA}">
+									<Child0 Name="HeaderTable" Owner="{AF17241A-CD04-4D33-92B1-C455FBFC7D14}">
+										<Child0 Name="Heading" Owner="{6DD7AB2F-8855-4A46-9CD0-F713EBA66C4E}" />
+									</Child0>
+								</Child0>
+								<Child1 Name="split" Owner="{76573C98-B804-4710-A9C9-CD2DA0A6882A}">
+									<Child0 Name="SplitterPanel" Owner="{CE62D896-4B75-45DC-8605-ED6C592021EF}">
+										<Child0 Name="splitWaits" Owner="{D1760920-4AF7-419D-AE88-D6046641469A}">
+											<Child0 Name="SplitterPanel" Owner="{CEC439D7-7922-41E7-8E4C-C2ADF1A7D510}">
+												<Child0 Name="label2" Owner="{EB4DB0C4-2934-4A45-9BD0-520D94738E61}" />
+												<Child1 Name="gridActiveQueries" Owner="{FD2190C6-D56C-4E86-9FFA-9263E4F27CBE}" />
+											</Child0>
+											<Child1 Name="SplitterPanel1" Owner="{77DBC1AA-6BF4-4CDA-91E2-3F24D4EDF346}">
+												<Child0 Name="gridWaitStats" Owner="{AA662281-3EDD-4A8E-ADD6-FD519E31BDEC}" />
+											</Child1>
+										</Child0>
+									</Child0>
+								</Child1>
+							</Child5>
+							<Child6 Name="ActiveQueriesView" Owner="{7CF19BAB-B72F-4C9F-9F9D-DCA20BB45266}">
+								<Child0 Name="HeaderPanel" Owner="{BDF985A4-7B98-4869-A0F0-FB199910080D}">
+									<Child0 Name="HeaderTable" Owner="{FE75BF07-BBF0-4953-B791-E8FA0E9A655A}">
+										<Child0 Name="Heading" Owner="{FA31A10E-EEC4-4E82-B6CA-1974AF66952B}" />
+									</Child0>
+								</Child0>
+								<Child1 Name="split" Owner="{004946D6-391C-401E-913A-5972CA1D9683}">
+									<Child0 Name="SplitterPanel" Owner="{5A8FCD6C-B753-4D1D-B4F8-EB2476EA60FE}">
+										<Child0 Name="gridActiveQueries" Owner="{3EB56F23-8376-4CC8-938D-B0816A98C992}" />
+									</Child0>
+								</Child1>
+							</Child6>
+							<Child7 Name="WelcomeView" Owner="{762F1D77-D515-42A3-A58D-F623354CC9AA}">
+								<Child0 Name="label24" Owner="{BD33A709-C500-48D1-985C-5337B92FD889}" />
+							</Child7>
+						</Child0>
+					</Child1>
+					<Child2 Name="SplitterPanel2" Owner="{0561737B-7DC9-4771-9445-E618F4880B1B}">
+						<Child0 Name="viewManager" Owner="{EFDBB876-9576-42E6-A840-4386AB589420}">
+							<Child0 Name="DashboardView" Owner="{37B5225B-7773-4527-B2F6-0883E66D9045}">
+								<Child0 Name="tabsDashboard" Owner="{A601E66C-F16E-453A-9461-9071FDE6BB46}">
+									<Child0 Name="ultraTabPageControl1" Owner="{A2B22EF5-9E89-4255-9AF7-CB0812EC29DA}">
+										<Child0 Name="analysisResultsList" Owner="{DD89C75F-AA3C-48C4-9A30-392854FCFA50}">
+											<Child0 Name="zhistoryGrid" Owner="{B1D53A52-E8E7-4E9A-B6B3-20C38F2B8B2F}" />
+											<Child1 Name="footer" Owner="{38164700-F1A9-467E-951D-1E9960037D94}">
+												<Child0 Name="zdeleteSelectedButton" Owner="{57FF8D77-75B0-4974-9269-38B3DA085F1D}" />
+											</Child1>
+										</Child0>
+									</Child0>
+									<Child1 Name="tabServerGroup" Owner="{02182DCD-2ED3-4257-B1A3-CAA8E214A143}">
+										<Child0 Name="serverGroupControl1" Owner="{E7CFC9DE-4E03-48F4-B0F0-8F7E6DBC7CF6}">
+											<Child0 Name="flowlayout" Owner="{85F55520-1F03-4F2F-8BC7-D727C2A58E8A}">
+												<Child0 Name="ServerThumbnail" Owner="{75F1C347-7C18-4203-8FFE-EFDC5224A035}">
+													<Child0 Name="lblInstance" Owner="{A9DE0A8C-B9BB-40C6-8480-88881FF38419}" />
+													<Child1 Name="analysisSummary" Owner="{D7901F61-EF7A-4BEA-9009-78B3A9B6963D}">
+														<Child0 Name="tableRecommendationSummary" Owner="{23255F8D-5715-4DDB-8379-F607A25CDA21}">
+															<Child0 Name="zcategory2LinkLabel" Owner="{4B447BB0-81B3-44D9-85D9-3757611A521E}" />
+															<Child1 Name="zcategory1LinkLabel" Owner="{44A598A7-2C8B-4A74-BB3B-1C718C2948C6}" />
+															<Child2 Name="zcategory3LinkLabel" Owner="{5753EFEC-AE80-42F7-BB5E-5FBAA60E9EA4}" />
+															<Child3 Name="zcategory4LinkLabel" Owner="{C2272B3E-B2C1-4828-9E2B-BAA21EE4F6A3}" />
+														</Child0>
+														<Child1 Name="zerrorPanel" Owner="{1FC6B683-D05C-48AB-A1BA-EDBDB0DCACDC}">
+															<Child0 Name="zerrorInnerPanel" Owner="{DAE34A45-949B-4749-ADAA-790C2C95F7CF}">
+																<Child0 Name="zerrorImage" Owner="{5F382216-BBEC-47E8-A90A-4AFCEEAB1F1E}" />
+															</Child0>
+														</Child1>
+													</Child1>
+												</Child0>
+											</Child0>
+										</Child0>
+									</Child1>
+								</Child0>
+								<Child1 Name="label24" Owner="{FD72FDD8-5968-4E26-AA47-0B64B5A000FD}" />
+							</Child0>
+							<Child1 Name="AnalysisResultView" Owner="{370DF915-73D1-4753-A51A-27BDA7523348}">
+								<Child0 Name="recommendationList" Owner="{2CBF1263-FA28-476B-BCAD-2BADB7A6F7CD}">
+									<Child0 Name="splitView" Owner="{2D2F48DD-8F1E-4B2C-8CEE-BCA51414E6CD}">
+										<Child0 Name="SplitterPanel" Owner="{123773CF-2212-4157-8C8B-29DDBFFD3C96}">
+											<Child0 Name="zrecommendationsGrid" Owner="{1D2D9302-6B5D-424F-8C13-C335AD25A423}" />
+										</Child0>
+									</Child0>
+								</Child0>
+								<Child1 Name="HeaderPanel" Owner="{6A11CB24-3D7A-4AEF-9712-7CD782EC8350}">
+									<Child0 Name="HeaderTable" Owner="{4D671B46-1424-4393-B8FE-911E2C2278C6}">
+										<Child0 Name="Heading" Owner="{BD7CFC81-9754-4D27-995C-2CC6AF0F6E91}" />
+									</Child0>
+								</Child1>
+							</Child1>
+						</Child0>
+					</Child2>
+				</Child0>
+				<Child1 Name="mainToolStrip" Owner="{DE31EED7-6D2E-485F-B25A-3DDCB27ED4ED}" />
+			</Child0>
+			<Child1 Name="ServerSettingsDialog" Owner="{4A2A68CA-FBED-47B3-9CB3-10132BAC7777}">
+				<Child0 Name="tabSettings" Owner="{C03E94A6-7130-4165-9A6D-E6B3407958C7}">
+					<Child0 Name="tabGeneral" Owner="{06E0CED2-0955-43B7-A26A-13B85A7DA7D4}">
+						<Child0 Name="generalSettings" Owner="{42AA5FA1-FD85-48A2-925D-DB4BBC7A7AFA}">
+							<Child0 Name="zanalysisResultsLocationTextBox" Owner="{C5B2B094-10B1-4EC6-BE27-2546AE433919}" />
+							<Child1 Name="tableLayoutPanel1" Owner="{27CF1D56-4601-4E54-866A-9C2D51920295}">
+								<Child0 Name="zauthenticationTypeComboBox" Owner="{8ECB0317-4754-4737-92F6-7F9087491CBC}" />
+								<Child1 Name="zusernameTextBox" Owner="{3009A51D-CF78-40B7-AE7D-631A0BC34FD0}" />
+								<Child2 Name="zpasswordTextBox" Owner="{DB0EF800-5E7F-404F-83DB-68BC71480D90}" />
+							</Child1>
+							<Child2 Name="chkProduction" Owner="{873B3E59-D0C9-4C67-BB29-952A959CE60A}" />
+							<Child3 Name="lblAdvancedConnection" Owner="{B65F593E-482E-4CF1-8EE1-F414FC6FFAB8}" />
+							<Child4 Name="chkOLTP" Owner="{5353E507-E5DA-4D94-971B-80F7B4F6613B}" />
+						</Child0>
+					</Child0>
+					<Child1 Name="tabBlockRecommendations" Owner="{06CBE73A-CDDF-46A8-889A-F0D9D6B9A53A}">
+						<Child0 Name="blockedRecommendations" Owner="{A41F676E-55B3-4C35-BAE9-CA0C3FCB1E24}">
+							<Child0 Name="zblockedGrid" Owner="{BDDF822E-4673-476D-961C-A65474DB9CAC}" />
+						</Child0>
+					</Child1>
+					<Child2 Name="tabBlockDatabases" Owner="{D2A8FD3E-3BA9-4013-909B-108E9C75DA66}">
+						<Child0 Name="blockedDatabases" Owner="{FA858135-EDC4-4F36-A8E6-FE24D133BF11}">
+							<Child0 Name="zblockedGrid" Owner="{D1E3FF67-8420-4BB3-A75E-C4083A285906}" />
+						</Child0>
+					</Child2>
+				</Child0>
+				<Child1 Name="okButton" Owner="{C686D90D-D5F7-4E90-AE40-157E47C51956}" />
+				<Child2 Name="cancelButton" Owner="{017EC159-7448-4E0D-A86F-8D1EC3EE1CB4}" />
+				<Child3 Name="zserverComboBox" Owner="{7CA33EA9-6C61-40EC-A4D3-A2686ECD13B9}" />
+			</Child1>
+			<Child2 Name="AnalyzeServerWizard" Owner="{73078DB0-75E6-464B-85FA-C01DB0D2F3A0}">
+				<Child0 Name="ultraTabControl1" Owner="{D1699015-152E-491E-BEB4-06896F8EEF09}">
+					<Child0 Name="ultraTabPageControl16" Owner="{87689431-D2D0-4075-A83C-2DCE276EA570}">
+						<Child0 Name="NumericAnalysisDuration" Owner="{EC150416-081E-43A1-9407-23318DB0474C}">
+							<Child0 Name="UpDownEdit" Owner="{354D5B09-ED65-47CA-AC08-88D24D623914}" />
+						</Child0>
+						<Child1 Name="label3" Owner="{D358F361-05CA-40D1-B5AF-D888EB2701D4}" />
+						<Child2 Name="TextBoxApplicationFilter" Owner="{3BA8CED2-95A5-4AB7-9660-DB33E0E77637}" />
+						<Child3 Name="comboBoxDatabaseFilter" Owner="{4B41B353-C8B5-49C3-AED5-E113FFC61BFF}" />
+					</Child0>
+					<Child1 Name="ultraTabPageControl18" Owner="{9F1A07EF-0B04-4C3E-9F4E-93613DF59FBD}">
+						<Child0 Name="zcmbxServers" Owner="{F6772BF3-2D2B-43A7-80F9-FB5106B144B0}" />
+					</Child1>
+					<Child2 Name="ultraTabPageControl1" Owner="{49E6A70E-E6CF-4AAD-94E4-3BE3C5D84235}">
+						<Child0 Name="labelCategoryTree" Owner="{F059C48C-7862-4B5A-8EFD-CAD58CB0E8FC}" />
+						<Child1 Name="TreeViewCategories" Owner="{0DFB3A9B-3CFC-484E-8213-3DFC961ECB6B}" />
+					</Child2>
+				</Child0>
+				<Child1 Name="panel1" Owner="{2262586B-DC21-419B-B163-C10F848F03FA}">
+					<Child0 Name="tableLayoutPanel1" Owner="{B6132BEA-8EA0-45C0-84BA-13C6F163F926}">
+						<Child0 Name="btnNext" Owner="{FD6A38EF-A606-4EB5-B0A0-F73F27F40F27}" />
+						<Child1 Name="btnFinish" Owner="{1E55085B-07FA-414A-A166-B92CE499235A}" />
+						<Child2 Name="btnCancel" Owner="{EB7C4FDC-7C7F-4452-88C9-EDD5254AF8FC}" />
+					</Child0>
+				</Child1>
+				<Child2 Name="label23" Owner="{34276AB1-26D4-4ACE-BD97-65A29AEBDBAE}" />
+			</Child2>
+			<Child3 Name="ExceptionMessageBoxForm" Owner="{E5E7DE78-5F28-426F-82F4-9CA16080D143}">
+				<Child0 Name="pnlForm" Owner="{8C3B868D-6EEC-41BE-BB13-0B23ECD72F90}">
+					<Child0 Name="pnlButtons" Owner="{AE896AA4-F604-4239-A924-531A168D2842}">
+						<Child0 Name="button1" Owner="{FA06B557-5AA3-41BD-9780-6A0141CE4D6A}" />
+						<Child1 Name="button2" Owner="{03F0CD5C-B9A8-4989-9F7E-4B431E8BE0F0}" />
+					</Child0>
+					<Child1 Name="pnlMessage" Owner="{5C24717E-8ACA-41DD-B16B-D85389B8BB13}">
+						<Child0 Name="lblTopMessage" Owner="{292AF538-F1A0-45C8-9C17-AEF457072AB7}" />
+					</Child1>
+				</Child0>
+			</Child3>
+			<Child4 Name="AddServerDialog" Owner="{E774470E-1B9D-441B-B787-32B37ECDAAE2}">
+				<Child0 Name="comboAuthentication" Owner="{9F9334DB-D5AE-4768-9C1D-8A7C2DC7F4F6}" />
+				<Child1 Name="comboServerName" Owner="{FB59B9D4-90E5-435A-ADC8-F6FF4489A01A}">
+					<Child0 Name="ComboBoxChildNativeWindow" Owner="{CF7E2843-F152-4EB6-9808-38EED6216EE7}" />
+				</Child1>
+				<Child2 Name="btnAdd" Owner="{0E488935-170B-49AA-BDDE-0B8390A9E430}" />
+				<Child3 Name="txtUsername" Owner="{A9953DE5-3ED4-40B5-8A92-DB8948E560D3}" />
+				<Child4 Name="txtPassword" Owner="{5D2F1D25-D47A-478C-AED9-CB4992886194}" />
+				<Child5 Name="chkProduction" Owner="{311D20F5-43C3-4B7E-80F5-791AC9E451A5}" />
+				<Child6 Name="lblAdvancedConnection" Owner="{53FEDAA2-B944-4388-AB63-60884ABBA8E3}" />
+				<Child7 Name="chkOLTP" Owner="{9EF286AF-DFFF-4856-86F3-B06341C4D351}" />
+			</Child4>
+			<Child5 Name="WmiOptionsDialog" Owner="{E8500A7A-0730-4906-85AE-02B212461279}">
+				<Child0 Name="chkOleAutomation" Owner="{69109E4B-6712-4054-B4D0-467128604CA6}" />
+				<Child1 Name="btnOK" Owner="{B58FB4D8-5C91-4262-9492-6AD9908BA341}" />
+				<Child2 Name="txtMachineName" Owner="{F5300D9A-6075-420C-BECE-F65BE4428E1F}" />
+				<Child3 Name="txtUsername" Owner="{0D1FCC03-BB61-4509-995D-C88F19E13811}" />
+				<Child4 Name="txtPassword" Owner="{F733E7FB-4D9C-4E5F-A093-F284A2930B63}" />
+				<Child5 Name="txtAuthority" Owner="{E5AA7F01-3600-4F64-BAB4-C926BA3FD7A3}" />
+				<Child6 Name="btnCancel" Owner="{99309B5E-0826-41BF-A15E-6AA128CA94CD}" />
+			</Child5>
+			<Child6 Name="AnalysisStateDialog" Owner="{FD37D019-C42F-4696-AEB8-844594880162}">
+				<Child0 Name="zcancelAnalysisButton" Owner="{1C674587-DAB4-4337-A3AC-C3D61845AACE}" />
+			</Child6>
+			<Child7 Name="DiagnoseQueryDialog" Owner="{187063FD-70D2-44D6-A59D-5CDBD57E596F}">
+				<Child0 Name="toolStrip1" Owner="{63CADC81-E2DB-4C5E-85A4-66CC2C6F74F5}">
+					<Child0 Name="ToolStripComboBoxControl" Owner="{EFB56509-46C8-4948-ABC8-E598E0789D1F}" />
+				</Child0>
+				<Child1 Name="btnCancel" Owner="{A9323F0F-F1B9-4550-A5E9-1CC68F36C35B}" />
+			</Child7>
+			<Child8 Name="RemoveServerDialog" Owner="{AD04E617-611F-4A9E-BEF0-70175C028B96}">
+				<Child0 Name="btnRemove" Owner="{039CBFAF-96D0-4ED3-B1C7-680442B3B1D6}" />
+				<Child1 Name="listServers" Owner="{0DE09B42-BFB1-482B-9942-E21D77F113CC}" />
+				<Child2 Name="btnCancel" Owner="{7AE0C70E-1896-48E1-874A-A41761915A23}" />
+			</Child8>
+			<Child9 Name="SqlServerBrowserDialog" Owner="{4F132BEB-ABF4-4A67-B238-071DC22A36C7}">
+				<Child0 Name="searchScopeTabControl" Owner="{6638FDB2-10F7-4B04-B8C3-AB7072678A4C}">
+					<Child0 Name="localInstancesTab" Owner="{0F727C0F-C14E-4757-AC86-384BBEDCE162}">
+						<Child0 Name="localInstancesTreeView" Owner="{BC56ADE8-7A71-494F-994B-4AD0ADFD1E5E}" />
+					</Child0>
+					<Child1 Name="networkInstancesTab" Owner="{D76543C2-FA02-43AA-9533-DAFDA5993E29}">
+						<Child0 Name="networkInstancesTreeView" Owner="{28EB69C1-ED34-44ED-AE50-8C0DAAE50A0A}" />
+					</Child1>
+				</Child0>
+				<Child1 Name="cancelButton" Owner="{9F252CEB-A3FD-418F-8C5E-8BE983DB6EDD}" />
+				<Child2 Name="okButton" Owner="{1931AA5E-D714-4B44-9D66-A919F6EFBB60}" />
+			</Child9>
+			<Child10 Name="SuperForm" Owner="{A2406431-42BC-49A2-B8CE-4A6EA3C5B464}">
+				<Child0 Name="zclientPanel" Owner="{A51D3EDA-9007-47BD-8B28-455C5CF58855}">
+					<Child0 Name="zbottomPanel" Owner="{E0C69F11-3BB4-4539-B171-141ED5348A1F}">
+						<Child0 Name="zcontrolPanel" Owner="{BBE050E5-7A54-4ACB-9B1F-DA1AFAD87300}">
+							<Child0 Name="zUI_Try" Owner="{DB738CB1-AA58-48A4-94B6-649A8DB000D7}" />
+							<Child1 Name="UI_Register" Owner="{C6019DFA-5224-4693-86F6-E1233EDBED6A}" />
+							<Child2 Name="UI_OK" Owner="{C6E15099-0AA5-4F92-BF05-560918EAE2B7}" />
+						</Child0>
+					</Child0>
+					<Child1 Name="zhostPanel" Owner="{EDB3D29B-43B7-4CE3-ABF0-D0B2D578D4B5}">
+						<Child0 Name="RegistrationPanel" Owner="{340DD719-638C-4559-8B1F-85899E6F9C58}">
+							<Child0 Name="BodyPanel" Owner="{6A4179E0-3DBC-4A6C-AD6B-077696C94B32}">
+								<Child0 Name="zregistrationPanel" Owner="{F21805F8-0BB8-4E37-80A6-921B369ACC71}">
+									<Child0 Name="zregControlsPanel" Owner="{62CC6775-6F87-4A30-9FD4-9EFAAABA000B}">
+										<Child0 Name="serialNumber" Owner="{ACB69549-E3CF-448B-B73A-1A57B365791F}">
+											<Child0 Name="V" Owner="{A993EB8E-322F-4B82-8361-39BFA63D1131}" />
+										</Child0>
+										<Child1 Name="name" Owner="{23EA1C73-36F4-4DB7-AC90-9958A11B8926}" />
+									</Child0>
+								</Child0>
+							</Child0>
+						</Child0>
+						<Child1 Name="ActivationPanel" Owner="{272351B6-5622-4ABC-BA6F-A3413144960F}">
+							<Child0 Name="BodyPanel" Owner="{B896CD81-E3B1-429E-AC44-B9392720EE43}">
+								<Child0 Name="zactivateOnline" Owner="{754AEB66-BA3B-46F9-A4D5-20545E5A91AD}" />
+							</Child0>
+						</Child1>
+					</Child1>
+				</Child0>
+			</Child10>
+			<Child11 Name="menuServerNode" Owner="{2EBFDA19-1356-4FF9-873F-7C62FB92064C}" />
+			<Child12 Name="ScheduleSettingsDialog" Owner="{25E24904-8BAF-473F-9B4E-02F9317BAFFA}">
+				<Child0 Name="zscheduleSettingsPanel" Owner="{FF518879-B7F7-46F6-98CB-3DEAABD1C71E}">
+					<Child0 Name="panel1" Owner="{FB711AC8-6CEE-488F-99FC-DA0F3A50A9D1}">
+						<Child0 Name="zstartTimePicker" Owner="{B160E8D0-84C1-4E42-B643-A2B6E96CBD05}" />
+					</Child0>
+					<Child1 Name="zweeklyRecurrencePanel" Owner="{B0F9AAD7-1E81-4C3E-816E-0340ABB46B63}">
+						<Child0 Name="zthursdayCheckBox" Owner="{FBF98A5F-5253-41C5-90C6-E11E43C8EC2C}" />
+						<Child1 Name="ztuesdayCheckBox" Owner="{34BBD651-BACE-44BF-B4BE-7A9FA3FC6815}" />
+						<Child2 Name="zfridayCheckBox" Owner="{6A0E5BA4-217F-402E-9412-F8AB4B46EDA4}" />
+					</Child1>
+					<Child2 Name="zserverNameComboBox" Owner="{66D1F91B-9024-4B02-ACEF-9B46D956EB8B}" />
+					<Child3 Name="zrecurrenceComboBox" Owner="{3E6F84E3-A81E-4044-B66E-535A54A8A3E7}" />
+					<Child4 Name="panel3" Owner="{F5D27DA3-35D8-42BA-9BBB-3B1CA398CCC8}">
+						<Child0 Name="NumericAnalysisDuration" Owner="{D7E363F4-6918-4640-8C57-E29C800423DA}">
+							<Child0 Name="UpDownEdit" Owner="{1DA89323-278B-4F75-B549-7665DA7121BF}" />
+						</Child0>
+					</Child4>
+				</Child0>
+				<Child1 Name="panelButtons" Owner="{972FF527-2691-4F26-B670-0B91206D7F15}">
+					<Child0 Name="btnOK" Owner="{EA83E81A-F23D-467B-8075-4C927E0D08A4}" />
+					<Child1 Name="btnCancel" Owner="{8D581AC4-69D2-4B48-8B74-FA7DBFD33231}" />
+				</Child1>
+				<Child2 Name="panel2" Owner="{68376A22-0DB4-4E5E-A961-A26993F08F6B}">
+					<Child0 Name="zscheduleEnabledCheckBox" Owner="{A7BCE179-3BB6-4254-A820-EDD235DDF6AD}" />
+				</Child2>
+			</Child12>
+			<Child13 Name="dlgIderaSQLDoctorCredentials" Owner="{1745898E-8C4A-4213-A36D-1A6737BFBEAF}">
+				<Child0 Name="SysCredential" Owner="{513E07F7-4CBE-4EE4-839B-5E893986F151}">
+					<Child0 Name="Edit" Owner="{07C4EF6E-5E45-4EF8-A4EE-CF0A6F8F51EC}" />
+					<Child1 Name="ComboBoxEx32" Owner="{33E00870-B3A5-42DE-99DE-D6621BFEC690}">
+						<Child0 Name="ComboBox" Owner="{BA8D6464-91F0-4522-B691-B526EEEB5FDE}">
+							<Child0 Name="Edit" Owner="{BD881CAF-5DBE-4281-B209-23F2DB2FE3AA}" />
+						</Child0>
+					</Child1>
+				</Child0>
+				<Child1 Name="btnOK" Owner="{707BA2E7-57E0-4A24-8A4B-E6F11FCA605A}" />
+				<Child2 Name="btnCancel" Owner="{54321CBD-3894-40EC-8064-45D75A159A05}" />
+			</Child13>
+			<Child14 Name="ToolStripDropDownMenu" Owner="{0BD9E5B8-2C25-4EB3-8D41-0856A4756508}" />
+		</Child0>
+	</LogicalNodes>
+	<Storages Current="0">
+		<Child0 Name="Default Configuration">
+			<Property0 Cookie="50" PropertyType="0" Value="Sys" Type="5" />
+			<Property1 Cookie="51" PropertyType="0" Value="-1" Type="0" />
+			<Property2 Cookie="52" PropertyType="0" Value="SQLdoctor" Type="5" />
+			<Property3 Cookie="53" PropertyType="0" Value="MainForm" Type="5" />
+			<Property4 Cookie="54" PropertyType="0" Value="splitMain" Type="5" />
+			<Property5 Cookie="55" PropertyType="0" Value="System.Windows.Forms.SplitterPanel" Type="5" />
+			<Property6 Cookie="56" PropertyType="0" Value="" Type="5" />
+			<Property7 Cookie="57" PropertyType="0" Value="1" Type="0" />
+			<Property8 Cookie="58" PropertyType="0" Value="serverTree" Type="5" />
+			<Property9 Cookie="59" PropertyType="0" Value="treeServers" Type="5" />
+			<Property10 Cookie="60" PropertyType="0" Value="System.Windows.Forms.SplitterPanel" Type="5" />
+			<Property11 Cookie="61" PropertyType="0" Value="" Type="5" />
+			<Property12 Cookie="62" PropertyType="0" Value="2" Type="0" />
+			<Property13 Cookie="63" PropertyType="0" Value="viewManager" Type="5" />
+			<Property14 Cookie="64" PropertyType="0" Value="SessionsView" Type="5" />
+			<Property15 Cookie="65" PropertyType="0" Value="HeaderPanel" Type="5" />
+			<Property16 Cookie="66" PropertyType="0" Value="split" Type="5" />
+			<Property17 Cookie="67" PropertyType="0" Value="System.Windows.Forms.SplitterPanel" Type="5" />
+			<Property18 Cookie="68" PropertyType="0" Value="" Type="5" />
+			<Property19 Cookie="69" PropertyType="0" Value="1" Type="0" />
+			<Property20 Cookie="70" PropertyType="0" Value="gridActiveQueries" Type="5" />
+			<Property21 Cookie="71" PropertyType="0" Value="HeaderToolStrip" Type="5" />
+			<Property22 Cookie="72" PropertyType="0" Value="AnalysisResultView" Type="5" />
+			<Property23 Cookie="73" PropertyType="0" Value="HeaderPanel" Type="5" />
+			<Property24 Cookie="74" PropertyType="0" Value="HeaderTable" Type="5" />
+			<Property25 Cookie="75" PropertyType="0" Value="Heading" Type="5" />
+			<Property26 Cookie="76" PropertyType="0" Value="ServerSettingsDialog" Type="5" />
+			<Property27 Cookie="77" PropertyType="0" Value="tabSettings" Type="5" />
+			<Property28 Cookie="78" PropertyType="0" Value="tabGeneral" Type="5" />
+			<Property29 Cookie="79" PropertyType="0" Value="generalSettings" Type="5" />
+			<Property30 Cookie="80" PropertyType="0" Value="_analysisResultsLocationTextBox" Type="5" />
+			<Property31 Cookie="81" PropertyType="0" Value="AnalyzeServerWizard" Type="5" />
+			<Property32 Cookie="82" PropertyType="0" Value="ultraTabControl1" Type="5" />
+			<Property33 Cookie="83" PropertyType="0" Value="ultraTabPageControl16" Type="5" />
+			<Property34 Cookie="84" PropertyType="0" Value="NumericAnalysisDuration" Type="5" />
+			<Property35 Cookie="85" PropertyType="0" Value="System.Windows.Forms.UpDownBase+UpDownEdit" Type="5" />
+			<Property36 Cookie="86" PropertyType="0" Value="okButton" Type="5" />
+			<Property37 Cookie="87" PropertyType="0" Value="ExceptionMessageBoxForm" Type="5" />
+			<Property38 Cookie="88" PropertyType="0" Value="pnlForm" Type="5" />
+			<Property39 Cookie="89" PropertyType="0" Value="pnlButtons" Type="5" />
+			<Property40 Cookie="90" PropertyType="0" Value="button1" Type="5" />
+			<Property41 Cookie="91" PropertyType="0" Value="panel1" Type="5" />
+			<Property42 Cookie="92" PropertyType="0" Value="tableLayoutPanel1" Type="5" />
+			<Property43 Cookie="93" PropertyType="0" Value="btnNext" Type="5" />
+			<Property44 Cookie="94" PropertyType="0" Value="btnFinish" Type="5" />
+			<Property45 Cookie="95" PropertyType="0" Value="tableLayoutPanel1" Type="5" />
+			<Property46 Cookie="96" PropertyType="0" Value="_authenticationTypeComboBox" Type="5" />
+			<Property47 Cookie="97" PropertyType="0" Value="_usernameTextBox" Type="5" />
+			<Property48 Cookie="98" PropertyType="0" Value="_passwordTextBox" Type="5" />
+			<Property49 Cookie="99" PropertyType="0" Value="cancelButton" Type="5" />
+			<Property50 Cookie="100" PropertyType="0" Value="chkProduction" Type="5" />
+			<Property51 Cookie="101" PropertyType="0" Value="AddServerDialog" Type="5" />
+			<Property52 Cookie="102" PropertyType="0" Value="comboAuthentication" Type="5" />
+			<Property53 Cookie="103" PropertyType="0" Value="comboServerName" Type="5" />
+			<Property54 Cookie="104" PropertyType="0" Value="Edit" Type="5" />
+			<Property55 Cookie="105" PropertyType="0" Value="" Type="5" />
+			<Property56 Cookie="106" PropertyType="0" Value="btnAdd" Type="5" />
+			<Property57 Cookie="107" PropertyType="0" Value="txtUsername" Type="5" />
+			<Property58 Cookie="108" PropertyType="0" Value="txtPassword" Type="5" />
+			<Property59 Cookie="109" PropertyType="0" Value="chkProduction" Type="5" />
+			<Property60 Cookie="110" PropertyType="0" Value="lblAdvancedConnection" Type="5" />
+			<Property61 Cookie="111" PropertyType="0" Value="mainToolStrip" Type="5" />
+			<Property62 Cookie="112" PropertyType="0" Value="button2" Type="5" />
+			<Property63 Cookie="113" PropertyType="0" Value="pnlMessage" Type="5" />
+			<Property64 Cookie="114" PropertyType="0" Value="lblTopMessage" Type="5" />
+			<Property65 Cookie="115" PropertyType="0" Value="lblAdvancedConnection" Type="5" />
+			<Property66 Cookie="116" PropertyType="0" Value="WmiOptionsDialog" Type="5" />
+			<Property67 Cookie="117" PropertyType="0" Value="chkOleAutomation" Type="5" />
+			<Property68 Cookie="118" PropertyType="0" Value="btnOK" Type="5" />
+			<Property69 Cookie="119" PropertyType="0" Value="txtMachineName" Type="5" />
+			<Property70 Cookie="120" PropertyType="0" Value="txtUsername" Type="5" />
+			<Property71 Cookie="121" PropertyType="0" Value="txtPassword" Type="5" />
+			<Property72 Cookie="122" PropertyType="0" Value="txtAuthority" Type="5" />
+			<Property73 Cookie="123" PropertyType="0" Value="btnCancel" Type="5" />
+			<Property74 Cookie="124" PropertyType="0" Value="ultraTabPageControl18" Type="5" />
+			<Property75 Cookie="125" PropertyType="0" Value="_cmbxServers" Type="5" />
+			<Property76 Cookie="126" PropertyType="0" Value="AnalysisStateDialog" Type="5" />
+			<Property77 Cookie="127" PropertyType="0" Value="_cancelAnalysisButton" Type="5" />
+			<Property78 Cookie="128" PropertyType="0" Value="DashboardView" Type="5" />
+			<Property79 Cookie="129" PropertyType="0" Value="label24" Type="5" />
+			<Property80 Cookie="130" PropertyType="0" Value="ServerView2" Type="5" />
+			<Property81 Cookie="131" PropertyType="0" Value="HeaderPanel" Type="5" />
+			<Property82 Cookie="132" PropertyType="0" Value="HeaderTable" Type="5" />
+			<Property83 Cookie="133" PropertyType="0" Value="Heading" Type="5" />
+			<Property84 Cookie="135" PropertyType="0" Value="AnalysisResultsGroupView" Type="5" />
+			<Property85 Cookie="136" PropertyType="0" Value="lblHeading" Type="5" />
+			<Property86 Cookie="137" PropertyType="0" Value="analysisResultsList" Type="5" />
+			<Property87 Cookie="138" PropertyType="0" Value="_historyGrid" Type="5" />
+			<Property88 Cookie="139" PropertyType="0" Value="HeaderTable" Type="5" />
+			<Property89 Cookie="140" PropertyType="0" Value="Heading" Type="5" />
+			<Property90 Cookie="141" PropertyType="0" Value="WaitsView" Type="5" />
+			<Property91 Cookie="142" PropertyType="0" Value="HeaderPanel" Type="5" />
+			<Property92 Cookie="143" PropertyType="0" Value="HeaderTable" Type="5" />
+			<Property93 Cookie="144" PropertyType="0" Value="Heading" Type="5" />
+			<Property94 Cookie="145" PropertyType="0" Value="split" Type="5" />
+			<Property95 Cookie="146" PropertyType="0" Value="System.Windows.Forms.SplitterPanel" Type="5" />
+			<Property96 Cookie="147" PropertyType="0" Value="" Type="5" />
+			<Property97 Cookie="148" PropertyType="0" Value="1" Type="0" />
+			<Property98 Cookie="149" PropertyType="0" Value="splitWaits" Type="5" />
+			<Property99 Cookie="150" PropertyType="0" Value="System.Windows.Forms.SplitterPanel" Type="5" />
+			<Property100 Cookie="151" PropertyType="0" Value="" Type="5" />
+			<Property101 Cookie="152" PropertyType="0" Value="2" Type="0" />
+			<Property102 Cookie="153" PropertyType="0" Value="label2" Type="5" />
+			<Property103 Cookie="154" PropertyType="0" Value="System.Windows.Forms.SplitterPanel" Type="5" />
+			<Property104 Cookie="155" PropertyType="0" Value="" Type="5" />
+			<Property105 Cookie="156" PropertyType="0" Value="1" Type="0" />
+			<Property106 Cookie="157" PropertyType="0" Value="gridWaitStats" Type="5" />
+			<Property107 Cookie="158" PropertyType="0" Value="gridActiveQueries" Type="5" />
+			<Property108 Cookie="159" PropertyType="0" Value="ActiveQueriesView" Type="5" />
+			<Property109 Cookie="160" PropertyType="0" Value="HeaderPanel" Type="5" />
+			<Property110 Cookie="161" PropertyType="0" Value="HeaderTable" Type="5" />
+			<Property111 Cookie="162" PropertyType="0" Value="Heading" Type="5" />
+			<Property112 Cookie="168" PropertyType="0" Value="split" Type="5" />
+			<Property113 Cookie="169" PropertyType="0" Value="System.Windows.Forms.SplitterPanel" Type="5" />
+			<Property114 Cookie="170" PropertyType="0" Value="" Type="5" />
+			<Property115 Cookie="171" PropertyType="0" Value="1" Type="0" />
+			<Property116 Cookie="172" PropertyType="0" Value="gridActiveQueries" Type="5" />
+			<Property117 Cookie="173" PropertyType="0" Value="DiagnoseQueryDialog" Type="5" />
+			<Property118 Cookie="174" PropertyType="0" Value="toolStrip1" Type="5" />
+			<Property119 Cookie="175" PropertyType="0" Value="System.Windows.Forms.ToolStripComboBox+ToolStripComboBoxControl" Type="5" />
+			<Property120 Cookie="176" PropertyType="0" Value="" Type="5" />
+			<Property121 Cookie="177" PropertyType="0" Value="2" Type="0" />
+			<Property122 Cookie="178" PropertyType="0" Value="btnCancel" Type="5" />
+			<Property123 Cookie="179" PropertyType="0" Value="tabsDashboard" Type="5" />
+			<Property124 Cookie="180" PropertyType="0" Value="tabServerGroup" Type="5" />
+			<Property125 Cookie="181" PropertyType="0" Value="serverGroupControl1" Type="5" />
+			<Property126 Cookie="182" PropertyType="0" Value="flowlayout" Type="5" />
+			<Property127 Cookie="183" PropertyType="0" Value="ServerThumbnail" Type="5" />
+			<Property128 Cookie="184" PropertyType="0" Value="lblInstance" Type="5" />
+			<Property129 Cookie="185" PropertyType="0" Value="analysisSummary" Type="5" />
+			<Property130 Cookie="186" PropertyType="0" Value="tableLayoutPanel1" Type="5" />
+			<Property131 Cookie="187" PropertyType="0" Value="_startedOnLabel" Type="5" />
+			<Property132 Cookie="188" PropertyType="0" Value="_durationLabel" Type="5" />
+			<Property133 Cookie="189" PropertyType="0" Value="tableRecommendationSummary" Type="5" />
+			<Property134 Cookie="190" PropertyType="0" Value="_allRecommendationsLinkLabel" Type="5" />
+			<Property135 Cookie="191" PropertyType="0" Value="recommendationList" Type="5" />
+			<Property136 Cookie="192" PropertyType="0" Value="splitView" Type="5" />
+			<Property137 Cookie="193" PropertyType="0" Value="System.Windows.Forms.SplitterPanel" Type="5" />
+			<Property138 Cookie="194" PropertyType="0" Value="" Type="5" />
+			<Property139 Cookie="195" PropertyType="0" Value="1" Type="0" />
+			<Property140 Cookie="196" PropertyType="0" Value="_recommendationsGrid" Type="5" />
+			<Property141 Cookie="197" PropertyType="0" Value="_category1LinkLabel" Type="5" />
+			<Property142 Cookie="198" PropertyType="0" Value="_category2LinkLabel" Type="5" />
+			<Property143 Cookie="199" PropertyType="0" Value="_category3LinkLabel" Type="5" />
+			<Property144 Cookie="201" PropertyType="0" Value="_category4LinkLabel" Type="5" />
+			<Property145 Cookie="202" PropertyType="0" Value="chkOLTP" Type="5" />
+			<Property146 Cookie="203" PropertyType="0" Value="_serverComboBox" Type="5" />
+			<Property147 Cookie="204" PropertyType="0" Value="RemoveServerDialog" Type="5" />
+			<Property148 Cookie="205" PropertyType="0" Value="btnRemove" Type="5" />
+			<Property149 Cookie="206" PropertyType="0" Value="listServers" Type="5" />
+			<Property150 Cookie="207" PropertyType="0" Value="chkOLTP" Type="5" />
+			<Property151 Cookie="208" PropertyType="0" Value="ultraTabPageControl1" Type="5" />
+			<Property152 Cookie="209" PropertyType="0" Value="System.Windows.Forms.SplitterPanel" Type="5" />
+			<Property153 Cookie="210" PropertyType="0" Value="" Type="5" />
+			<Property154 Cookie="211" PropertyType="0" Value="2" Type="0" />
+			<Property155 Cookie="212" PropertyType="0" Value="viewManager" Type="5" />
+			<Property156 Cookie="213" PropertyType="0" Value="DashboardView" Type="5" />
+			<Property157 Cookie="214" PropertyType="0" Value="tabsDashboard" Type="5" />
+			<Property158 Cookie="215" PropertyType="0" Value="ultraTabPageControl1" Type="5" />
+			<Property159 Cookie="216" PropertyType="0" Value="analysisResultsList" Type="5" />
+			<Property160 Cookie="217" PropertyType="0" Value="_historyGrid" Type="5" />
+			<Property161 Cookie="218" PropertyType="0" Value="footer" Type="5" />
+			<Property162 Cookie="219" PropertyType="0" Value="_deleteSelectedButton" Type="5" />
+			<Property163 Cookie="220" PropertyType="0" Value="tabServerGroup" Type="5" />
+			<Property164 Cookie="221" PropertyType="0" Value="serverGroupControl1" Type="5" />
+			<Property165 Cookie="222" PropertyType="0" Value="flowlayout" Type="5" />
+			<Property166 Cookie="223" PropertyType="0" Value="AnalysisResultView" Type="5" />
+			<Property167 Cookie="224" PropertyType="0" Value="recommendationList" Type="5" />
+			<Property168 Cookie="225" PropertyType="0" Value="splitView" Type="5" />
+			<Property169 Cookie="226" PropertyType="0" Value="System.Windows.Forms.SplitterPanel" Type="5" />
+			<Property170 Cookie="227" PropertyType="0" Value="" Type="5" />
+			<Property171 Cookie="228" PropertyType="0" Value="1" Type="0" />
+			<Property172 Cookie="229" PropertyType="0" Value="_recommendationsGrid" Type="5" />
+			<Property173 Cookie="230" PropertyType="0" Value="HeaderPanel" Type="5" />
+			<Property174 Cookie="231" PropertyType="0" Value="HeaderTable" Type="5" />
+			<Property175 Cookie="232" PropertyType="0" Value="Heading" Type="5" />
+			<Property176 Cookie="233" PropertyType="0" Value="SqlServerBrowserDialog" Type="5" />
+			<Property177 Cookie="234" PropertyType="0" Value="searchScopeTabControl" Type="5" />
+			<Property178 Cookie="235" PropertyType="0" Value="localInstancesTab" Type="5" />
+			<Property179 Cookie="236" PropertyType="0" Value="localInstancesTreeView" Type="5" />
+			<Property180 Cookie="237" PropertyType="0" Value="networkInstancesTab" Type="5" />
+			<Property181 Cookie="238" PropertyType="0" Value="networkInstancesTreeView" Type="5" />
+			<Property182 Cookie="239" PropertyType="0" Value="cancelButton" Type="5" />
+			<Property183 Cookie="240" PropertyType="0" Value="okButton" Type="5" />
+			<Property184 Cookie="241" PropertyType="0" Value="WelcomeView" Type="5" />
+			<Property185 Cookie="242" PropertyType="0" Value="label24" Type="5" />
+			<Property186 Cookie="243" PropertyType="0" Value="SuperForm" Type="5" />
+			<Property187 Cookie="244" PropertyType="0" Value="_clientPanel" Type="5" />
+			<Property188 Cookie="245" PropertyType="0" Value="_bottomPanel" Type="5" />
+			<Property189 Cookie="246" PropertyType="0" Value="_controlPanel" Type="5" />
+			<Property190 Cookie="247" PropertyType="0" Value="#UI_Try" Type="5" />
+			<Property191 Cookie="248" PropertyType="0" Value="UI_Register" Type="5" />
+			<Property192 Cookie="249" PropertyType="0" Value="UI_OK" Type="5" />
+			<Property193 Cookie="250" PropertyType="0" Value="_hostPanel" Type="5" />
+			<Property194 Cookie="251" PropertyType="0" Value="RegistrationPanel" Type="5" />
+			<Property195 Cookie="252" PropertyType="0" Value="BodyPanel" Type="5" />
+			<Property196 Cookie="253" PropertyType="0" Value="_registrationPanel" Type="5" />
+			<Property197 Cookie="254" PropertyType="0" Value="_regControlsPanel" Type="5" />
+			<Property198 Cookie="255" PropertyType="0" Value="serialNumber" Type="5" />
+			<Property199 Cookie="256" PropertyType="0" Value="DeployLX.Licensing.v4.PromptMaskedEdit+V" Type="5" />
+			<Property200 Cookie="257" PropertyType="0" Value="name" Type="5" />
+			<Property201 Cookie="258" PropertyType="0" Value="ActivationPanel" Type="5" />
+			<Property202 Cookie="259" PropertyType="0" Value="BodyPanel" Type="5" />
+			<Property203 Cookie="260" PropertyType="0" Value="_activateOnline" Type="5" />
+			<Property204 Cookie="261" PropertyType="0" Value="btnCancel" Type="5" />
+			<Property205 Cookie="262" PropertyType="0" Value="Idera.SQLdoctor.StandardClient.Controls.ServerGroup.ServerThumbnail" Type="5" />
+			<Property206 Cookie="263" PropertyType="0" Value="" Type="5" />
+			<Property207 Cookie="264" PropertyType="0" Value="lblInstance" Type="5" />
+			<Property208 Cookie="265" PropertyType="0" Value="analysisSummary" Type="5" />
+			<Property209 Cookie="266" PropertyType="0" Value="tableRecommendationSummary" Type="5" />
+			<Property210 Cookie="267" PropertyType="0" Value="_category2LinkLabel" Type="5" />
+			<Property211 Cookie="268" PropertyType="0" Value="_category1LinkLabel" Type="5" />
+			<Property212 Cookie="269" PropertyType="0" Value="_category3LinkLabel" Type="5" />
+			<Property213 Cookie="270" PropertyType="0" Value="_category4LinkLabel" Type="5" />
+			<Property214 Cookie="271" PropertyType="0" Value="_errorPanel" Type="5" />
+			<Property215 Cookie="272" PropertyType="0" Value="_errorInnerPanel" Type="5" />
+			<Property216 Cookie="273" PropertyType="0" Value="_errorImage" Type="5" />
+			<Property217 Cookie="274" PropertyType="0" Value="label24" Type="5" />
+			<Property218 Cookie="275" PropertyType="0" Value="tabBlockRecommendations" Type="5" />
+			<Property219 Cookie="276" PropertyType="0" Value="blockedRecommendations" Type="5" />
+			<Property220 Cookie="277" PropertyType="0" Value="_blockedGrid" Type="5" />
+			<Property221 Cookie="278" PropertyType="0" Value="label3" Type="5" />
+			<Property222 Cookie="279" PropertyType="0" Value="TextBoxApplicationFilter" Type="5" />
+			<Property223 Cookie="280" PropertyType="0" Value="comboBoxDatabaseFilter" Type="5" />
+			<Property224 Cookie="281" PropertyType="0" Value="labelCategoryTree" Type="5" />
+			<Property225 Cookie="282" PropertyType="0" Value="TreeViewCategories" Type="5" />
+			<Property226 Cookie="283" PropertyType="0" Value="btnCancel" Type="5" />
+			<Property227 Cookie="284" PropertyType="0" Value="label23" Type="5" />
+			<Property228 Cookie="285" PropertyType="0" Value="menuServerNode" Type="5" />
+			<Property229 Cookie="286" PropertyType="0" Value="ScheduleSettingsDialog" Type="5" />
+			<Property230 Cookie="287" PropertyType="0" Value="_scheduleSettingsPanel" Type="5" />
+			<Property231 Cookie="288" PropertyType="0" Value="panel1" Type="5" />
+			<Property232 Cookie="289" PropertyType="0" Value="_startTimePicker" Type="5" />
+			<Property233 Cookie="290" PropertyType="0" Value="_weeklyRecurrencePanel" Type="5" />
+			<Property234 Cookie="291" PropertyType="0" Value="_thursdayCheckBox" Type="5" />
+			<Property235 Cookie="292" PropertyType="0" Value="_tuesdayCheckBox" Type="5" />
+			<Property236 Cookie="293" PropertyType="0" Value="_fridayCheckBox" Type="5" />
+			<Property237 Cookie="294" PropertyType="0" Value="_serverNameComboBox" Type="5" />
+			<Property238 Cookie="295" PropertyType="0" Value="_recurrenceComboBox" Type="5" />
+			<Property239 Cookie="296" PropertyType="0" Value="panel3" Type="5" />
+			<Property240 Cookie="297" PropertyType="0" Value="NumericAnalysisDuration" Type="5" />
+			<Property241 Cookie="298" PropertyType="0" Value="System.Windows.Forms.UpDownBase+UpDownEdit" Type="5" />
+			<Property242 Cookie="299" PropertyType="0" Value="panelButtons" Type="5" />
+			<Property243 Cookie="300" PropertyType="0" Value="btnOK" Type="5" />
+			<Property244 Cookie="301" PropertyType="0" Value="btnCancel" Type="5" />
+			<Property245 Cookie="302" PropertyType="0" Value="panel2" Type="5" />
+			<Property246 Cookie="303" PropertyType="0" Value="_scheduleEnabledCheckBox" Type="5" />
+			<Property247 Cookie="304" PropertyType="0" Value="#32770" Type="5" />
+			<Property248 Cookie="305" PropertyType="0" Value="Idera SQL doctor Credentials" Type="5" />
+			<Property249 Cookie="306" PropertyType="0" Value="SysCredential" Type="5" />
+			<Property250 Cookie="307" PropertyType="0" Value="Edit" Type="5" />
+			<Property251 Cookie="308" PropertyType="0" Value="ComboBoxEx32" Type="5" />
+			<Property252 Cookie="309" PropertyType="0" Value="ComboBox" Type="5" />
+			<Property253 Cookie="310" PropertyType="0" Value="Edit" Type="5" />
+			<Property254 Cookie="311" PropertyType="0" Value="Button" Type="5" />
+			<Property255 Cookie="312" PropertyType="0" Value="OK" Type="5" />
+			<Property256 Cookie="313" PropertyType="0" Value="Button" Type="5" />
+			<Property257 Cookie="314" PropertyType="0" Value="Cancel" Type="5" />
+			<Property258 Cookie="315" PropertyType="0" Value="System.Windows.Forms.ToolStripDropDownMenu" Type="5" />
+			<Property259 Cookie="316" PropertyType="0" Value="" Type="5" />
+			<Property260 Cookie="317" PropertyType="0" Value="1" Type="0" />
+			<Property261 Cookie="318" PropertyType="0" Value="tabBlockDatabases" Type="5" />
+			<Property262 Cookie="319" PropertyType="0" Value="blockedDatabases" Type="5" />
+			<Property263 Cookie="320" PropertyType="0" Value="_blockedGrid" Type="5" />
+		</Child0>
+	</Storages>
+	<TypeInfo StoreCodeCompletion="1">
+		<Child0 Hash="-122636473">
+			<Data Properties="A45439E0A1980245B6145ABAC42DA2480000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000B00000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions>
+					<Child0 Name="ClickItem" Doc="Moves the mouse cursor to the specified item and then simulates a single click." IsBasic="True" Param0="Item" Param1="Shift" Data="B4D7180E00000000687B460E04000000010000000400000002000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param1>
+						<ReturnValue Param0="24" />
+					</Child0>
+					<Child1 Name="ExpandItem" Doc="Expands the specified tree view item." IsBasic="True" Param0="Item" Param1="Expand" Data="B5D7180E00000000607E460E04000000010000000400000002000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param1>
+						<ReturnValue Param0="24" />
+					</Child1>
+					<Child2 Name="wItems" Doc="Returns the collection of items." IsBasic="True" Data="B6D7180E000000000000000004000000020000000400000000000000000000000000000009000000000000000000000000000000">
+						<ReturnValue Param0="9" />
+					</Child2>
+					<Child3 Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="B7D7180E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child3>
+					<Child4 Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="B8D7180E000000001077470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child4>
+					<Child5 Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="B9D7180E00000000A87B470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child5>
+					<Child6 Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="BAD7180E0000000028FD4C0E04000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child6>
+					<Child7 Name="Visible" IsBasic="True" Data="BBD7180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child7>
+					<Child8 Name="Width" IsBasic="True" Data="BCD7180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child8>
+					<Child9 Name="Height" IsBasic="True" Data="BDD7180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child9>
+					<Child10 Name="Enabled" IsBasic="True" Data="BED7180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child10>
+				</FunctionDescriptions>
+				<VarDescriptions />
+			</Data>
+		</Child0>
+		<Child1 Hash="505225355">
+			<Data Properties="945B2BFD501E494CBC74AD0BCE9180FF0000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000B00000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions>
+					<Child0 Name="ClickItem" Doc="Simulates a click on Item specified by index from 0 or by name, with shift keys in the state specified by Shift." IsBasic="True" Param0="Item" Param1="Shift" Data="34D8180E00000000B07E460E04000000010000000400000002000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param1>
+						<ReturnValue Param0="24" />
+					</Child0>
+					<Child1 Name="wButtonCount" Doc="Returns the total number of buttons in the toolbar control." IsBasic="True" Data="35D8180E000000000000000004000000020000000400000000000000000000000000000003000000000000000000000000000000">
+						<ReturnValue Param0="3" />
+					</Child1>
+					<Child2 Name="wButtonText" Doc="Returns the name of the button specified by Item, which is the button position, from 0." IsBasic="True" Param0="Item" Data="36D8180E0000000038FC4C0E04000000020000000400000001000000000000000000000008000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="8" />
+					</Child2>
+					<Child3 Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="37D8180E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child3>
+					<Child4 Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="38D8180E00000000E8AA470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child4>
+					<Child5 Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="39D8180E0000000080A8470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child5>
+					<Child6 Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="3AD8180E0000000098FC4C0E04000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child6>
+					<Child7 Name="Visible" IsBasic="True" Data="3BD8180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child7>
+					<Child8 Name="Width" IsBasic="True" Data="3CD8180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child8>
+					<Child9 Name="Height" IsBasic="True" Data="3DD8180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child9>
+					<Child10 Name="Enabled" IsBasic="True" Data="3ED8180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child10>
+				</FunctionDescriptions>
+				<VarDescriptions />
+			</Data>
+		</Child1>
+		<Child2 Hash="-1383865952">
+			<Data Properties="0DC7B9571BA382409554996965449A440000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000B00000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions>
+					<Child0 Name="SetText" Doc="Enters text in the text editor." IsBasic="True" Param0="Text" Data="B4ED180E00000000C8FC4C0E04000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child0>
+					<Child1 Name="wText" Doc="Contents of the edit control, as text string." IsBasic="True" Data="B5ED180E000000000000000004000000020000000400000000000000000000000000000008000000000000000000000000000000">
+						<ReturnValue Param0="8" />
+					</Child1>
+					<Child2 Name="wSelection" Doc="Retrieves the selected text." IsBasic="True" Data="B6ED180E000000000000000004000000020000000400000000000000000000000000000008000000000000000000000000000000">
+						<ReturnValue Param0="8" />
+					</Child2>
+					<Child3 Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="B7ED180E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child3>
+					<Child4 Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="B8ED180E0000000050AD470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child4>
+					<Child5 Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="B9ED180E00000000C0A6470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child5>
+					<Child6 Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="BAED180E0000000010FD4C0E04000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child6>
+					<Child7 Name="Visible" IsBasic="True" Data="BBED180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child7>
+					<Child8 Name="Width" IsBasic="True" Data="BCED180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child8>
+					<Child9 Name="Height" IsBasic="True" Data="BDED180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child9>
+					<Child10 Name="Enabled" IsBasic="True" Data="BEED180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child10>
+				</FunctionDescriptions>
+				<VarDescriptions />
+			</Data>
+		</Child2>
+		<Child3 Hash="-1383865952">
+			<Data Properties="A447626F1A3CB1459413F8B7D7AAA1DD0000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000B00000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions>
+					<Child0 Name="SetText" Doc="Enters text in the text editor." IsBasic="True" Param0="Text" Data="3416190E0000000080FF4C0E04000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child0>
+					<Child1 Name="wText" Doc="Contents of the edit control, as text string." IsBasic="True" Data="3516190E000000000000000004000000020000000400000000000000000000000000000008000000000000000000000000000000">
+						<ReturnValue Param0="8" />
+					</Child1>
+					<Child2 Name="wSelection" Doc="Retrieves the selected text." IsBasic="True" Data="3616190E000000000000000004000000020000000400000000000000000000000000000008000000000000000000000000000000">
+						<ReturnValue Param0="8" />
+					</Child2>
+					<Child3 Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="3716190E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child3>
+					<Child4 Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="3816190E0000000068A7470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child4>
+					<Child5 Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="3916190E00000000F8A6470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child5>
+					<Child6 Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="3A16190E00000000B0FF4C0E04000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child6>
+					<Child7 Name="Visible" IsBasic="True" Data="3B16190E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child7>
+					<Child8 Name="Width" IsBasic="True" Data="3C16190E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child8>
+					<Child9 Name="Height" IsBasic="True" Data="3D16190E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child9>
+					<Child10 Name="Enabled" IsBasic="True" Data="3E16190E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child10>
+				</FunctionDescriptions>
+				<VarDescriptions />
+			</Data>
+		</Child3>
+		<Child4 Hash="1119785136">
+			<Data Properties="1DE1FC37BBDCC347BB221579189BD9700000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000900000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions>
+					<Child0 Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="341B190E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child0>
+					<Child1 Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="351B190E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child1>
+					<Child2 Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="361B190E0000000058AB470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child2>
+					<Child3 Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="371B190E00000000D0A9470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child3>
+					<Child4 Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="381B190E0000000058824C0E04000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child4>
+					<Child5 Name="Visible" IsBasic="True" Data="391B190E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child5>
+					<Child6 Name="Width" IsBasic="True" Data="3A1B190E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child6>
+					<Child7 Name="Height" IsBasic="True" Data="3B1B190E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child7>
+					<Child8 Name="Enabled" IsBasic="True" Data="3C1B190E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child8>
+				</FunctionDescriptions>
+				<VarDescriptions />
+			</Data>
+		</Child4>
+		<Child5 Hash="1119785136">
+			<Data Properties="F5A07B0AEF4B9347A2A77FA6E923F3E30000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000900000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions>
+					<Child0 Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="B425190E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child0>
+					<Child1 Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="B525190E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child1>
+					<Child2 Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="B625190E0000000090AB470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child2>
+					<Child3 Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="B725190E0000000000AC470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child3>
+					<Child4 Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="B825190E00000000F0804C0E04000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child4>
+					<Child5 Name="Visible" IsBasic="True" Data="B925190E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child5>
+					<Child6 Name="Width" IsBasic="True" Data="BA25190E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child6>
+					<Child7 Name="Height" IsBasic="True" Data="BB25190E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child7>
+					<Child8 Name="Enabled" IsBasic="True" Data="BC25190E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child8>
+				</FunctionDescriptions>
+				<VarDescriptions />
+			</Data>
+		</Child5>
+		<Child6 Hash="1119785136">
+			<Data Properties="E99613CF2BED5C47B0CB9164B129C1220000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000900000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions>
+					<Child0 Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="B45B180E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child0>
+					<Child1 Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="B55B180E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child1>
+					<Child2 Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="B65B180E0000000010A8470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child2>
+					<Child3 Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="B75B180E0000000038AC470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child3>
+					<Child4 Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="B85B180E00000000C0834C0E04000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child4>
+					<Child5 Name="Visible" IsBasic="True" Data="B95B180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child5>
+					<Child6 Name="Width" IsBasic="True" Data="BA5B180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child6>
+					<Child7 Name="Height" IsBasic="True" Data="BB5B180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child7>
+					<Child8 Name="Enabled" IsBasic="True" Data="BC5B180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child8>
+				</FunctionDescriptions>
+				<VarDescriptions />
+			</Data>
+		</Child6>
+		<Child7 Hash="1119785136">
+			<Data Properties="D236E0E913F66749A45528BE5E8596B60000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000900000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions>
+					<Child0 Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="345E180E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child0>
+					<Child1 Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="355E180E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child1>
+					<Child2 Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="365E180E00000000B8A8470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child2>
+					<Child3 Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="375E180E00000000F0A8470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child3>
+					<Child4 Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="385E180E0000000068814C0E04000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child4>
+					<Child5 Name="Visible" IsBasic="True" Data="395E180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child5>
+					<Child6 Name="Width" IsBasic="True" Data="3A5E180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child6>
+					<Child7 Name="Height" IsBasic="True" Data="3B5E180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child7>
+					<Child8 Name="Enabled" IsBasic="True" Data="3C5E180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child8>
+				</FunctionDescriptions>
+				<VarDescriptions />
+			</Data>
+		</Child7>
+		<Child8 Hash="-1383865952">
+			<Data Properties="B6B8AD875811D4488F80FCAEA6F9C7E20000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000B00000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions>
+					<Child0 Name="SetText" Doc="Enters text in the text editor." IsBasic="True" Param0="Text" Data="B454180E00000000D0824C0E04000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child0>
+					<Child1 Name="wText" Doc="Contents of the edit control, as text string." IsBasic="True" Data="B554180E000000000000000004000000020000000400000000000000000000000000000008000000000000000000000000000000">
+						<ReturnValue Param0="8" />
+					</Child1>
+					<Child2 Name="wSelection" Doc="Retrieves the selected text." IsBasic="True" Data="B654180E000000000000000004000000020000000400000000000000000000000000000008000000000000000000000000000000">
+						<ReturnValue Param0="8" />
+					</Child2>
+					<Child3 Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="B754180E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child3>
+					<Child4 Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="B854180E0000000098B0470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child4>
+					<Child5 Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="B954180E0000000020B2470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child5>
+					<Child6 Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="BA54180E00000000A8834C0E04000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child6>
+					<Child7 Name="Visible" IsBasic="True" Data="BB54180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child7>
+					<Child8 Name="Width" IsBasic="True" Data="BC54180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child8>
+					<Child9 Name="Height" IsBasic="True" Data="BD54180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child9>
+					<Child10 Name="Enabled" IsBasic="True" Data="BE54180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child10>
+				</FunctionDescriptions>
+				<VarDescriptions />
+			</Data>
+		</Child8>
+		<Child9 Hash="-1383865952">
+			<Data Properties="C9570849DBA3594983990BAB42A2EE160000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000B00000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions>
+					<Child0 Name="SetText" Doc="Enters text in the text editor." IsBasic="True" Param0="Text" Data="3460180E00000000E0814C0E04000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child0>
+					<Child1 Name="wText" Doc="Contents of the edit control, as text string." IsBasic="True" Data="3560180E000000000000000004000000020000000400000000000000000000000000000008000000000000000000000000000000">
+						<ReturnValue Param0="8" />
+					</Child1>
+					<Child2 Name="wSelection" Doc="Retrieves the selected text." IsBasic="True" Data="3660180E000000000000000004000000020000000400000000000000000000000000000008000000000000000000000000000000">
+						<ReturnValue Param0="8" />
+					</Child2>
+					<Child3 Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="3760180E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child3>
+					<Child4 Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="3860180E00000000A0AE470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child4>
+					<Child5 Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="3960180E0000000058B2470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child5>
+					<Child6 Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="3A60180E0000000010824C0E04000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child6>
+					<Child7 Name="Visible" IsBasic="True" Data="3B60180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child7>
+					<Child8 Name="Width" IsBasic="True" Data="3C60180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child8>
+					<Child9 Name="Height" IsBasic="True" Data="3D60180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child9>
+					<Child10 Name="Enabled" IsBasic="True" Data="3E60180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child10>
+				</FunctionDescriptions>
+				<VarDescriptions />
+			</Data>
+		</Child9>
+		<Child10 Hash="1119785136">
+			<Data Properties="A6BD73D1D918744087F0496980563D8E0000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000900000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions>
+					<Child0 Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="B455180E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child0>
+					<Child1 Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="B555180E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child1>
+					<Child2 Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="B655180E0000000088B4470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child2>
+					<Child3 Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="B755180E0000000050B4470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child3>
+					<Child4 Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="B855180E00000000F0834C0E04000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child4>
+					<Child5 Name="Visible" IsBasic="True" Data="B955180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child5>
+					<Child6 Name="Width" IsBasic="True" Data="BA55180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child6>
+					<Child7 Name="Height" IsBasic="True" Data="BB55180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child7>
+					<Child8 Name="Enabled" IsBasic="True" Data="BC55180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child8>
+				</FunctionDescriptions>
+				<VarDescriptions />
+			</Data>
+		</Child10>
+		<Child11 Hash="0">
+			<Data Properties="000000000000000000000000000000000000000000000000FFFFFFFFFFFFFFFF0000000004000000040000000000000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions />
+				<VarDescriptions />
+			</Data>
+		</Child11>
+		<Child12 Hash="1119785136">
+			<Data Properties="455D9B9B5FEEC6488E3B3655A2443CA60000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000900000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions>
+					<Child0 Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="3457180E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child0>
+					<Child1 Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="3557180E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child1>
+					<Child2 Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="3657180E00000000F8AD470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child2>
+					<Child3 Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="3757180E00000000D8AE470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child3>
+					<Child4 Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="3857180E0000000010854C0E04000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child4>
+					<Child5 Name="Visible" IsBasic="True" Data="3957180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child5>
+					<Child6 Name="Width" IsBasic="True" Data="3A57180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child6>
+					<Child7 Name="Height" IsBasic="True" Data="3B57180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child7>
+					<Child8 Name="Enabled" IsBasic="True" Data="3C57180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child8>
+				</FunctionDescriptions>
+				<VarDescriptions />
+			</Data>
+		</Child12>
+		<Child13 Hash="1119785136">
+			<Data Properties="6693299629E9314685E872A377092D030000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000900000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions>
+					<Child0 Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="B46F180E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child0>
+					<Child1 Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="B56F180E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child1>
+					<Child2 Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="B66F180E00000000C0AD470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child2>
+					<Child3 Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="B76F180E0000000070B3470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child3>
+					<Child4 Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="B86F180E00000000A0854C0E04000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child4>
+					<Child5 Name="Visible" IsBasic="True" Data="B96F180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child5>
+					<Child6 Name="Width" IsBasic="True" Data="BA6F180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child6>
+					<Child7 Name="Height" IsBasic="True" Data="BB6F180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child7>
+					<Child8 Name="Enabled" IsBasic="True" Data="BC6F180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child8>
+				</FunctionDescriptions>
+				<VarDescriptions />
+			</Data>
+		</Child13>
+		<Child14 Hash="1119785136">
+			<Data Properties="D04F6F6D9496484FA742A7B91FDE4ACB0000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000900000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions>
+					<Child0 Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="3461180E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child0>
+					<Child1 Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="3561180E000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child1>
+					<Child2 Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="3661180E0000000048AF470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child2>
+					<Child3 Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="3761180E0000000090B2470E04000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="0" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child3>
+					<Child4 Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="3861180E00000000F8844C0E04000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child4>
+					<Child5 Name="Visible" IsBasic="True" Data="3961180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child5>
+					<Child6 Name="Width" IsBasic="True" Data="3A61180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child6>
+					<Child7 Name="Height" IsBasic="True" Data="3B61180E000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child7>
+					<Child8 Name="Enabled" IsBasic="True" Data="3C61180E00000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child8>
+				</FunctionDescriptions>
+				<VarDescriptions />
+			</Data>
+		</Child14>
+		<UserDefinedTypes Child0="TShiftKey" />
+	</TypeInfo>
+</Root>

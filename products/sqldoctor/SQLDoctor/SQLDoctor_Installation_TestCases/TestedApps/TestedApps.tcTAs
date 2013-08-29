@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="item0">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value="/i E:\SQLDoctor\3.0.248.0_DR1410\sqldoctor.msi"/>
+							<Prp name="workfolder" type="S" value="E:\SQLDoctor\3.0.248.0_DR1410"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="msiexec.exe"/>
+							<Prp name="filepath" type="S" value="C:\Windows\System32\"/>
+							<Prp name="parameters" type="S" value="/i E:\SQLDoctor\3.0.248.0_DR1410\sqldoctor.msi"/>
+							<Prp name="workfolder" type="S" value="E:\SQLDoctor\3.0.248.0_DR1410"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="SQLDoctor_Setup_3_0_248"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+					<Prp name="userchangename" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{595F7AFB-08FC-42E8-A60F-E2F6A18AC773}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item1">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value="C:\WINDOWS\system32\shell32.dll,Control_RunDLL &quot;C:\WINDOWS\system32\appwiz.cpl&quot;,Add or Remove Programs"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="rundll32.exe"/>
+							<Prp name="filepath" type="S" value="C:\WINDOWS\system32\"/>
+							<Prp name="parameters" type="S" value="C:\WINDOWS\system32\shell32.dll,Control_RunDLL &quot;C:\WINDOWS\system32\appwiz.cpl&quot;,Add or Remove Programs"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="AddOrRemovePrograms"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+					<Prp name="userchangename" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{DADADAF1-59CF-418D-BD76-B249F3CED88C}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item2">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value="/i E:\SQLDoctor\3.0.244.0_DR1395\sqldoctor.msi"/>
+							<Prp name="workfolder" type="S" value="E:\SQLDoctor\3.0.244.0_DR1395"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="msiexec.exe"/>
+							<Prp name="filepath" type="S" value="C:\Windows\System32\"/>
+							<Prp name="parameters" type="S" value="/i E:\SQLDoctor\3.0.244.0_DR1395\sqldoctor.msi"/>
+							<Prp name="workfolder" type="S" value="E:\SQLDoctor\3.0.244.0_DR1395"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="SQLDoctor_Setup"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+					<Prp name="userchangename" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{64D62AC8-C789-46AE-A635-0AEA34DA3B80}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item3">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value="/K title &quot;Command Prompt&quot;"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="cmd.exe"/>
+							<Prp name="filepath" type="S" value="C:\WINDOWS\System32\"/>
+							<Prp name="parameters" type="S" value="/K title &quot;Command Prompt&quot;"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="Command_Prompt"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+					<Prp name="userchangename" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{3A00A6B1-D7CA-4D85-9C99-4229841EBA3F}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item4">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value="Start-Process powershell -Verb runAs"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="powershell.exe"/>
+							<Prp name="filepath" type="S" value="C:\WINDOWS\System32\WindowsPowerShell\v1.0\"/>
+							<Prp name="parameters" type="S" value="Start-Process powershell -Verb runAs"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="PowerShall"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+					<Prp name="userchangename" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{F1387182-DBCB-4821-A525-3C694133906F}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Prp name="item count" type="I" value="5"/>
+		</Node>
+		<Node name="config">
+			<Prp name="node name" type="S" value="TestedApps"/>
+		</Node>
+		<Node name="data"/>
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="test data"/>
+		<Prp name="key" type="S" value="{A0A1D40F-4BF4-49CC-886C-EBAEEF484AD6}"/>
+		<Prp name="signature" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
+		<Prp name="type" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
+		<Prp name="typename" type="S" value="Tested Applications"/>
+		<Prp name="version" type="I" value="910"/>
+	</Node>
+</Nodes>
