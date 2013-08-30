@@ -80,6 +80,56 @@
 				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
 				<Prp name="typename" type="S" value="Script Unit"/>
 			</Node>
+			<Node name="item0000000006">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TC12283_ATSDBMoverWarnTheUserAboutMovingCopyingADB.svb"/>
+				</Node>
+				<Prp name="index" type="I" value="6"/>
+				<Prp name="key" type="S" value="{C8634959-659E-4825-A9E3-50B961F9C719}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="item0000000007">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TC12391_ATSPasswordChecker_CheckPasswordsForAListOfLogins.svb"/>
+				</Node>
+				<Prp name="index" type="I" value="7"/>
+				<Prp name="key" type="S" value="{A4827A7A-CF23-43E6-8DD1-1D33A27B2B1C}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="item0000000008">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ConnectionString.svb"/>
+				</Node>
+				<Prp name="index" type="I" value="8"/>
+				<Prp name="key" type="S" value="{DBA50805-BF91-40F4-A51F-2B66AE8D6F31}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="item0000000009">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="DBHelper.svb"/>
+				</Node>
+				<Prp name="index" type="I" value="9"/>
+				<Prp name="key" type="S" value="{EE5479D1-EC5C-4D66-9493-43EA8FB3349A}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="item0000000010">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test.svb"/>
+				</Node>
+				<Prp name="index" type="I" value="10"/>
+				<Prp name="key" type="S" value="{2F46DE05-2838-4917-90BC-3A410FE3BB75}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
 		</Node>
 		<Node name="folders">
 			<Node name="folders">
@@ -98,6 +148,14 @@
 							<Prp name="index" type="I" value="2"/>
 							<Prp name="key" type="S" value="{288D14BF-9C67-4E81-A449-516F10D97BFB}"/>
 						</Node>
+						<Node name="ref0000000003">
+							<Prp name="index" type="I" value="3"/>
+							<Prp name="key" type="S" value="{DBA50805-BF91-40F4-A51F-2B66AE8D6F31}"/>
+						</Node>
+						<Node name="ref0000000004">
+							<Prp name="index" type="I" value="4"/>
+							<Prp name="key" type="S" value="{EE5479D1-EC5C-4D66-9493-43EA8FB3349A}"/>
+						</Node>
 					</Node>
 					<Prp name="caption" type="S" value="Lib"/>
 					<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
@@ -106,6 +164,7 @@
 				</Node>
 			</Node>
 		</Node>
+		<Node name="settings"/>
 		<Prp name="settingsversion" type="S" value="9.20"/>
 		<Prp name="signature" type="S" value="{9252F941-DB23-4FCA-AA50-858B33BB4A19}"/>
 		<Prp name="version" type="S" value="9.0"/>
