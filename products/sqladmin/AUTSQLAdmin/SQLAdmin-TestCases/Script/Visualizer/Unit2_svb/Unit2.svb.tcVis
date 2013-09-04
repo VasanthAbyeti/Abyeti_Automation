@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="item0000000000">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="81"/>
+					<Prp name="click point y" type="I" value="58"/>
+					<Prp name="datetime" type="D" value="41519.330625"/>
+					<Prp name="image file name" type="S" value="tcvi214082.png"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="624"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.ATS_Launchpad.frm_ATSDesktop"/>
+					<Prp name="object right" type="I" value="850"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi214082.7z"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+			</Node>
+			<Node name="item0000000001">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="519"/>
+					<Prp name="click point y" type="I" value="75"/>
+					<Prp name="datetime" type="D" value="41519.3306944444"/>
+					<Prp name="image file name" type="S" value="tcvi214084.png"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="86"/>
+					<Prp name="object left" type="I" value="434"/>
+					<Prp name="object name" type="S" value="Aliases.ATS_Launchpad.frm_ManageServerGroups.btn_AddGroup"/>
+					<Prp name="object right" type="I" value="577"/>
+					<Prp name="object top" type="I" value="58"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi214084.7z"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+			</Node>
+			<Node name="item0000000002">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="-299"/>
+					<Prp name="click point y" type="I" value="-203"/>
+					<Prp name="datetime" type="D" value="41519.3307291667"/>
+					<Prp name="image file name" type="S" value="tcvi214085.png"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="81"/>
+					<Prp name="object left" type="I" value="100"/>
+					<Prp name="object name" type="S" value="Aliases.ATS_Launchpad.frm_AddServerGroup.txt_ServerGroup"/>
+					<Prp name="object right" type="I" value="489"/>
+					<Prp name="object top" type="I" value="61"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi214085.7z"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="2"/>
+			</Node>
+			<Node name="item0000000003">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="384"/>
+					<Prp name="click point y" type="I" value="450"/>
+					<Prp name="datetime" type="D" value="41519.330787037"/>
+					<Prp name="image file name" type="S" value="tcvi214086.png"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="468"/>
+					<Prp name="object left" type="I" value="346"/>
+					<Prp name="object name" type="S" value="Aliases.ATS_Launchpad.frm_AddServerGroup.btn_Ok"/>
+					<Prp name="object right" type="I" value="421"/>
+					<Prp name="object top" type="I" value="445"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi214086.7z"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="3"/>
+			</Node>
+			<Node name="item0000000004">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="149"/>
+					<Prp name="click point y" type="I" value="173"/>
+					<Prp name="datetime" type="D" value="41519.3309259259"/>
+					<Prp name="image file name" type="S" value="tcvi214089.png"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="315"/>
+					<Prp name="object left" type="I" value="20"/>
+					<Prp name="object name" type="S" value="Aliases.ATS_Launchpad.frm_ManageServerGroups.tvw_ServerGroups"/>
+					<Prp name="object right" type="I" value="427"/>
+					<Prp name="object top" type="I" value="58"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi214089.7z"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="4"/>
+			</Node>
+			<Node name="item0000000005">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="-306"/>
+					<Prp name="click point y" type="I" value="-305"/>
+					<Prp name="datetime" type="D" value="41519.3309606481"/>
+					<Prp name="image file name" type="S" value="tcvi2140811.png"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="78"/>
+					<Prp name="object left" type="I" value="107"/>
+					<Prp name="object name" type="S" value="Aliases.ATS_Launchpad.frm_AddServerToGroup.txt_Server"/>
+					<Prp name="object right" type="I" value="449"/>
+					<Prp name="object top" type="I" value="58"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi2140811.7z"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="5"/>
+			</Node>
+			<Node name="item0000000006">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="357"/>
+					<Prp name="click point y" type="I" value="252"/>
+					<Prp name="datetime" type="D" value="41519.3310185185"/>
+					<Prp name="image file name" type="S" value="tcvi2140812.png"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="266"/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="object name" type="S" value="Aliases.ATS_Launchpad.frm_AddServerToGroup.btn_Ok"/>
+					<Prp name="object right" type="I" value="406"/>
+					<Prp name="object top" type="I" value="243"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi2140812.7z"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="6"/>
+			</Node>
+			<Node name="item0000000007">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="136"/>
+					<Prp name="click point y" type="I" value="100"/>
+					<Prp name="datetime" type="D" value="41519.3311805556"/>
+					<Prp name="image file name" type="S" value="tcvi2140813.png"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="315"/>
+					<Prp name="object left" type="I" value="20"/>
+					<Prp name="object name" type="S" value="Aliases.ATS_Launchpad.frm_ManageServerGroups.tvw_ServerGroups"/>
+					<Prp name="object right" type="I" value="427"/>
+					<Prp name="object top" type="I" value="58"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi2140813.7z"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="7"/>
+			</Node>
+			<Node name="item0000000008">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="482"/>
+					<Prp name="click point y" type="I" value="353"/>
+					<Prp name="datetime" type="D" value="41519.3313194444"/>
+					<Prp name="image file name" type="S" value="tcvi2140814.png"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="376"/>
+					<Prp name="object left" type="I" value="434"/>
+					<Prp name="object name" type="S" value="Aliases.ATS_Launchpad.frm_ManageServerGroups.btn_Ok"/>
+					<Prp name="object right" type="I" value="576"/>
+					<Prp name="object top" type="I" value="348"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi2140814.7z"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="8"/>
+			</Node>
+			<Node name="item0000000009">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="140"/>
+					<Prp name="click point y" type="I" value="83"/>
+					<Prp name="datetime" type="D" value="41521.1476041667"/>
+					<Prp name="image file name" type="S" value="tcvi137480.png"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="315"/>
+					<Prp name="object left" type="I" value="20"/>
+					<Prp name="object name" type="S" value="Aliases.ATS_Launchpad.frm_ManageServerGroups.tvw_ServerGroups"/>
+					<Prp name="object right" type="I" value="427"/>
+					<Prp name="object top" type="I" value="58"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi137480.7z"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="9"/>
+			</Node>
+			<Node name="item0000000010">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="189"/>
+					<Prp name="click point y" type="I" value="161"/>
+					<Prp name="datetime" type="D" value="41521.147650463"/>
+					<Prp name="image file name" type="S" value="tcvi137482.png"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="315"/>
+					<Prp name="object left" type="I" value="20"/>
+					<Prp name="object name" type="S" value="Aliases.ATS_Launchpad.frm_ManageServerGroups.tvw_ServerGroups"/>
+					<Prp name="object right" type="I" value="427"/>
+					<Prp name="object top" type="I" value="58"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi137482.7z"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="10"/>
+			</Node>
+			<Node name="item0000000011">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="87"/>
+					<Prp name="click point y" type="I" value="53"/>
+					<Prp name="datetime" type="D" value="41521.1554513889"/>
+					<Prp name="image file name" type="S" value="tcvi190522.png"/>
+					<Prp name="line #" type="I" value="33"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="624"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.ATS_Launchpad.frm_ATSDesktop"/>
+					<Prp name="object right" type="I" value="850"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi190522.7z"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="11"/>
+			</Node>
+			<Node name="item0000000012">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="128"/>
+					<Prp name="click point y" type="I" value="85"/>
+					<Prp name="datetime" type="D" value="41521.1555092593"/>
+					<Prp name="image file name" type="S" value="tcvi190524.png"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="315"/>
+					<Prp name="object left" type="I" value="20"/>
+					<Prp name="object name" type="S" value="Aliases.ATS_Launchpad.frm_ManageServerGroups.tvw_ServerGroups"/>
+					<Prp name="object right" type="I" value="427"/>
+					<Prp name="object top" type="I" value="58"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi190524.7z"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="12"/>
+			</Node>
+			<Node name="item0000000013">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="494"/>
+					<Prp name="click point y" type="I" value="140"/>
+					<Prp name="datetime" type="D" value="41521.1555671296"/>
+					<Prp name="image file name" type="S" value="tcvi190525.png"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="154"/>
+					<Prp name="object left" type="I" value="434"/>
+					<Prp name="object name" type="S" value="Aliases.ATS_Launchpad.frm_ManageServerGroups.btn_DeleteGroup"/>
+					<Prp name="object right" type="I" value="577"/>
+					<Prp name="object top" type="I" value="126"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi190525.7z"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="13"/>
+			</Node>
+			<Node name="item0000000014">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="167"/>
+					<Prp name="click point y" type="I" value="99"/>
+					<Prp name="datetime" type="D" value="41521.1556018519"/>
+					<Prp name="image file name" type="S" value="tcvi190526.png"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="116"/>
+					<Prp name="object left" type="I" value="110"/>
+					<Prp name="object name" type="S" value="Aliases.ATS_Launchpad.dlg_MessageHandler.btn_Yes"/>
+					<Prp name="object right" type="I" value="187"/>
+					<Prp name="object top" type="I" value="92"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi190526.7z"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="14"/>
+			</Node>
+			<Node name="item0000000015">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="473"/>
+					<Prp name="click point y" type="I" value="359"/>
+					<Prp name="datetime" type="D" value="41521.1556365741"/>
+					<Prp name="image file name" type="S" value="tcvi190527.png"/>
+					<Prp name="line #" type="I" value="38"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="376"/>
+					<Prp name="object left" type="I" value="434"/>
+					<Prp name="object name" type="S" value="Aliases.ATS_Launchpad.frm_ManageServerGroups.btn_Ok"/>
+					<Prp name="object right" type="I" value="576"/>
+					<Prp name="object top" type="I" value="348"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi190527.7z"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="15"/>
+			</Node>
+			<Node name="item0000000016">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="41521.1615740741"/>
+					<Prp name="image file name" type="S" value="tcvi146080.png"/>
+					<Prp name="line #" type="I" value="42"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="624"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.ATS_Launchpad.frm_ATSDesktop"/>
+					<Prp name="object right" type="I" value="850"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi146080.7z"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="16"/>
+			</Node>
+			<Prp name="key" type="S" value="{54438ACF-07D0-4EB1-95A4-AFC60F11F2E8}"/>
+		</Node>
+		<Prp name="signature" type="S" value="{42D2222C-ACA2-405F-8E67-05D5C42EB839}"/>
+		<Prp name="version" type="I" value="1"/>
+	</Node>
+</Nodes>

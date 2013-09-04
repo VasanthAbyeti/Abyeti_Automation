@@ -1,0 +1,129 @@
+--SQL Search Test Script to create objects for searching
+-- The word Buffalo is in each object 
+-- The word Margarita is the name of each object
+
+/*objects were created in master database at the bottom*/
+
+
+CREATE DATABASE SQLSearch_TestDB;
+
+
+USE [SQLSearch_TestDB];
+
+if exists (select * from sys.objects where object_id = object_id('ATS_SQLSearch_Test_Proc_Margarita') and type = 'P')
+	drop procedure ATS_SQLSearch_Test_Proc_Margarita
+
+if exists (select * from sys.objects where object_id = object_id('ATS_SQLSearch_Test_Function_Margarita') and type = 'FN')
+	drop function ATS_SQLSearch_Test_Function_Margarita
+
+if exists (select * from sys.objects where object_id = object_id('vw_SQLSearch_Test_View_Margarita') and type = 'V')
+	drop view vw_SQLSearch_Test_View_Margarita
+
+if exists (select * from sys.objects where object_id = object_id('ATS_SQLSearch_Trigger_Table_Margarita') and type = 'U')
+	drop table ATS_SQLSearch_Trigger_Table_Margarita
+
+if exists (select * from sys.objects where object_id = object_id('ATS_SQLSearch_DML_Trigger_Margarita') and type = 'TR')
+	drop trigger ATS_SQLSearch_DML_Trigger_Margarita
+
+if exists (select * from sys.triggers where name = 'ATS_SQLSearch_DDL_Trigger_Margarita' and type = 'TR')
+	drop trigger ATS_SQLSearch_DDL_Trigger_Margarita on DATABASE
+
+
+
+
+
+-- Stored Procedure
+Create procedure ATS_SQLSearch_Test_Proc_Margarita
+AS
+BEGIN
+	/* SQLSearch Text to find in Proc
+		Buffalo
+		
+	Try case Sensitive and non case Sensitive
+		
+	*/
+
+	select 1 from sys.objects
+END;
+
+
+-- Create Function
+Create function ATS_SQLSearch_Test_Function_Margarita (@junk INTEGER)
+RETURNS int
+Begin
+	/* SQLSearch Text to find in Function
+		Buffalo
+		
+	Try case Sensitive and non case Sensitive
+		
+	*/
+	RETURN 1
+End;
+
+
+-- Create View
+Create View vw_SQLSearch_Test_View_Margarita
+AS select 'Buffalo' as SQLSearch_Test, name, object_id, type_desc from sys.objects
+GO
+
+
+-- DML Trigger
+create table ATS_SQLSearch_Trigger_Table_Margarita (col1 int);
+
+
+create index IDX_ATS_SQLSearch_Trigger_Table_Margarita on ATS_SQLSearch_Trigger_Table_Margarita (col1);
+
+
+
+create trigger ATS_SQLSearch_DML_Trigger_Margarita on ATS_SQLSearch_Trigger_Table_Margarita
+FOR UPDATE
+AS
+BEGIN
+	/* SQLSearch Text to find in Trigger
+		Buffalo
+		
+	Try case Sensitive and non case Sensitive
+		
+	*/
+
+	declare @i int
+	set @i = 1
+END;
+
+
+--DDL Trigger
+Create trigger ATS_SQLSearch_DDL_Trigger_Margarita
+ON DATABASE
+FOR CREATE_QUEUE
+AS
+Begin
+	/* SQLSearch Text to find in DDL Trigger
+		Buffalo
+		
+	Try case Sensitive and non case Sensitive
+		
+	*/
+
+	declare @i int
+	set @i = 1
+End;
+
+
+
+--Create objects 'name' in database master
+use master;
+
+if exists (select * from sys.objects where object_id = object_id('vw_SQLSearch_Master_Name') and type = 'V')
+	drop view vw_SQLSearch_Master_Name
+if exists (select * from sys.objects where object_id = object_id('ATS_SQLSearch_Master_Name') and type = 'U')
+	drop table ATS_SQLSearch_Master_Name
+
+	
+Create view vw_SQLSearch_Master_Name
+AS select 'Buffalo' as SQLSearch_Test, name, OBJECT_ID, type_desc from sys.objects
+
+
+create table ATS_SQLSearch_Master_Name (col1 int);
+
+
+create index IDX_ATS_SQLSearch_Master_Name on ATS_SQLSearch_Master_Name (col1);
