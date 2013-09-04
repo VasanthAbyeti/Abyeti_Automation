@@ -105,6 +105,9 @@
 			<Node name="script\serverscredentials.svb">
 				<Prp name="relpath" type="S" value="Script\ServersCredentials.svb"/>
 			</Node>
+			<Node name="script\setservicesstatus.svb">
+				<Prp name="relpath" type="S" value="Script\SetServicesStatus.svb"/>
+			</Node>
 			<Node name="script\tc12283_atsdbmoverwarntheuseraboutmovingcopyingadb.svb">
 				<Prp name="relpath" type="S" value="Script\TC12283_ATSDBMoverWarnTheUserAboutMovingCopyingADB.svb"/>
 			</Node>
@@ -114,17 +117,179 @@
 			<Node name="script\tc12290_ats_allloadservergroup.svb">
 				<Prp name="relpath" type="S" value="Script\TC12290_ATS_AllLoadServerGroup.svb"/>
 			</Node>
+			<Node name="script\tc12310_atsobjectsearch_searchasingledb.svb">
+				<Prp name="relpath" type="S" value="Script\TC12310_ATSObjectSearch_SearchASingleDB.svb"/>
+			</Node>
+			<Node name="script\tc12313_atsobjectsearch_limitnumberofmatches.svb">
+				<Prp name="relpath" type="S" value="Script\TC12313_ATSObjectSearch_LimitNumberOfMatches.svb"/>
+			</Node>
+			<Node name="script\tc12371_atsserverping_monitortheavailability.svb">
+				<Prp name="relpath" type="S" value="Script\TC12371_ATSServerPing_MonitorTheAvailability.svb"/>
+			</Node>
 			<Node name="script\tc12391_atspasswordchecker_checkpasswordsforalistoflogins.svb">
 				<Prp name="relpath" type="S" value="Script\TC12391_ATSPasswordChecker_CheckPasswordsForAListOfLogins.svb"/>
-			</Node>
-			<Node name="script\test.svb">
-				<Prp name="relpath" type="S" value="Script\Test.svb"/>
 			</Node>
 			<Node name="script\unit1.svb">
 				<Prp name="relpath" type="S" value="Script\Unit1.svb"/>
 			</Node>
-			<Node name="script\visualizer\test_svb\test.svb.tcvis">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Test_svb\Test.svb.tcVis"/>
+			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tc12313_atsobjectsearch_limitnumberofmatches.svb.tcvis">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\TC12313_ATSObjectSearch_LimitNumberOfMatches.svb.tcVis"/>
+			</Node>
+			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi204560.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi204560.7z"/>
+			</Node>
+			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi204560.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi204560.png"/>
+			</Node>
+			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi2683221.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi2683221.7z"/>
+			</Node>
+			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi2683221.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi2683221.png"/>
+			</Node>
+			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi2683222.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi2683222.7z"/>
+			</Node>
+			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi2683222.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi2683222.png"/>
+			</Node>
+			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi2683224.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi2683224.7z"/>
+			</Node>
+			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi2683224.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi2683224.png"/>
+			</Node>
+			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi2683225.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi2683225.7z"/>
+			</Node>
+			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi2683225.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi2683225.png"/>
+			</Node>
+			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi2683226.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi2683226.7z"/>
+			</Node>
+			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi2683226.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi2683226.png"/>
+			</Node>
+			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi268329.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi268329.7z"/>
+			</Node>
+			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi268329.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi268329.png"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tc12371_atsserverping_monitortheavailability.svb.tcvis">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\TC12371_ATSServerPing_MonitorTheAvailability.svb.tcVis"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi1279611.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi1279611.7z"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi1279611.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi1279611.png"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi1279614.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi1279614.7z"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi1279614.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi1279614.png"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi127962.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi127962.7z"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi127962.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi127962.png"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi1279631.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi1279631.7z"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi1279631.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi1279631.png"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi1279632.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi1279632.7z"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi1279632.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi1279632.png"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi1279633.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi1279633.7z"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi1279633.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi1279633.png"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi127964.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi127964.7z"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi127964.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi127964.png"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi127966.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi127966.7z"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi127966.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi127966.png"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi127967.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi127967.7z"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi127967.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi127967.png"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi127969.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi127969.7z"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi127969.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi127969.png"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi129680.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi129680.7z"/>
+			</Node>
+			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi129680.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi129680.png"/>
+			</Node>
+			<Node name="script\visualizer\unit1_svb\tcvi231120.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\Unit1_svb\tcvi231120.7z"/>
+			</Node>
+			<Node name="script\visualizer\unit1_svb\tcvi231120.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\Unit1_svb\tcvi231120.png"/>
+			</Node>
+			<Node name="script\visualizer\unit1_svb\tcvi566810.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\Unit1_svb\tcvi566810.7z"/>
+			</Node>
+			<Node name="script\visualizer\unit1_svb\tcvi566810.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\Unit1_svb\tcvi566810.png"/>
+			</Node>
+			<Node name="script\visualizer\unit1_svb\tcvi56682.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\Unit1_svb\tcvi56682.7z"/>
+			</Node>
+			<Node name="script\visualizer\unit1_svb\tcvi56682.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\Unit1_svb\tcvi56682.png"/>
+			</Node>
+			<Node name="script\visualizer\unit1_svb\tcvi56684.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\Unit1_svb\tcvi56684.7z"/>
+			</Node>
+			<Node name="script\visualizer\unit1_svb\tcvi56684.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\Unit1_svb\tcvi56684.png"/>
+			</Node>
+			<Node name="script\visualizer\unit1_svb\tcvi56685.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\Unit1_svb\tcvi56685.7z"/>
+			</Node>
+			<Node name="script\visualizer\unit1_svb\tcvi56685.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\Unit1_svb\tcvi56685.png"/>
+			</Node>
+			<Node name="script\visualizer\unit1_svb\tcvi56687.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\Unit1_svb\tcvi56687.7z"/>
+			</Node>
+			<Node name="script\visualizer\unit1_svb\tcvi56687.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\Unit1_svb\tcvi56687.png"/>
+			</Node>
+			<Node name="script\visualizer\unit1_svb\tcvi56689.7z">
+				<Prp name="relpath" type="S" value="Script\Visualizer\Unit1_svb\tcvi56689.7z"/>
+			</Node>
+			<Node name="script\visualizer\unit1_svb\tcvi56689.png">
+				<Prp name="relpath" type="S" value="Script\Visualizer\Unit1_svb\tcvi56689.png"/>
+			</Node>
+			<Node name="script\visualizer\unit1_svb\unit1.svb.tcvis">
+				<Prp name="relpath" type="S" value="Script\Visualizer\Unit1_svb\Unit1.svb.tcVis"/>
 			</Node>
 			<Node name="sqladmin-testcases.mds">
 				<Prp name="relpath" type="S" value="SQLAdmin-TestCases.mds"/>

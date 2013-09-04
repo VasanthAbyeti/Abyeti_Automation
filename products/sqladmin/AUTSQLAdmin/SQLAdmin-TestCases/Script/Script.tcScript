@@ -122,10 +122,40 @@
 			</Node>
 			<Node name="item0000000010">
 				<Node name="item data">
-					<Prp name="relpath" type="S" value="Test.svb"/>
+					<Prp name="relpath" type="S" value="TC12310_ATSObjectSearch_SearchASingleDB.svb"/>
 				</Node>
 				<Prp name="index" type="I" value="10"/>
-				<Prp name="key" type="S" value="{2F46DE05-2838-4917-90BC-3A410FE3BB75}"/>
+				<Prp name="key" type="S" value="{22A69D6E-C7F1-44AE-9FFE-940776DC723C}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="item0000000011">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TC12313_ATSObjectSearch_LimitNumberOfMatches.svb"/>
+				</Node>
+				<Prp name="index" type="I" value="11"/>
+				<Prp name="key" type="S" value="{3F3212F2-97AE-413B-97DE-402E76442790}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="item0000000012">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="SetServicesStatus.svb"/>
+				</Node>
+				<Prp name="index" type="I" value="12"/>
+				<Prp name="key" type="S" value="{834B010F-2D2D-4F53-A7F5-8E3A3E5CB28A}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="item0000000013">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TC12371_ATSServerPing_MonitorTheAvailability.svb"/>
+				</Node>
+				<Prp name="index" type="I" value="13"/>
+				<Prp name="key" type="S" value="{2B1517FE-3E27-430D-B836-11EE16D226A6}"/>
 				<Prp name="pluginname" type="S" value="Script"/>
 				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
 				<Prp name="typename" type="S" value="Script Unit"/>
@@ -155,6 +185,10 @@
 						<Node name="ref0000000004">
 							<Prp name="index" type="I" value="4"/>
 							<Prp name="key" type="S" value="{EE5479D1-EC5C-4D66-9493-43EA8FB3349A}"/>
+						</Node>
+						<Node name="ref0000000005">
+							<Prp name="index" type="I" value="5"/>
+							<Prp name="key" type="S" value="{834B010F-2D2D-4F53-A7F5-8E3A3E5CB28A}"/>
 						</Node>
 					</Node>
 					<Prp name="caption" type="S" value="Lib"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="1827">
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="1853">
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
 		<Properties />
 		<Children>
@@ -64,6 +64,13 @@
 																<Children />
 																<TypeInfo Item0="352" />
 															</Child0>
+															<Child1 Name="featureImagePictureBox" Key="{D6AC0C3F-6F7C-41B8-B0A1-332E2324F978}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="1828" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="365" />
+															</Child1>
 														</Children>
 														<TypeInfo Item0="7" />
 													</Child2>
@@ -276,6 +283,13 @@
 																<Children />
 																<TypeInfo Item0="333" />
 															</Child0>
+															<Child1 Name="featureImagePictureBox" Key="{E7F68D1A-C479-444C-B35A-A17500AACBA3}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="1842" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="367" />
+															</Child1>
 														</Children>
 														<TypeInfo Item0="7" />
 													</Child3>
@@ -1824,7 +1838,16 @@
 																<Properties>
 																	<Property0 Name="NativeClrObject.Name" Cookie="136" />
 																</Properties>
-																<Children />
+																<Children>
+																	<Child0 Name="Item" Key="{36689935-90BB-4175-AFB3-43B7E9E47287}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="WndClass" Cookie="1829" />
+																			<Property1 Name="WndCaption" Cookie="1830" />
+																		</Properties>
+																		<Children />
+																		<TypeInfo Item0="366" />
+																	</Child0>
+																</Children>
 																<TypeInfo Item0="8" />
 															</Child0>
 															<Child1 Name="rbt_Groups" Key="{BD967343-3DBE-4322-AC0D-2A1FBB9C25CB}">
@@ -1963,6 +1986,13 @@
 												<Children />
 												<TypeInfo Item0="7" />
 											</Child1>
+											<Child2 Name="labelNumberOfResults" Key="{FE5AB006-4448-4301-A30B-7AD1D72E143F}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="1827" />
+												</Properties>
+												<Children />
+												<TypeInfo Item0="290" />
+											</Child2>
 										</Children>
 										<TypeInfo Item0="7" />
 									</Child1>
@@ -7538,6 +7568,28 @@
 														</Properties>
 														<Children />
 													</Child0>
+													<Child1 Name="groupStatus" Key="{EB9AFFDC-88F6-45A2-AFD6-64778F8DB16E}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="1840" />
+														</Properties>
+														<Children>
+															<Child0 Name="labelOverallStatus" Key="{EB74F288-488B-4592-BDA3-FDAFF18645D5}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="1841" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="290" />
+															</Child0>
+														</Children>
+														<TypeInfo Item0="290" />
+													</Child1>
+													<Child2 Name="buttonRefresh" Key="{D9D04B1F-0B09-48FB-BE86-FFF7F1F9B36C}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="1850" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="290" />
+													</Child2>
 												</Children>
 											</Child0>
 											<Child1 Name="groupResults" Key="{716F31AB-F8A8-4FE0-875B-84B47D4DBD06}">
@@ -7583,8 +7635,46 @@
 											</Child1>
 										</Children>
 									</Child0>
+									<Child1 Name="panelMiddle" Key="{3417C261-09A3-4314-9933-654010BCAB2B}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="1837" />
+										</Properties>
+										<Children>
+											<Child0 Name="groupOptions_Servers" Key="{935603C0-DC79-4557-96D7-27F49A3F0FB2}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="1838" />
+												</Properties>
+												<Children>
+													<Child0 Name="radioServerGroup" Key="{BFD1380F-47F9-469C-91C3-C1BCF6106DE3}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="1839" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="290" />
+													</Child0>
+												</Children>
+												<TypeInfo Item0="290" />
+											</Child0>
+										</Children>
+										<TypeInfo Item0="290" />
+									</Child1>
 								</Children>
 							</Child18>
+							<Child19 Name="Form_Warning" Key="{7DF6E16C-BD1B-4670-8B32-73853D2A265D}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="NativeClrObject.Name" Cookie="1851" />
+								</Properties>
+								<Children>
+									<Child0 Name="buttonCancel" Key="{C1BC41C5-707A-4279-B2FB-1C07A5FAFCEF}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="1852" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="290" />
+									</Child0>
+								</Children>
+								<TypeInfo Item0="289" />
+							</Child19>
 						</Children>
 						<TypeInfo Item0="0" />
 					</Child14>
@@ -8515,6 +8605,7 @@
 					<Child1 Name="btn_SqlSearch" Owner="{47879F73-D94A-457D-8CE0-38F534F73081}" />
 					<Child2 Name="btn_ObjectSearch" Owner="{410B67D3-9460-443D-A8F6-4FC0ED02013D}">
 						<Child0 Name="featureDescriptionLabel" Owner="{2EA44AE2-07A4-4D4C-BBC6-603CD201EB8A}" />
+						<Child1 Name="featureImagePictureBox" Owner="{D6AC0C3F-6F7C-41B8-B0A1-332E2324F978}" />
 					</Child2>
 					<Child3 Name="btn_SqlDiscovery" Owner="{AFA8983E-ED35-46C9-A3AE-36D8D1F7CA2D}" />
 					<Child4 Name="btn_PasswordChecker" Owner="{9E99CCDB-1E05-4D42-9247-30A8F3A83E22}" />
@@ -8554,6 +8645,7 @@
 					</Child2>
 					<Child3 Name="btn_ServerPing" Owner="{93EB4932-D9BC-4609-976D-3472296E0BE4}">
 						<Child0 Name="featureDescriptionLabel" Owner="{F46ADA22-0A5C-4A69-9C6A-5900C3FA9075}" />
+						<Child1 Name="featureImagePictureBox" Owner="{E7F68D1A-C479-444C-B35A-A17500AACBA3}" />
 					</Child3>
 					<Child4 Name="btn_ServerStatistics" Owner="{2D5A0D10-8B9F-41A7-B682-71CC607D3714}">
 						<Child0 Name="featureDescriptionLabel" Owner="{7A7D0582-83EE-4C93-B83B-62C8A8FF06F5}" />
@@ -8761,7 +8853,9 @@
 				<Child4 Name="btn_Credentials" Owner="{6368D07E-6C0A-4743-8AD0-C01B34B12B70}" />
 				<Child5 Name="rbt_Groups" Owner="{BD967343-3DBE-4322-AC0D-2A1FBB9C25CB}" />
 				<Child6 Name="rbt_Servers" Owner="{9DA01C05-97D9-4BBD-B3E3-14242EF905C3}" />
-				<Child7 Name="txt_Server" Owner="{9A9636BE-9256-4BB4-A115-40D81F934B0F}" />
+				<Child7 Name="txt_Server" Owner="{9A9636BE-9256-4BB4-A115-40D81F934B0F}">
+					<Child0 Name="Item" Owner="{36689935-90BB-4175-AFB3-43B7E9E47287}" />
+				</Child7>
 				<Child8 Name="chk_AllowWildcards" Owner="{7EE8F3D0-527C-4890-B3EE-3A6388B914FA}" />
 				<Child9 Name="chk_ExcludeSystemObjects" Owner="{3DCA187E-EDBE-4F5B-B920-75DC54C77DE5}" />
 				<Child10 Name="chk_LimitToFirst" Owner="{8996D7BF-DB56-46FA-9D19-DEABB43F7AAD}" />
@@ -9473,6 +9567,10 @@
 				<Child0 Name="panelBottom" Owner="{F2ED919F-72CC-4249-9592-589C28B04D4D}">
 					<Child0 Name="groupServers" Owner="{E7BFE128-DEE7-4A7A-A137-5D069EFF32FE}">
 						<Child0 Name="listResults" Owner="{C070C2C4-0A36-4A13-9D2B-9A6EA57F3FB8}" />
+						<Child1 Name="groupStatus" Owner="{EB9AFFDC-88F6-45A2-AFD6-64778F8DB16E}">
+							<Child0 Name="labelOverallStatus" Owner="{EB74F288-488B-4592-BDA3-FDAFF18645D5}" />
+						</Child1>
+						<Child2 Name="buttonRefresh" Owner="{D9D04B1F-0B09-48FB-BE86-FFF7F1F9B36C}" />
 					</Child0>
 					<Child1 Name="groupResults" Owner="{716F31AB-F8A8-4FE0-875B-84B47D4DBD06}">
 						<Child0 Name="tabMainConfiguration" Owner="{2C5B70CE-630C-4E3D-BD74-7FF36C7F16DB}">
@@ -9485,7 +9583,15 @@
 						<Child1 Name="treeCategories" Owner="{0099AB39-F231-4BF1-9902-4A88BA54B76C}" />
 					</Child1>
 				</Child0>
+				<Child1 Name="panelMiddle" Owner="{3417C261-09A3-4314-9933-654010BCAB2B}">
+					<Child0 Name="groupOptions_Servers" Owner="{935603C0-DC79-4557-96D7-27F49A3F0FB2}">
+						<Child0 Name="radioServerGroup" Owner="{BFD1380F-47F9-469C-91C3-C1BCF6106DE3}" />
+					</Child0>
+				</Child1>
 			</Child18>
+			<Child19 Name="Form_Warning" Owner="{7DF6E16C-BD1B-4670-8B32-73853D2A265D}">
+				<Child0 Name="buttonCancel" Owner="{C1BC41C5-707A-4279-B2FB-1C07A5FAFCEF}" />
+			</Child19>
 		</Child14>
 		<Child15 Name="ATS_LoginCopy" Owner="{04B7E256-C58C-4349-ACBC-48637DEAD51F}">
 			<Child0 Name="frm_LoginCopy" Owner="{DD9B4AD6-F639-4E5F-87F8-2E72099E092F}">
@@ -11356,6 +11462,26 @@
 			<Property1692 Cookie="1823" PropertyType="0" Value="featureDescriptionLabel" Type="5" />
 			<Property1693 Cookie="1824" PropertyType="0" Value="featureHeaderLabel" Type="5" />
 			<Property1694 Cookie="1826" PropertyType="0" Value="MessageBoxDialog" Type="5" />
+			<Property1695 Cookie="1827" PropertyType="0" Value="labelNumberOfResults" Type="5" />
+			<Property1696 Cookie="1828" PropertyType="0" Value="featureImagePictureBox" Type="5" />
+			<Property1697 Cookie="1829" PropertyType="0" Value="Edit" Type="5" />
+			<Property1698 Cookie="1830" PropertyType="0" Value="" Type="5" />
+			<Property1699 Cookie="1837" PropertyType="0" Value="panelMiddle" Type="5" />
+			<Property1700 Cookie="1838" PropertyType="0" Value="groupOptions_Servers" Type="5" />
+			<Property1701 Cookie="1839" PropertyType="0" Value="radioServerGroup" Type="5" />
+			<Property1702 Cookie="1840" PropertyType="0" Value="groupStatus" Type="5" />
+			<Property1703 Cookie="1841" PropertyType="0" Value="labelOverallStatus" Type="5" />
+			<Property1704 Cookie="1842" PropertyType="0" Value="featureImagePictureBox" Type="5" />
+			<Property1705 Cookie="1843" PropertyType="0" Value="explorer" Type="5" />
+			<Property1706 Cookie="1844" PropertyType="0" Value="Shell_TrayWnd" Type="5" />
+			<Property1707 Cookie="1845" PropertyType="0" Value="ReBarWindow32" Type="5" />
+			<Property1708 Cookie="1846" PropertyType="0" Value="MSTaskSwWClass" Type="5" />
+			<Property1709 Cookie="1847" PropertyType="0" Value="Running applications" Type="5" />
+			<Property1710 Cookie="1848" PropertyType="0" Value="MSTaskListWClass" Type="5" />
+			<Property1711 Cookie="1849" PropertyType="0" Value="Running applications" Type="5" />
+			<Property1712 Cookie="1850" PropertyType="0" Value="buttonRefresh" Type="5" />
+			<Property1713 Cookie="1851" PropertyType="0" Value="Form_Warning" Type="5" />
+			<Property1714 Cookie="1852" PropertyType="0" Value="buttonCancel" Type="5" />
 		</Child0>
 	</Storages>
 	<TypeInfo StoreCodeCompletion="1">
@@ -77795,6 +77921,255 @@
 				<VarDescriptions />
 			</Data>
 		</Child364>
+		<Child365 Hash="157446646">
+			<Data Properties="79EDA964E35D7B4D80F23674D58D1FF50000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000800000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions>
+					<Child0 Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="00000000000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child0>
+					<Child1 Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="00000000000000000000000004000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child1>
+					<Child2 Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="00000000000000000000000004000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child2>
+					<Child3 Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="00000000000000000000000004000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child3>
+					<Child4 Name="Visible" IsBasic="True" Data="0000000000000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child4>
+					<Child5 Name="Width" IsBasic="True" Data="00000000000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child5>
+					<Child6 Name="Height" IsBasic="True" Data="00000000000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child6>
+					<Child7 Name="Enabled" IsBasic="True" Data="0000000000000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child7>
+				</FunctionDescriptions>
+				<VarDescriptions />
+			</Data>
+		</Child365>
+		<Child366 Hash="-1383865952">
+			<Data Properties="4426BF099919B947A08B21BFB1E96C5F0000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000B00000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions>
+					<Child0 Name="SetText" Doc="Enters text in the text editor." IsBasic="True" Param0="Text" Data="00000000000000000000000004000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child0>
+					<Child1 Name="wText" Doc="Contents of the edit control, as text string." IsBasic="True" Data="00000000000000000000000004000000020000000400000000000000000000000000000008000000000000000000000000000000">
+						<ReturnValue Param0="8" />
+					</Child1>
+					<Child2 Name="wSelection" Doc="Retrieves the selected text." IsBasic="True" Data="00000000000000000000000004000000020000000400000000000000000000000000000008000000000000000000000000000000">
+						<ReturnValue Param0="8" />
+					</Child2>
+					<Child3 Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="00000000000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child3>
+					<Child4 Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="00000000000000000000000004000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child4>
+					<Child5 Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="00000000000000000000000004000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child5>
+					<Child6 Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="00000000000000000000000004000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child6>
+					<Child7 Name="Visible" IsBasic="True" Data="0000000000000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child7>
+					<Child8 Name="Width" IsBasic="True" Data="00000000000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child8>
+					<Child9 Name="Height" IsBasic="True" Data="00000000000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child9>
+					<Child10 Name="Enabled" IsBasic="True" Data="0000000000000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child10>
+				</FunctionDescriptions>
+				<VarDescriptions />
+			</Data>
+		</Child366>
+		<Child367 Hash="157446646">
+			<Data Properties="F5607582DE307949BC13477973B6C3E30000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000800000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions>
+					<Child0 Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="00000000000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child0>
+					<Child1 Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="00000000000000000000000004000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child1>
+					<Child2 Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="00000000000000000000000004000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child2>
+					<Child3 Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="00000000000000000000000004000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child3>
+					<Child4 Name="Visible" IsBasic="True" Data="0000000000000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child4>
+					<Child5 Name="Width" IsBasic="True" Data="00000000000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child5>
+					<Child6 Name="Height" IsBasic="True" Data="00000000000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child6>
+					<Child7 Name="Enabled" IsBasic="True" Data="0000000000000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child7>
+				</FunctionDescriptions>
+				<VarDescriptions />
+			</Data>
+		</Child367>
+		<Child368 Hash="157446646">
+			<Data Properties="E2FA8EFC1B4F824F8C7D249681A9E4EE0000000000000000FFFFFFFFFFFFFFFF0000000000000000040000000800000000000000000000000000000000000000000000000000000000000000">
+				<FunctionDescriptions>
+					<Child0 Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="00000000000000000000000004000000010000000400000000000000000000000000000018000000000000000000000000000000">
+						<ReturnValue Param0="24" />
+					</Child0>
+					<Child1 Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="00000000000000000000000004000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child1>
+					<Child2 Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="00000000000000000000000004000000010000000400000003000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child2>
+					<Child3 Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="00000000000000000000000004000000010000000400000001000000000000000000000018000000000000000000000000000000">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child3>
+					<Child4 Name="Visible" IsBasic="True" Data="0000000000000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child4>
+					<Child5 Name="Width" IsBasic="True" Data="00000000000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child5>
+					<Child6 Name="Height" IsBasic="True" Data="00000000000000000000000004000000020000000400000000000000000000000000000013000000000000000000000000000000">
+						<ReturnValue Param0="19" />
+					</Child6>
+					<Child7 Name="Enabled" IsBasic="True" Data="0000000000000000000000000400000002000000040000000000000000000000000000000B000000000000000000000000000000">
+						<ReturnValue Param0="11" />
+					</Child7>
+				</FunctionDescriptions>
+				<VarDescriptions />
+			</Data>
+		</Child368>
 		<UserDefinedTypes Child0="GUID" Child1="DISPPARAMS" Child2="EXCEPINFO" Child3="TShiftKey" Child4="GUID" Child5="DISPPARAMS" Child6="EXCEPINFO" Child7="TShiftKey" Child8="GUID" Child9="DISPPARAMS" Child10="EXCEPINFO" Child11="TShiftKey" Child12="GUID" Child13="DISPPARAMS" Child14="EXCEPINFO" Child15="TShiftKey" Child16="GUID" Child17="DISPPARAMS" Child18="EXCEPINFO" Child19="TShiftKey" Child20="GUID" Child21="DISPPARAMS" Child22="EXCEPINFO" Child23="TShiftKey" Child24="GUID" Child25="DISPPARAMS" Child26="EXCEPINFO" Child27="TShiftKey" Child28="GUID" Child29="DISPPARAMS" Child30="EXCEPINFO" Child31="TShiftKey" />
 	</TypeInfo>
 </Root>
