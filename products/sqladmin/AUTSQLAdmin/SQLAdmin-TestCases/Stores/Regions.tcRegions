@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="item0000000000">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="listComparison1"/>
+					<Prp name="filename" type="S" value="Regions\listComparison1.png"/>
+					<Prp name="id" type="S" value="{F2387830-FB7C-4872-A370-969958B8D50D}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{F2387830-FB7C-4872-A370-969958B8D50D}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000001">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="listComparison2"/>
+					<Prp name="filename" type="S" value="Regions\listComparison2.png"/>
+					<Prp name="id" type="S" value="{FB0B55E3-1C26-400B-BB4B-8223BD26E329}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{FB0B55E3-1C26-400B-BB4B-8223BD26E329}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000002">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="listComparison3"/>
+					<Prp name="filename" type="S" value="Regions\listComparison3.png"/>
+					<Prp name="id" type="S" value="{51B1F2DA-841F-4457-90B5-BD2230438679}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="key" type="S" value="{51B1F2DA-841F-4457-90B5-BD2230438679}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000003">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="listComparison4"/>
+					<Prp name="filename" type="S" value="Regions\listComparison4.png"/>
+					<Prp name="id" type="S" value="{98F13A86-FA36-4C1E-8163-F67803D878E2}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="key" type="S" value="{98F13A86-FA36-4C1E-8163-F67803D878E2}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="item0000000004">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="listServers1"/>
+					<Prp name="filename" type="S" value="Regions\listServers1.png"/>
+					<Prp name="id" type="S" value="{60942099-7092-4E32-BA3E-85B8E4DF0F56}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="key" type="S" value="{60942099-7092-4E32-BA3E-85B8E4DF0F56}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+		</Node>
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}"/>
+		<Prp name="version" type="S" value="9.0"/>
+	</Node>
+</Nodes>
