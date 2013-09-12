@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="logs">
+			<Node name="log0">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="41521.6762662269"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{1D647E35-389F-44A7-B365-A837222094B3}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Unit3\Test1]"/>
+				<Prp name="relpath" type="S" value="9_4_2013_4_13 PM_49_391\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log1">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="41521.6765073495"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{F7024E7A-0609-420C-AB9F-36AB11584EC5}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Unit3\Test1]"/>
+				<Prp name="relpath" type="S" value="9_4_2013_4_14 PM_10_211\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log2">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="41521.6770495602"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="key" type="S" value="{F7B7FD62-BE91-4A42-8907-16E681BF4775}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TC12371_ATSServerPing_MonitorTheAvailability\TC12371]"/>
+				<Prp name="relpath" type="S" value="9_4_2013_4_14 PM_57_58\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log3">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="41521.6785164815"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="key" type="S" value="{C64895B4-5F43-4EE8-86C1-D86406E11970}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TC12310_ATSObjectSearch_SearchASingleDB\TC12310]"/>
+				<Prp name="relpath" type="S" value="9_4_2013_4_17 PM_03_822\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log4">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="41521.6807294329"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="key" type="S" value="{50A46B32-80FF-424A-BF26-ADA8D656CE64}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TC12310_ATSObjectSearch_SearchASingleDB\TC12310]"/>
+				<Prp name="relpath" type="S" value="9_4_2013_4_20 PM_15_22\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log5">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="41521.6814286111"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="key" type="S" value="{F2B851D2-A8AF-4B85-BCC6-EDC340A8E853}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TC12310_ATSObjectSearch_SearchASingleDB\TC12310]"/>
+				<Prp name="relpath" type="S" value="9_4_2013_4_21 PM_15_431\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log6">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="41521.6822570023"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="6"/>
+				<Prp name="key" type="S" value="{F4E754CE-373C-42CF-B7A6-A96F240D91FC}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TC12313_ATSObjectSearch_LimitNumberOfMatches\TC12313]"/>
+				<Prp name="relpath" type="S" value="9_4_2013_4_22 PM_27_4\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="7.0"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{3F4C0FFD-8D03-41F2-B2B0-E473B0640504}"/>
+			</Node>
+			<Node name="{3012a441-74f2-449f-871e-b1d2c9470a06}">
+				<Prp name="relpath" type="S" value="E:\Personal\Faster_Testing_Framework\ATCs\CommonRepository\CommonRepository.mds.tcLS"/>
+			</Node>
+			<Node name="{3f4c0ffd-8d03-41f2-b2b0-e473b0640504}">
+				<Prp name="relpath" type="S" value="SQLAdmin-TestCases\SQLAdmin-TestCases.mds.tcLS"/>
+			</Node>
+			<Node name="{446f5204-ceee-4d62-a6ff-9993b2f60a96}">
+				<Prp name="relpath" type="S" value="SQLAdminInstaller\SQLAdminInstaller.mds.tcLS"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{3A9C89BB-F592-4169-B2AF-651370C0618B}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

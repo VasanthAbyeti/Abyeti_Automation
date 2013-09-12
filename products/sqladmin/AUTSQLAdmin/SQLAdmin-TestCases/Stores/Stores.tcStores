@@ -22,13 +22,13 @@
 		<Node name="child list">
 			<Node name="item0000000000">
 				<Node name="item data">
-					<Prp name="relpath" type="S" value="Files.tcFiles"/>
+					<Prp name="relpath" type="S" value="Regions.tcRegions"/>
 				</Node>
 				<Prp name="index" type="I" value="0"/>
-				<Prp name="key" type="S" value="{11A79B88-194E-4F38-8A38-A8F0F4EE6B87}"/>
+				<Prp name="key" type="S" value="{209D78A3-B4E8-41B9-B713-2EA4EA24D430}"/>
 				<Prp name="pluginname" type="S" value="Stores"/>
-				<Prp name="type" type="S" value="{AA2F3067-5C9B-4CCF-89D4-1F93CE1C510F}"/>
-				<Prp name="typename" type="S" value="Files"/>
+				<Prp name="type" type="S" value="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}"/>
+				<Prp name="typename" type="S" value="Regions"/>
 			</Node>
 		</Node>
 		<Node name="folders">

@@ -24,6 +24,28 @@
 				<Node name="config">
 					<Node name="runmodeparams">
 						<Node name="debug">
+							<Prp name="parameters" type="S" value="/C start services.msc"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="cmd.exe"/>
+							<Prp name="filepath" type="S" value="C:\Windows\System32\"/>
+							<Prp name="parameters" type="S" value="/C start services.msc"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="LaunchWindowsServicesDatacenter"/>
+					<Prp name="userchangename" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{440ADA13-4E3F-426E-BC35-013FE69C593A}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item1">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
 							<Prp name="workfolder" type="S" value="C:\Program Files (x86)\Idera\SQL admin toolset"/>
 						</Node>
 						<Node name="simple">
@@ -42,7 +64,73 @@
 				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
 				<Prp name="typename" type="S" value="Tested Application"/>
 			</Node>
-			<Prp name="item count" type="I" value="1"/>
+			<Node name="item2">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value="/C sqlcmd -S.\SQLExpress -iF:\Idera\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\CreateSearchTestObjects.sql"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="cmd.exe"/>
+							<Prp name="filepath" type="S" value="C:\Windows\System32\"/>
+							<Prp name="parameters" type="S" value="/C sqlcmd -S.\SQLExpress -iF:\Idera\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\CreateSearchTestObjects.sql"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="cmd"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{C9A80435-91C4-406A-B40B-C5C63BA13AA2}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item3">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value="/C sqlcmd -S.\SQLExpress -iF:\Idera\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\CreateSearchTestObjects.sql"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="cmd.exe"/>
+							<Prp name="filepath" type="S" value="C:\Windows\System32\"/>
+							<Prp name="parameters" type="S" value="/C sqlcmd -S.\SQLExpress -iF:\Idera\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\CreateSearchTestObjects.sql"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="cmd1"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{19676849-9396-4548-9FA9-A99214B61C5A}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item4">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value="/C sqlcmd -S.\SQLExpress -iF:\Idera\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\CreateSearchTestObjects.sql"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="cmd.exe"/>
+							<Prp name="filepath" type="S" value="C:\Windows\System32\"/>
+							<Prp name="parameters" type="S" value="/C sqlcmd -S.\SQLExpress -iF:\Idera\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\CreateSearchTestObjects.sql"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="cmd2"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{BA96C9CF-61E6-4ADB-AFDB-A4952A53C2C2}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Prp name="item count" type="I" value="2"/>
 		</Node>
 		<Node name="config">
 			<Prp name="node name" type="S" value="TestedApps"/>
