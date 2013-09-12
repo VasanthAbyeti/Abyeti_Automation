@@ -100,6 +100,22 @@
 				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
 				<Prp name="typename" type="S" value="Region"/>
 			</Node>
+			<Node name="item0000000005">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="gridTables1"/>
+					<Prp name="filename" type="S" value="Regions\gridTables1.png"/>
+					<Prp name="id" type="S" value="{DD63D095-B41B-4059-AC1F-7EF42CA46D4A}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="9.0"/>
+				</Node>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="key" type="S" value="{DD63D095-B41B-4059-AC1F-7EF42CA46D4A}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
 		</Node>
 		<Node name="folders">
 			<Node name="folders"/>
