@@ -1,0 +1,1 @@
+select o.loginname, s.is_disabled from syslogins as o inner JOIN sys.sql_logins as s on s.name = o.name where o.name = 'HorseAdminUserD'
