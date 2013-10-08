@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="1721">
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="1778">
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
 		<Properties />
 		<Children>
@@ -133,7 +133,15 @@
 														<Properties>
 															<Property0 Name="NativeClrObject.Name" Cookie="674" />
 														</Properties>
-														<Children />
+														<Children>
+															<Child0 Name="featureImagePictureBox" Key="{8F86A123-98BA-4D0D-B5DD-BEB43C224856}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="1721" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="328" />
+															</Child0>
+														</Children>
 														<TypeInfo Item0="7" />
 													</Child7>
 													<Child8 Name="btn_DatabaseConfiguration" Key="{3D32CD4C-772F-4E3F-B8EE-EFF74768E613}" ParallelWalk="True">
@@ -190,7 +198,15 @@
 														<Properties>
 															<Property0 Name="NativeClrObject.Name" Cookie="520" />
 														</Properties>
-														<Children />
+														<Children>
+															<Child0 Name="featureDescriptionLabel" Key="{D48B1EC6-9526-4A09-8F89-F5E8F7E12B45}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="1722" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="328" />
+															</Child0>
+														</Children>
 														<TypeInfo Item0="7" />
 													</Child2>
 													<Child3 Name="btn_ServerPing" Key="{93EB4932-D9BC-4609-976D-3472296E0BE4}" ParallelWalk="True">
@@ -864,6 +880,21 @@
 																		<Children />
 																		<TypeInfo Item0="303" />
 																	</Child0>
+																	<Child1 Name="zstatusPanel" Key="{712B4FEF-3DC5-41E6-9509-4576D4F4F7CA}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="1723" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="Label_Shadow" Key="{09D01019-85EB-48FD-BFA7-BE64B18B8762}" ParallelWalk="True">
+																				<Properties>
+																					<Property0 Name="ClrFullClassName" Cookie="1724" />
+																				</Properties>
+																				<Children />
+																				<TypeInfo Item0="328" />
+																			</Child0>
+																		</Children>
+																		<TypeInfo Item0="328" />
+																	</Child1>
 																</Children>
 																<TypeInfo Item0="290" />
 															</Child0>
@@ -5858,7 +5889,16 @@
 																<Properties>
 																	<Property0 Name="NativeClrObject.Name" Cookie="562" />
 																</Properties>
-																<Children />
+																<Children>
+																	<Child0 Name="Item" Key="{05FE42C3-77BD-4C0F-8EFE-10820C7FB524}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="WndClass" Cookie="1725" />
+																			<Property1 Name="WndCaption" Cookie="1726" />
+																		</Properties>
+																		<Children />
+																		<TypeInfo Item0="328" />
+																	</Child0>
+																</Children>
 																<TypeInfo Item0="8" />
 															</Child0>
 															<Child1 Name="rbt_Groups" Key="{CEE2F6DA-B364-47B6-B663-3DCD9088F7DF}">
@@ -5912,7 +5952,16 @@
 														<Properties>
 															<Property0 Name="NativeClrObject.Name" Cookie="560" />
 														</Properties>
-														<Children />
+														<Children>
+															<Child0 Name="Item" Key="{6E533CA4-28B0-4808-A082-94196ACD6324}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="WndClass" Cookie="1727" />
+																	<Property1 Name="WndCaption" Cookie="1728" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="328" />
+															</Child0>
+														</Children>
 														<TypeInfo Item0="9" />
 													</Child0>
 													<Child1 Name="cbo_ReportType" Key="{2DFAF092-6D5F-44F0-897C-DED20CD8C96A}">
@@ -6011,6 +6060,22 @@
 								</Children>
 								<TypeInfo Item0="6" />
 							</Child1>
+							<Child2 Name="dlgSaveSnapshotAs" Key="{9EC8631F-4770-45D6-9940-96C82F642B8C}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="1729" />
+									<Property1 Name="WndCaption" Cookie="1730" />
+								</Properties>
+								<Children>
+									<Child0 Name="btnSave" Key="{A72FD024-25B9-4869-A38E-B908DA508D48}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="1731" />
+											<Property1 Name="WndCaption" Cookie="1732" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="328" />
+									</Child0>
+								</Children>
+							</Child2>
 						</Children>
 						<TypeInfo Item0="0" />
 					</Child13>
@@ -7398,6 +7463,69 @@
 								</Children>
 								<TypeInfo Item0="289" />
 							</Child17>
+							<Child18 Name="Form_Main" Key="{6EABABB6-DB78-42EA-9287-0F1ABE5D6837}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="NativeClrObject.Name" Cookie="1733" />
+								</Properties>
+								<Children>
+									<Child0 Name="panelBottom" Key="{CB01FC67-F866-4469-8EC4-824728AE53B2}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="1734" />
+										</Properties>
+										<Children>
+											<Child0 Name="groupResults" Key="{7FED496A-CA7E-4E45-906E-267455238B60}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="1735" />
+												</Properties>
+												<Children>
+													<Child0 Name="tabMainConfiguration" Key="{8DADBF01-DF40-473A-A52B-FB4C78002F37}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="1736" />
+														</Properties>
+														<Children>
+															<Child0 Name="tabControlPanel2" Key="{72750936-9B72-42D2-A602-031CF2BE33A2}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="1737" />
+																</Properties>
+																<Children>
+																	<Child0 Name="PanelConfigurationContainer" Key="{30BF6863-C6F7-4E01-BC1F-F8787D870682}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="1738" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="PanelRightConfiguration" Key="{2FB1A48B-B967-47D1-B2D5-824E1B3F5F63}" ParallelWalk="True">
+																				<Properties>
+																					<Property0 Name="NativeClrObject.Name" Cookie="1739" />
+																				</Properties>
+																				<Children>
+																					<Child0 Name="listResults" Key="{18891824-8BC3-4134-BE90-1178AF397155}" ParallelWalk="True">
+																						<Properties>
+																							<Property0 Name="NativeClrObject.Name" Cookie="1740" />
+																						</Properties>
+																						<Children />
+																						<TypeInfo Item0="328" />
+																					</Child0>
+																				</Children>
+																				<TypeInfo Item0="328" />
+																			</Child0>
+																		</Children>
+																		<TypeInfo Item0="328" />
+																	</Child0>
+																</Children>
+																<TypeInfo Item0="328" />
+															</Child0>
+														</Children>
+														<TypeInfo Item0="328" />
+													</Child0>
+												</Children>
+												<TypeInfo Item0="328" />
+											</Child0>
+										</Children>
+										<TypeInfo Item0="328" />
+									</Child0>
+								</Children>
+								<TypeInfo Item0="328" />
+							</Child18>
 						</Children>
 						<TypeInfo Item0="0" />
 					</Child14>
@@ -7951,6 +8079,200 @@
 						</Children>
 						<TypeInfo Item0="328" />
 					</Child16>
+					<Child17 Name="explorer" Key="{6BCDD0E0-8202-4EC2-967D-0C2684AE91BC}" ParallelWalk="True">
+						<Properties>
+							<Property0 Name="ProcessName" Cookie="1741" />
+						</Properties>
+						<Children>
+							<Child0 Name="dlgWindowsInstaller" Key="{8F67F286-7C2A-4D6D-B433-0E35ED74ED00}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="1742" />
+									<Property1 Name="WndCaption" Cookie="1743" />
+								</Properties>
+								<Children />
+								<TypeInfo Item0="328" />
+							</Child0>
+							<Child1 Name="wndCabinetWClass" Key="{8E50F4C9-34F9-479A-8D6F-BCF4CF5D6C9A}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="1744" />
+									<Property1 Name="WndCaption" Cookie="1745" />
+								</Properties>
+								<Children>
+									<Child0 Name="ShellTabWindowClass" Key="{8E0A9E5C-2D8C-459B-AADF-149240C1C8F0}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="1746" />
+											<Property1 Name="WndCaption" Cookie="1747" />
+										</Properties>
+										<Children>
+											<Child0 Name="DUIViewWndClassName" Key="{A2D3E073-4D9B-42F7-82CA-A7BB7A31B9C4}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="WndClass" Cookie="1748" />
+												</Properties>
+												<Children>
+													<Child0 Name="DirectUIHWND" Key="{79D5C01A-9C57-4FBF-AA5B-117D9B971CC7}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="WndClass" Cookie="1749" />
+														</Properties>
+														<Children>
+															<Child0 Name="CtrlNotifySink" Key="{D089CED9-6CD0-4737-8A61-F4DBC2A85208}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="WndClass" Cookie="1750" />
+																	<Property1 Name="WndCaption" Cookie="1751" />
+																	<Property2 Name="Index" Cookie="1752" />
+																</Properties>
+																<Children>
+																	<Child0 Name="ShellView" Key="{891DB09C-6CF6-42EF-9082-DFDE650798BE}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="WndClass" Cookie="1753" />
+																			<Property1 Name="WndCaption" Cookie="1754" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="FolderView" Key="{82839978-B7D4-4017-86EE-ED2BD2130543}" ParallelWalk="True">
+																				<Properties>
+																					<Property0 Name="WndClass" Cookie="1755" />
+																					<Property1 Name="WndCaption" Cookie="1756" />
+																				</Properties>
+																				<Children />
+																				<TypeInfo Item0="328" />
+																			</Child0>
+																		</Children>
+																	</Child0>
+																</Children>
+															</Child0>
+														</Children>
+													</Child0>
+												</Children>
+											</Child0>
+										</Children>
+									</Child0>
+								</Children>
+							</Child1>
+							<Child2 Name="dlgProgramsAndFeatures" Key="{4A7080C9-F304-403E-9CAF-BE83BB6FB835}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="WndClass" Cookie="1757" />
+									<Property1 Name="WndCaption" Cookie="1758" />
+								</Properties>
+								<Children>
+									<Child0 Name="DirectUIHWND" Key="{0AFB7148-9422-44AF-8855-BE7EBB43BD03}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="1759" />
+										</Properties>
+										<Children>
+											<Child0 Name="CtrlNotifySink" Key="{7BB81323-AB55-4BEC-ACEA-AC248159A408}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="WndClass" Cookie="1760" />
+													<Property1 Name="WndCaption" Cookie="1761" />
+													<Property2 Name="Index" Cookie="1762" />
+												</Properties>
+												<Children>
+													<Child0 Name="btnYes" Key="{D650C5D1-4C40-45B5-97F4-6775883DF335}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="WndClass" Cookie="1763" />
+															<Property1 Name="WndCaption" Cookie="1764" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="328" />
+													</Child0>
+												</Children>
+											</Child0>
+										</Children>
+									</Child0>
+								</Children>
+							</Child2>
+						</Children>
+						<TypeInfo Item0="328" />
+					</Child17>
+					<Child18 Name="ServerConfiguration" Key="{08E2B442-C78B-4D6F-86CF-7AB29675711D}" ParallelWalk="True">
+						<Properties>
+							<Property0 Name="ProcessName" Cookie="1765" />
+						</Properties>
+						<Children>
+							<Child0 Name="Form_Main" Key="{74E01BD8-FBE1-4CD8-BD2E-51E27EE61174}" ParallelWalk="True">
+								<Properties>
+									<Property0 Name="NativeClrObject.Name" Cookie="1766" />
+								</Properties>
+								<Children>
+									<Child0 Name="panelMiddle" Key="{6DD52BED-423C-4AB4-8C73-09DF35DCB075}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="1767" />
+										</Properties>
+										<Children>
+											<Child0 Name="groupPanel1" Key="{CD23C335-29C2-49C0-8A90-D11EF3FCB4A5}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="1768" />
+												</Properties>
+												<Children>
+													<Child0 Name="buttonGetConfiguration" Key="{11572EBF-3C77-4F44-9338-4C84E37172CC}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="1769" />
+														</Properties>
+														<Children />
+														<TypeInfo Item0="328" />
+													</Child0>
+													<Child1 Name="ServerSelection" Key="{F0B9A284-F01E-4C53-AA0B-0993430C26B3}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="1770" />
+														</Properties>
+														<Children>
+															<Child0 Name="textServer" Key="{E684A868-83A8-4ABF-AC29-F4916B799B7D}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="1771" />
+																</Properties>
+																<Children />
+																<TypeInfo Item0="328" />
+															</Child0>
+														</Children>
+													</Child1>
+												</Children>
+											</Child0>
+										</Children>
+									</Child0>
+									<Child1 Name="panelBottom" Key="{30D4AA33-3CFE-4757-AE1F-436B8B5FDE5A}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="NativeClrObject.Name" Cookie="1772" />
+										</Properties>
+										<Children>
+											<Child0 Name="groupResults" Key="{455FC57D-27B2-4996-A4DB-56B4F138C5B6}" ParallelWalk="True">
+												<Properties>
+													<Property0 Name="NativeClrObject.Name" Cookie="1773" />
+												</Properties>
+												<Children>
+													<Child0 Name="tabMainConfiguration" Key="{2D76ECEC-0D82-49DD-B6B8-59D313BB5DE5}" ParallelWalk="True">
+														<Properties>
+															<Property0 Name="NativeClrObject.Name" Cookie="1774" />
+														</Properties>
+														<Children>
+															<Child0 Name="tabControlPanel2" Key="{C0EC4B9F-7FDF-4A6B-945C-50AFA6749801}" ParallelWalk="True">
+																<Properties>
+																	<Property0 Name="NativeClrObject.Name" Cookie="1775" />
+																</Properties>
+																<Children>
+																	<Child0 Name="PanelConfigurationContainer" Key="{190D278C-67D7-4A4F-97BF-80BA4863D586}" ParallelWalk="True">
+																		<Properties>
+																			<Property0 Name="NativeClrObject.Name" Cookie="1776" />
+																		</Properties>
+																		<Children>
+																			<Child0 Name="listServers" Key="{4DBECC6E-8307-4678-AE89-F150A30B4635}" ParallelWalk="True">
+																				<Properties>
+																					<Property0 Name="NativeClrObject.Name" Cookie="1777" />
+																				</Properties>
+																				<Children />
+																				<TypeInfo Item0="328" />
+																			</Child0>
+																		</Children>
+																	</Child0>
+																</Children>
+															</Child0>
+														</Children>
+													</Child0>
+												</Children>
+											</Child0>
+										</Children>
+									</Child1>
+								</Children>
+							</Child0>
+						</Children>
+					</Child18>
 				</Children>
 			</Child0>
 		</Children>
@@ -7975,7 +8297,9 @@
 					<Child4 Name="btn_LinkedServerCopy" Owner="{9B1D3AE6-3917-4DDE-99F9-32469749710D}" />
 					<Child5 Name="btn_LoginCopy" Owner="{4D323606-8454-4BD4-A42B-982225724792}" />
 					<Child6 Name="btn_UserClone" Owner="{3D2D7AF1-B626-4AF0-B577-26792DDB5117}" />
-					<Child7 Name="btn_ServerConfiguration" Owner="{6F7675E3-1B36-4E79-93D7-32951D7177BD}" />
+					<Child7 Name="btn_ServerConfiguration" Owner="{6F7675E3-1B36-4E79-93D7-32951D7177BD}">
+						<Child0 Name="featureImagePictureBox" Owner="{8F86A123-98BA-4D0D-B5DD-BEB43C224856}" />
+					</Child7>
 					<Child8 Name="btn_DatabaseConfiguration" Owner="{3D32CD4C-772F-4E3F-B8EE-EFF74768E613}" />
 					<Child9 Name="btn_MultiQuery" Owner="{8E42ACCD-108B-46F2-A2AC-2F242B218AD4}" />
 					<Child10 Name="btn_JobMover" Owner="{BBDE78CC-A8C3-4F94-A931-4FDD8591357E}" />
@@ -7984,7 +8308,9 @@
 				<Child3 Name="pnl_Analytics" Owner="{2F4241DE-F992-4294-9595-4AC47A0375AB}">
 					<Child0 Name="btn_PatchAnalyzer" Owner="{EF0EDD4E-F256-40C9-A658-5C99E15C5D93}" />
 					<Child1 Name="btn_SpaceAnalyzer" Owner="{E714E3BE-B24C-4819-B6F9-9100BC27528C}" />
-					<Child2 Name="btn_InventoryReporter" Owner="{E9718B01-D19A-45B6-A9F5-D941DC3F6C58}" />
+					<Child2 Name="btn_InventoryReporter" Owner="{E9718B01-D19A-45B6-A9F5-D941DC3F6C58}">
+						<Child0 Name="featureDescriptionLabel" Owner="{D48B1EC6-9526-4A09-8F89-F5E8F7E12B45}" />
+					</Child2>
 					<Child3 Name="btn_ServerPing" Owner="{93EB4932-D9BC-4609-976D-3472296E0BE4}" />
 					<Child4 Name="btn_ServerStatistics" Owner="{2D5A0D10-8B9F-41A7-B682-71CC607D3714}" />
 				</Child3>
@@ -8067,6 +8393,9 @@
 				<Child3 Name="btn_Try" Owner="{E3E57C3D-E61C-4B5D-ADBC-1E6F4965BE3C}" />
 				<Child4 Name="btn_Register" Owner="{68D02872-7A0F-49AD-A58A-51D3D1F6151D}" />
 				<Child5 Name="btn_extend" Owner="{DC2943F1-AA47-4C4C-B87E-B2897A9764C1}" />
+				<Child6 Name="zstatusPanel" Owner="{712B4FEF-3DC5-41E6-9509-4576D4F4F7CA}">
+					<Child0 Name="Label_Shadow" Owner="{09D01019-85EB-48FD-BFA7-BE64B18B8762}" />
+				</Child6>
 			</Child10>
 		</Child0>
 		<Child1 Name="ATS_BackupStatus" Owner="{0CAC5729-FF42-4212-B47F-7C2DBD33859B}">
@@ -8731,13 +9060,17 @@
 				<Child3 Name="btn_Credentials" Owner="{59461C0F-1061-405D-867B-99CE9CA01766}" />
 				<Child4 Name="rbt_Groups" Owner="{CEE2F6DA-B364-47B6-B663-3DCD9088F7DF}" />
 				<Child5 Name="rbt_Servers" Owner="{D5FA34C8-754F-4AB0-AE4E-4B336EF0CBB3}" />
-				<Child6 Name="txt_Server" Owner="{C81875C1-2C24-4380-A30C-63453B4F8929}" />
+				<Child6 Name="txt_Server" Owner="{C81875C1-2C24-4380-A30C-63453B4F8929}">
+					<Child0 Name="Item" Owner="{05FE42C3-77BD-4C0F-8EFE-10820C7FB524}" />
+				</Child6>
 				<Child7 Name="lnk_WmiErrorDetails" Owner="{8FB1B36F-FB47-44F1-93A5-6443E8073A70}" />
 				<Child8 Name="pnl_Results" Owner="{900D1A1E-403D-4901-8447-A32A2E070F6F}">
 					<Child0 Name="lnk_WmiErrorDetails" Owner="{8FB1B36F-FB47-44F1-93A5-6443E8073A70}" />
 					<Child1 Name="pnl_Bar" Owner="{B7431BDD-FCF8-4DF4-B0E9-BEC2A54D1115}" />
 					<Child2 Name="cbo_ReportType" Owner="{2DFAF092-6D5F-44F0-897C-DED20CD8C96A}" />
-					<Child3 Name="lst_Inventory" Owner="{E676F92C-C73A-4246-991B-4E33708DC59C}" />
+					<Child3 Name="lst_Inventory" Owner="{E676F92C-C73A-4246-991B-4E33708DC59C}">
+						<Child0 Name="Item" Owner="{6E533CA4-28B0-4808-A082-94196ACD6324}" />
+					</Child3>
 				</Child8>
 			</Child0>
 			<Child1 Name="frm_OpenSnapshot" Owner="{312F210F-51B6-496C-A1B5-A72E6796F045}">
@@ -8747,6 +9080,9 @@
 				<Child3 Name="btn_Cancel" Owner="{FD9296E0-B6B8-4B4F-A19A-F36F751702AF}" />
 				<Child4 Name="chk_ClearAll" Owner="{2D142209-33BF-4EA5-9190-5F5E40569856}" />
 			</Child1>
+			<Child2 Name="dlgSaveSnapshotAs" Owner="{9EC8631F-4770-45D6-9940-96C82F642B8C}">
+				<Child0 Name="btnSave" Owner="{A72FD024-25B9-4869-A38E-B908DA508D48}" />
+			</Child2>
 		</Child13>
 		<Child14 Name="ATS_CommonForms" Owner="{A2385EC1-0184-4F46-9C8D-AB7C758FF6C5}">
 			<Child0 Name="frm_SQLServerBrowse" Owner="{5D1C6412-E802-479F-AA14-B0C7F1E32CC5}">
@@ -8891,6 +9227,21 @@
 				</Child0>
 				<Child1 Name="pnl_Viewer" Owner="{53FBCD14-5039-49BC-989D-8C6FEF93668F}" />
 			</Child17>
+			<Child18 Name="Form_Main" Owner="{6EABABB6-DB78-42EA-9287-0F1ABE5D6837}">
+				<Child0 Name="panelBottom" Owner="{CB01FC67-F866-4469-8EC4-824728AE53B2}">
+					<Child0 Name="groupResults" Owner="{7FED496A-CA7E-4E45-906E-267455238B60}">
+						<Child0 Name="tabMainConfiguration" Owner="{8DADBF01-DF40-473A-A52B-FB4C78002F37}">
+							<Child0 Name="tabControlPanel2" Owner="{72750936-9B72-42D2-A602-031CF2BE33A2}">
+								<Child0 Name="PanelConfigurationContainer" Owner="{30BF6863-C6F7-4E01-BC1F-F8787D870682}">
+									<Child0 Name="PanelRightConfiguration" Owner="{2FB1A48B-B967-47D1-B2D5-824E1B3F5F63}">
+										<Child0 Name="listResults" Owner="{18891824-8BC3-4134-BE90-1178AF397155}" />
+									</Child0>
+								</Child0>
+							</Child0>
+						</Child0>
+					</Child0>
+				</Child0>
+			</Child18>
 		</Child14>
 		<Child15 Name="ATS_LoginCopy" Owner="{04B7E256-C58C-4349-ACBC-48637DEAD51F}">
 			<Child0 Name="frm_LoginCopy" Owner="{DD9B4AD6-F639-4E5F-87F8-2E72099E092F}">
@@ -8977,6 +9328,52 @@
 			<Child25 Name="frm_ReadyToRepair" Owner="{F946EADB-C7D9-4740-9F61-B1CDECD32755}" />
 			<Child26 Name="Label_Version" Owner="{79D38398-F98D-4B1C-A9C5-F471A4DFD8A3}" />
 		</Child16>
+		<Child17 Name="explorer" Owner="{6BCDD0E0-8202-4EC2-967D-0C2684AE91BC}">
+			<Child0 Name="dlgWindowsInstaller" Owner="{8F67F286-7C2A-4D6D-B433-0E35ED74ED00}" />
+			<Child1 Name="wndCabinetWClass" Owner="{8E50F4C9-34F9-479A-8D6F-BCF4CF5D6C9A}">
+				<Child0 Name="ShellTabWindowClass" Owner="{8E0A9E5C-2D8C-459B-AADF-149240C1C8F0}">
+					<Child0 Name="DUIViewWndClassName" Owner="{A2D3E073-4D9B-42F7-82CA-A7BB7A31B9C4}">
+						<Child0 Name="DirectUIHWND" Owner="{79D5C01A-9C57-4FBF-AA5B-117D9B971CC7}">
+							<Child0 Name="CtrlNotifySink" Owner="{D089CED9-6CD0-4737-8A61-F4DBC2A85208}">
+								<Child0 Name="ShellView" Owner="{891DB09C-6CF6-42EF-9082-DFDE650798BE}">
+									<Child0 Name="FolderView" Owner="{82839978-B7D4-4017-86EE-ED2BD2130543}" />
+								</Child0>
+							</Child0>
+						</Child0>
+					</Child0>
+				</Child0>
+			</Child1>
+			<Child2 Name="dlgProgramsAndFeatures" Owner="{4A7080C9-F304-403E-9CAF-BE83BB6FB835}">
+				<Child0 Name="DirectUIHWND" Owner="{0AFB7148-9422-44AF-8855-BE7EBB43BD03}">
+					<Child0 Name="CtrlNotifySink" Owner="{7BB81323-AB55-4BEC-ACEA-AC248159A408}">
+						<Child0 Name="btnYes" Owner="{D650C5D1-4C40-45B5-97F4-6775883DF335}" />
+					</Child0>
+				</Child0>
+			</Child2>
+		</Child17>
+		<Child18 Name="ServerConfiguration" Owner="{08E2B442-C78B-4D6F-86CF-7AB29675711D}">
+			<Child0 Name="Form_Main" Owner="{74E01BD8-FBE1-4CD8-BD2E-51E27EE61174}">
+				<Child0 Name="panelMiddle" Owner="{6DD52BED-423C-4AB4-8C73-09DF35DCB075}">
+					<Child0 Name="groupPanel1" Owner="{CD23C335-29C2-49C0-8A90-D11EF3FCB4A5}">
+						<Child0 Name="buttonGetConfiguration" Owner="{11572EBF-3C77-4F44-9338-4C84E37172CC}" />
+						<Child1 Name="ServerSelection" Owner="{F0B9A284-F01E-4C53-AA0B-0993430C26B3}">
+							<Child0 Name="textServer" Owner="{E684A868-83A8-4ABF-AC29-F4916B799B7D}" />
+						</Child1>
+					</Child0>
+				</Child0>
+				<Child1 Name="panelBottom" Owner="{30D4AA33-3CFE-4757-AE1F-436B8B5FDE5A}">
+					<Child0 Name="groupResults" Owner="{455FC57D-27B2-4996-A4DB-56B4F138C5B6}">
+						<Child0 Name="tabMainConfiguration" Owner="{2D76ECEC-0D82-49DD-B6B8-59D313BB5DE5}">
+							<Child0 Name="tabControlPanel2" Owner="{C0EC4B9F-7FDF-4A6B-945C-50AFA6749801}">
+								<Child0 Name="PanelConfigurationContainer" Owner="{190D278C-67D7-4A4F-97BF-80BA4863D586}">
+									<Child0 Name="listServers" Owner="{4DBECC6E-8307-4678-AE89-F150A30B4635}" />
+								</Child0>
+							</Child0>
+						</Child0>
+					</Child0>
+				</Child1>
+			</Child0>
+		</Child18>
 	</LogicalNodes>
 	<Storages Current="0">
 		<Child0 Name="Default Configuration">
@@ -10596,6 +10993,63 @@
 			<Property1613 Cookie="1708" PropertyType="0" Value="Ready to Repair the Program" Type="5" />
 			<Property1614 Cookie="1713" PropertyType="0" Value="Static" Type="5" />
 			<Property1615 Cookie="1714" PropertyType="0" Value="Version*" Type="5" />
+			<Property1616 Cookie="1721" PropertyType="0" Value="featureImagePictureBox" Type="5" />
+			<Property1617 Cookie="1722" PropertyType="0" Value="featureDescriptionLabel" Type="5" />
+			<Property1618 Cookie="1723" PropertyType="0" Value="_statusPanel" Type="5" />
+			<Property1619 Cookie="1724" PropertyType="0" Value="DeployLX.Licensing.v4.ShadowLabel" Type="5" />
+			<Property1620 Cookie="1725" PropertyType="0" Value="Edit" Type="5" />
+			<Property1621 Cookie="1726" PropertyType="0" Value="" Type="5" />
+			<Property1622 Cookie="1727" PropertyType="0" Value="SysHeader32" Type="5" />
+			<Property1623 Cookie="1728" PropertyType="0" Value="" Type="5" />
+			<Property1624 Cookie="1729" PropertyType="0" Value="#32770" Type="5" />
+			<Property1625 Cookie="1730" PropertyType="0" Value="Save Snapshot As" Type="5" />
+			<Property1626 Cookie="1731" PropertyType="0" Value="Button" Type="5" />
+			<Property1627 Cookie="1732" PropertyType="0" Value="&amp;Save" Type="5" />
+			<Property1628 Cookie="1733" PropertyType="0" Value="Form_Main" Type="5" />
+			<Property1629 Cookie="1734" PropertyType="0" Value="panelBottom" Type="5" />
+			<Property1630 Cookie="1735" PropertyType="0" Value="groupResults" Type="5" />
+			<Property1631 Cookie="1736" PropertyType="0" Value="tabMainConfiguration" Type="5" />
+			<Property1632 Cookie="1737" PropertyType="0" Value="tabControlPanel2" Type="5" />
+			<Property1633 Cookie="1738" PropertyType="0" Value="PanelConfigurationContainer" Type="5" />
+			<Property1634 Cookie="1739" PropertyType="0" Value="PanelRightConfiguration" Type="5" />
+			<Property1635 Cookie="1740" PropertyType="0" Value="listResults" Type="5" />
+			<Property1636 Cookie="1741" PropertyType="0" Value="explorer" Type="5" />
+			<Property1637 Cookie="1742" PropertyType="0" Value="#32770" Type="5" />
+			<Property1638 Cookie="1743" PropertyType="0" Value="Windows Installer" Type="5" />
+			<Property1639 Cookie="1744" PropertyType="0" Value="CabinetWClass" Type="5" />
+			<Property1640 Cookie="1745" PropertyType="0" Value="Programs and Features" Type="5" />
+			<Property1641 Cookie="1746" PropertyType="0" Value="ShellTabWindowClass" Type="5" />
+			<Property1642 Cookie="1747" PropertyType="0" Value="Programs and Features" Type="5" />
+			<Property1643 Cookie="1748" PropertyType="0" Value="DUIViewWndClassName" Type="5" />
+			<Property1644 Cookie="1749" PropertyType="0" Value="DirectUIHWND" Type="5" />
+			<Property1645 Cookie="1750" PropertyType="0" Value="CtrlNotifySink" Type="5" />
+			<Property1646 Cookie="1751" PropertyType="0" Value="" Type="5" />
+			<Property1647 Cookie="1752" PropertyType="0" Value="1" Type="0" />
+			<Property1648 Cookie="1753" PropertyType="0" Value="SHELLDLL_DefView" Type="5" />
+			<Property1649 Cookie="1754" PropertyType="0" Value="ShellView" Type="5" />
+			<Property1650 Cookie="1755" PropertyType="0" Value="SysListView32" Type="5" />
+			<Property1651 Cookie="1756" PropertyType="0" Value="FolderView" Type="5" />
+			<Property1652 Cookie="1757" PropertyType="0" Value="#32770" Type="5" />
+			<Property1653 Cookie="1758" PropertyType="0" Value="Programs and Features" Type="5" />
+			<Property1654 Cookie="1759" PropertyType="0" Value="DirectUIHWND" Type="5" />
+			<Property1655 Cookie="1760" PropertyType="0" Value="CtrlNotifySink" Type="5" />
+			<Property1656 Cookie="1761" PropertyType="0" Value="" Type="5" />
+			<Property1657 Cookie="1762" PropertyType="0" Value="7" Type="0" />
+			<Property1658 Cookie="1763" PropertyType="0" Value="Button" Type="5" />
+			<Property1659 Cookie="1764" PropertyType="0" Value="&amp;Yes" Type="5" />
+			<Property1660 Cookie="1765" PropertyType="0" Value="ServerConfiguration" Type="5" />
+			<Property1661 Cookie="1766" PropertyType="0" Value="Form_Main" Type="5" />
+			<Property1662 Cookie="1767" PropertyType="0" Value="panelMiddle" Type="5" />
+			<Property1663 Cookie="1768" PropertyType="0" Value="groupPanel1" Type="5" />
+			<Property1664 Cookie="1769" PropertyType="0" Value="buttonGetConfiguration" Type="5" />
+			<Property1665 Cookie="1770" PropertyType="0" Value="ServerSelection" Type="5" />
+			<Property1666 Cookie="1771" PropertyType="0" Value="textServer" Type="5" />
+			<Property1667 Cookie="1772" PropertyType="0" Value="panelBottom" Type="5" />
+			<Property1668 Cookie="1773" PropertyType="0" Value="groupResults" Type="5" />
+			<Property1669 Cookie="1774" PropertyType="0" Value="tabMainConfiguration" Type="5" />
+			<Property1670 Cookie="1775" PropertyType="0" Value="tabControlPanel2" Type="5" />
+			<Property1671 Cookie="1776" PropertyType="0" Value="PanelConfigurationContainer" Type="5" />
+			<Property1672 Cookie="1777" PropertyType="0" Value="listServers" Type="5" />
 		</Child0>
 	</Storages>
 	<TypeInfo StoreCodeCompletion="1">
