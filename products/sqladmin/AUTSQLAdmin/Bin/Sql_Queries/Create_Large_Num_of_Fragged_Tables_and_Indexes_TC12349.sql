@@ -10,6 +10,7 @@ GO
 
 set nocount on
 
+SET QUOTED_IDENTIFIER ON;
 
 
 declare @i int

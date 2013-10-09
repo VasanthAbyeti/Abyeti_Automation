@@ -9,6 +9,8 @@ GO
 
 set nocount on
 
+SET QUOTED_IDENTIFIER ON;
+
 declare @i int
 declare @x int
 declare @all_tables table (ID int IDENTITY, name sysname)
@@ -20,7 +22,7 @@ declare @sql nvarchar(4000)
 
 -- Set number of new tables to be created
 -- Existing tables will be dropped
-set @num_tables = 20
+set @num_tables = 20;
 
 
 
@@ -31,7 +33,7 @@ insert into @all_tables (name) select name
 								where name like 'defrag_part_table_%' 
 								and type = 'U'
 
-set @i = 1
+set @i = 1;
 select @drop_table_count = count(*) from @all_tables
 
 while (@i <= @drop_table_count)
@@ -47,7 +49,7 @@ begin
 end
 
 --create the new tables and indexes 
-set @i = 1
+set @i = 1;
 
 
 while (@i <= @num_tables)
@@ -75,9 +77,9 @@ end
 
 -- Populate the tables
 
-set @i = 1
-set @x = 1
-set @max_rows = 5000
+set @i = 1;
+set @x = 1;
+set @max_rows = 5000;
 
 While (@i <= @num_tables)
 begin
