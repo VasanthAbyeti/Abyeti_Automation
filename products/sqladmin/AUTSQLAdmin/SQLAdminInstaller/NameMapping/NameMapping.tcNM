@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="1778">
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="4" Cookie="1784">
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
 		<Properties />
 		<Children>
@@ -949,7 +949,16 @@
 																		<Properties>
 																			<Property0 Name="NativeClrObject.Name" Cookie="56" />
 																		</Properties>
-																		<Children />
+																		<Children>
+																			<Child0 Name="Item" Key="{A0DE454F-9A91-4A5A-A5AB-4FDFA261C788}" ParallelWalk="True">
+																				<Properties>
+																					<Property0 Name="WndClass" Cookie="1778" />
+																					<Property1 Name="WndCaption" Cookie="1779" />
+																				</Properties>
+																				<Children />
+																				<TypeInfo Item0="328" />
+																			</Child0>
+																		</Children>
 																		<TypeInfo Item0="8" />
 																	</Child0>
 																	<Child1 Name="rbt_Servers" Key="{7AD3B30B-7130-409F-9F50-01052103EECC}">
@@ -8073,6 +8082,22 @@
 										<Children />
 										<TypeInfo Item0="286" />
 									</Child37>
+									<Child38 Name="Label_WarningDotNETFrameworkVersion2" Key="{4F8A3840-58E0-4C58-8FC7-4F964A842D07}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="1780" />
+											<Property1 Name="WndCaption" Cookie="1781" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="328" />
+									</Child38>
+									<Child39 Name="Button_OKForDotNet" Key="{01FD1316-8A49-4417-B995-1BF6D0767DE8}" ParallelWalk="True">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="1782" />
+											<Property1 Name="WndCaption" Cookie="1783" />
+										</Properties>
+										<Children />
+										<TypeInfo Item0="328" />
+									</Child39>
 								</Children>
 								<TypeInfo Item0="328" />
 							</Child0>
@@ -8408,7 +8433,9 @@
 				<Child5 Name="rbt_Servers" Owner="{7AD3B30B-7130-409F-9F50-01052103EECC}" />
 				<Child6 Name="chk_SkipDatabasesWithBackup" Owner="{7847C4E7-3E04-4E76-9730-4F7DA8653F7D}" />
 				<Child7 Name="chk_SkipSystemDatabases" Owner="{576AC34A-5DA7-4537-9802-725C9568CF55}" />
-				<Child8 Name="txt_Server" Owner="{19342D66-B255-46B1-A8E8-871B0F6B7A7E}" />
+				<Child8 Name="txt_Server" Owner="{19342D66-B255-46B1-A8E8-871B0F6B7A7E}">
+					<Child0 Name="Item" Owner="{A0DE454F-9A91-4A5A-A5AB-4FDFA261C788}" />
+				</Child8>
 				<Child9 Name="rbt_ServerGroup" Owner="{7F0DD332-C792-4BF0-A741-BD49F4498314}" />
 				<Child10 Name="lnk_Days" Owner="{F415BA2F-4963-4D40-B609-F0A735E549A2}" />
 				<Child11 Name="pnl_Results" Owner="{E30D0B8D-13F7-47C8-B0BE-53FBAF7FA1E1}">
@@ -9327,6 +9354,8 @@
 			<Child24 Name="rbt_Repair" Owner="{C57B68AB-13F0-49A4-8239-DB1D187E87D8}" />
 			<Child25 Name="frm_ReadyToRepair" Owner="{F946EADB-C7D9-4740-9F61-B1CDECD32755}" />
 			<Child26 Name="Label_Version" Owner="{79D38398-F98D-4B1C-A9C5-F471A4DFD8A3}" />
+			<Child27 Name="Label_WarningDotNETFrameworkVersion2" Owner="{4F8A3840-58E0-4C58-8FC7-4F964A842D07}" />
+			<Child28 Name="Button_OKForDotNet" Owner="{01FD1316-8A49-4417-B995-1BF6D0767DE8}" />
 		</Child16>
 		<Child17 Name="explorer" Owner="{6BCDD0E0-8202-4EC2-967D-0C2684AE91BC}">
 			<Child0 Name="dlgWindowsInstaller" Owner="{8F67F286-7C2A-4D6D-B433-0E35ED74ED00}" />
@@ -11050,6 +11079,12 @@
 			<Property1670 Cookie="1775" PropertyType="0" Value="tabControlPanel2" Type="5" />
 			<Property1671 Cookie="1776" PropertyType="0" Value="PanelConfigurationContainer" Type="5" />
 			<Property1672 Cookie="1777" PropertyType="0" Value="listServers" Type="5" />
+			<Property1673 Cookie="1778" PropertyType="0" Value="Edit" Type="5" />
+			<Property1674 Cookie="1779" PropertyType="0" Value="" Type="5" />
+			<Property1675 Cookie="1780" PropertyType="0" Value="Static" Type="5" />
+			<Property1676 Cookie="1781" PropertyType="0" Value="Idera SQL admin toolset requires that your computer has the .NET Framework version 2.0 or higher installed." Type="5" />
+			<Property1677 Cookie="1782" PropertyType="0" Value="Button" Type="5" />
+			<Property1678 Cookie="1783" PropertyType="0" Value="&amp;OK" Type="5" />
 		</Child0>
 	</Storages>
 	<TypeInfo StoreCodeCompletion="1">

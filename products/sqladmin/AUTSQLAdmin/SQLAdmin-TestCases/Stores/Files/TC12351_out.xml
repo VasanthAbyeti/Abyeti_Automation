@@ -1,0 +1,52 @@
+<FragmentationSummary>
+  <Row_1>
+    <Database>DefragDB</Database>
+    <Table>dbo.defrag_part_table_1</Table>
+    <Index>IDX_CL_defrag_1_1</Index>
+    <Clustered>Yes</Clustered>
+    <Disabled>No</Disabled>
+    <Pages>2526</Pages>
+    <Estimated_Size>19.7 MB</Estimated_Size>
+    <Fragmentation_Percent>99.05 %</Fragmentation_Percent>
+  </Row_1>
+  <Row_2>
+    <Database>DefragDB</Database>
+    <Table>dbo.defrag_part_table_1</Table>
+    <Index>IDX_NCL_defrag_2_1</Index>
+    <Clustered>No</Clustered>
+    <Disabled>No</Disabled>
+    <Pages>1072</Pages>
+    <Estimated_Size>8.37 MB</Estimated_Size>
+    <Fragmentation_Percent>98.97 %</Fragmentation_Percent>
+  </Row_2>
+  <Row_3>
+    <Database>DefragDB</Database>
+    <Table>dbo.defrag_part_table_1</Table>
+    <Index>IDX_NCL_defrag_3_1</Index>
+    <Clustered>No</Clustered>
+    <Disabled>No</Disabled>
+    <Pages>1072</Pages>
+    <Estimated_Size>8.37 MB</Estimated_Size>
+    <Fragmentation_Percent>98.97 %</Fragmentation_Percent>
+  </Row_3>
+  <Row_4>
+    <Database>DefragDB</Database>
+    <Table>dbo.defrag_part_table_1</Table>
+    <Index>IDX_NCL_defrag_4_1</Index>
+    <Clustered>No</Clustered>
+    <Disabled>No</Disabled>
+    <Pages>1072</Pages>
+    <Estimated_Size>8.37 MB</Estimated_Size>
+    <Fragmentation_Percent>98.88 %</Fragmentation_Percent>
+  </Row_4>
+  <Row_5>
+    <Database>DefragDB</Database>
+    <Table>dbo.defrag_part_table_1</Table>
+    <Index>IDX_NCL_defrag_5_1</Index>
+    <Clustered>No</Clustered>
+    <Disabled>No</Disabled>
+    <Pages>1072</Pages>
+    <Estimated_Size>8.37 MB</Estimated_Size>
+    <Fragmentation_Percent>98.97 %</Fragmentation_Percent>
+  </Row_5>
+</FragmentationSummary>

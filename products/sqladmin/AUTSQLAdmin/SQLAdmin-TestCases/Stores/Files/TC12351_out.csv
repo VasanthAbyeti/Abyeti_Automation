@@ -1,0 +1,6 @@
+"Database","Table","Index","Clustered","Disabled","Pages","Estimated Size","Fragmentation Percent"
+"DefragDB","dbo.defrag_part_table_1","IDX_CL_defrag_1_1","Yes","No","2526","19.7 MB","99.05 %"
+"DefragDB","dbo.defrag_part_table_1","IDX_NCL_defrag_2_1","No","No","1072","8.37 MB","98.97 %"
+"DefragDB","dbo.defrag_part_table_1","IDX_NCL_defrag_3_1","No","No","1072","8.37 MB","98.97 %"
+"DefragDB","dbo.defrag_part_table_1","IDX_NCL_defrag_4_1","No","No","1072","8.37 MB","98.88 %"
+"DefragDB","dbo.defrag_part_table_1","IDX_NCL_defrag_5_1","No","No","1072","8.37 MB","98.97 %"

@@ -1,0 +1,2 @@
+drop database SQLSearch
+GO
