@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="analysis">
+			<Prp name="key" type="S" value="{E6041772-9AC4-4893-970F-E5F155A08D2F}"/>
+		</Node>
+		<Node name="child list">
+			<Node name="item0000000000">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="SQLSecureTestCases\SQLSecureTestCases.mds"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{7734D364-F45C-4A36-A5C6-56F4DAFB4714}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="item0000000001">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="SQLSecureInstallerTCs\SQLSecureInstallerTCs.mds"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{87EEDA86-1797-4B62-A9E1-EBA470233211}"/>
+				<Prp name="pluginname" type="S" value=""/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+		</Node>
+		<Node name="files">
+			<Node name="sqlsecureinstallertcs\sqlsecureinstallertcs.mds">
+				<Prp name="relpath" type="S" value="SQLSecureInstallerTCs\SQLSecureInstallerTCs.mds"/>
+			</Node>
+			<Node name="sqlsecuretestcases\sqlsecuretestcases.mds">
+				<Prp name="relpath" type="S" value="SQLSecureTestCases\SQLSecureTestCases.mds"/>
+			</Node>
+		</Node>
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="scc"/>
+		<Node name="settings">
+			<Node name="{5a85e200-b5d2-4f74-972a-0221f2956a19}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value="Log"/>
+			</Node>
+			<Prp name="key" type="S" value="{EC178C52-674F-4870-9161-3064193BF478}"/>
+			<Prp name="settingsversion" type="S" value="9.20"/>
+		</Node>
+		<Node name="test data">
+			<Node name="child list">
+				<Node name="item0000000000">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="index" type="I" value="0"/>
+					<Prp name="key" type="S" value="{7734D364-F45C-4A36-A5C6-56F4DAFB4714}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item0000000001">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="index" type="I" value="1"/>
+					<Prp name="key" type="S" value="{87EEDA86-1797-4B62-A9E1-EBA470233211}"/>
+					<Prp name="stoponerror" type="B" value="-1"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="key" type="S" value="{398A1D53-C3A1-4060-871C-CC41B2C3482A}"/>
+		</Node>
+		<Node name="variables">
+			<Prp name="key" type="S" value="{52E3F3C7-3824-4DA1-80B9-D2E86814367D}"/>
+		</Node>
+		<Prp name="key" type="S" value="{E1C9CEB1-A338-43BB-A21A-552B5D627AF1}"/>
+		<Prp name="signature" type="S" value="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}"/>
+		<Prp name="version" type="S" value="9.0"/>
+	</Node>
+</Nodes>
