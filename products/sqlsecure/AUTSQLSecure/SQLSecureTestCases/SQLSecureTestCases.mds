@@ -87,8 +87,20 @@
 			<Node name="namemapping\namemapping.tcnm">
 				<Prp name="relpath" type="S" value="NameMapping\NameMapping.tcNM"/>
 			</Node>
+			<Node name="script\dbhelper.svb">
+				<Prp name="relpath" type="S" value="Script\DBHelper.svb"/>
+			</Node>
+			<Node name="script\holdexecution.svb">
+				<Prp name="relpath" type="S" value="Script\HoldExecution.svb"/>
+			</Node>
 			<Node name="script\script.tcscript">
 				<Prp name="relpath" type="S" value="Script\Script.tcScript"/>
+			</Node>
+			<Node name="script\serverscredentials.svb">
+				<Prp name="relpath" type="S" value="Script\ServersCredentials.svb"/>
+			</Node>
+			<Node name="script\sqlsecure_launcher.svb">
+				<Prp name="relpath" type="S" value="Script\SQLSecure_Launcher.svb"/>
 			</Node>
 			<Node name="script\unit1.svb">
 				<Prp name="relpath" type="S" value="Script\Unit1.svb"/>
