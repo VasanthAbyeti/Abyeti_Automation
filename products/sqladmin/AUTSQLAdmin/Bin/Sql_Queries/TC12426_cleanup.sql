@@ -1,0 +1,1 @@
+EXECUTE msdb.dbo.sp_delete_job @job_name = N'Copy of Fragmentation analysis'   
