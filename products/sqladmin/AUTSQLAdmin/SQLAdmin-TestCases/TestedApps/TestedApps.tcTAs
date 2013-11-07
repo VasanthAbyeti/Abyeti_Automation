@@ -67,13 +67,31 @@
 			<Node name="item2">
 				<Node name="config">
 					<Node name="runmodeparams">
+						<Node name="simple">
+							<Prp name="filename" type="S" value="notepad.exe"/>
+							<Prp name="filepath" type="S" value="C:\WINDOWS\"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="notepad"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{A3DA0D91-05C9-4CEA-80D0-6D75E49A1C63}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item3">
+				<Node name="config">
+					<Node name="runmodeparams">
 						<Node name="debug">
-							<Prp name="parameters" type="S" value="/C sqlcmd -S.\SQLExpress -iF:\Idera\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\CreateSearchTestObjects.sql"/>
+							<Prp name="parameters" type="S" value="/C sqlcmd -S -iC:\Users\Ranga\Desktop\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\Transaction_Per_Second_Job_Creation_Script.sql"/>
 						</Node>
 						<Node name="simple">
 							<Prp name="filename" type="S" value="cmd.exe"/>
 							<Prp name="filepath" type="S" value="C:\Windows\System32\"/>
-							<Prp name="parameters" type="S" value="/C sqlcmd -S.\SQLExpress -iF:\Idera\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\CreateSearchTestObjects.sql"/>
+							<Prp name="parameters" type="S" value="/C sqlcmd -S -iC:\Users\Ranga\Desktop\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\Transaction_Per_Second_Job_Creation_Script.sql"/>
 						</Node>
 						<Prp name="activerunmode" type="S" value="Simple"/>
 					</Node>
@@ -82,20 +100,20 @@
 				</Node>
 				<Node name="data"/>
 				<Node name="test data"/>
-				<Prp name="key" type="S" value="{C9A80435-91C4-406A-B40B-C5C63BA13AA2}"/>
+				<Prp name="key" type="S" value="{D2A592EB-D435-4046-95E2-BF1E64A55C09}"/>
 				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
 				<Prp name="typename" type="S" value="Tested Application"/>
 			</Node>
-			<Node name="item3">
+			<Node name="item4">
 				<Node name="config">
 					<Node name="runmodeparams">
 						<Node name="debug">
-							<Prp name="parameters" type="S" value="/C sqlcmd -S.\SQLExpress -iF:\Idera\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\CreateSearchTestObjects.sql"/>
+							<Prp name="parameters" type="S" value="/C sqlcmd -S -iC:\Users\Ranga\Desktop\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\Transaction_Per_Second_Job_Creation_Script.sql"/>
 						</Node>
 						<Node name="simple">
 							<Prp name="filename" type="S" value="cmd.exe"/>
 							<Prp name="filepath" type="S" value="C:\Windows\System32\"/>
-							<Prp name="parameters" type="S" value="/C sqlcmd -S.\SQLExpress -iF:\Idera\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\CreateSearchTestObjects.sql"/>
+							<Prp name="parameters" type="S" value="/C sqlcmd -S -iC:\Users\Ranga\Desktop\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\Transaction_Per_Second_Job_Creation_Script.sql"/>
 						</Node>
 						<Prp name="activerunmode" type="S" value="Simple"/>
 					</Node>
@@ -104,20 +122,20 @@
 				</Node>
 				<Node name="data"/>
 				<Node name="test data"/>
-				<Prp name="key" type="S" value="{19676849-9396-4548-9FA9-A99214B61C5A}"/>
+				<Prp name="key" type="S" value="{E29951C3-D59E-475B-A954-6EC54DE22ECA}"/>
 				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
 				<Prp name="typename" type="S" value="Tested Application"/>
 			</Node>
-			<Node name="item4">
+			<Node name="item5">
 				<Node name="config">
 					<Node name="runmodeparams">
 						<Node name="debug">
-							<Prp name="parameters" type="S" value="/C sqlcmd -S.\SQLExpress -iF:\Idera\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\CreateSearchTestObjects.sql"/>
+							<Prp name="parameters" type="S" value="/C sqlcmd -S -iC:\Users\Ranga\Desktop\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\Transaction_Per_Second_Job_Creation_Script.sql"/>
 						</Node>
 						<Node name="simple">
 							<Prp name="filename" type="S" value="cmd.exe"/>
 							<Prp name="filepath" type="S" value="C:\Windows\System32\"/>
-							<Prp name="parameters" type="S" value="/C sqlcmd -S.\SQLExpress -iF:\Idera\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\CreateSearchTestObjects.sql"/>
+							<Prp name="parameters" type="S" value="/C sqlcmd -S -iC:\Users\Ranga\Desktop\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\Transaction_Per_Second_Job_Creation_Script.sql"/>
 						</Node>
 						<Prp name="activerunmode" type="S" value="Simple"/>
 					</Node>
@@ -126,11 +144,99 @@
 				</Node>
 				<Node name="data"/>
 				<Node name="test data"/>
-				<Prp name="key" type="S" value="{BA96C9CF-61E6-4ADB-AFDB-A4952A53C2C2}"/>
+				<Prp name="key" type="S" value="{1029CE63-1297-47B1-8C1A-AF05AC63075B}"/>
 				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
 				<Prp name="typename" type="S" value="Tested Application"/>
 			</Node>
-			<Prp name="item count" type="I" value="2"/>
+			<Node name="item6">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value="/C sqlcmd -S -iC:\Users\Ranga\Desktop\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\Transaction_Per_Second_Job_Creation_Script.sql"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="cmd.exe"/>
+							<Prp name="filepath" type="S" value="C:\Windows\System32\"/>
+							<Prp name="parameters" type="S" value="/C sqlcmd -S -iC:\Users\Ranga\Desktop\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\Transaction_Per_Second_Job_Creation_Script.sql"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="cmd3"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{226FCE63-2AEF-415D-9B74-F1C8D04B3E59}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item7">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value="/C sqlcmd -S -iC:\Users\Ranga\Desktop\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\Transaction_Per_Second_Job_Creation_Script.sql"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="cmd.exe"/>
+							<Prp name="filepath" type="S" value="C:\Windows\System32\"/>
+							<Prp name="parameters" type="S" value="/C sqlcmd -S -iC:\Users\Ranga\Desktop\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\Transaction_Per_Second_Job_Creation_Script.sql"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="cmd4"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{849DB22A-E921-4E8A-92BB-A71C9FB94717}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item8">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value="/C sqlcmd -S -iC:\Users\Ranga\Desktop\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\Transaction_Per_Second_Job_Creation_Script.sql"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="cmd.exe"/>
+							<Prp name="filepath" type="S" value="C:\Windows\System32\"/>
+							<Prp name="parameters" type="S" value="/C sqlcmd -S -iC:\Users\Ranga\Desktop\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\Transaction_Per_Second_Job_Creation_Script.sql"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="cmd5"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{12AE7345-390C-4A95-BCF8-48D4A1953D7F}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item9">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value="/C sqlcmd -S -iC:\Users\Ranga\Desktop\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\Transaction_Per_Second_Job_Creation_Script.sql"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="cmd.exe"/>
+							<Prp name="filepath" type="S" value="C:\Windows\System32\"/>
+							<Prp name="parameters" type="S" value="/C sqlcmd -S -iC:\Users\Ranga\Desktop\Abyeti_Automation\products\sqladmin\AUTSQLAdmin\Bin\Sql_Queries\Transaction_Per_Second_Job_Creation_Script.sql"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="cmd6"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{31AA0534-5C71-4802-97C9-B1CD365E84C1}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Prp name="item count" type="I" value="3"/>
 		</Node>
 		<Node name="config">
 			<Prp name="node name" type="S" value="TestedApps"/>
