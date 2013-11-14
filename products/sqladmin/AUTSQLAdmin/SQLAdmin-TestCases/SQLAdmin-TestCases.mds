@@ -90,12 +90,6 @@
 			<Node name="script\atslaunchpad_launcher.svb">
 				<Prp name="relpath" type="S" value="Script\ATSLaunchPad_Launcher.svb"/>
 			</Node>
-			<Node name="script\connectionstring.svb">
-				<Prp name="relpath" type="S" value="Script\ConnectionString.svb"/>
-			</Node>
-			<Node name="script\dbhelper.svb">
-				<Prp name="relpath" type="S" value="Script\DBHelper.svb"/>
-			</Node>
 			<Node name="script\holdexecution.svb">
 				<Prp name="relpath" type="S" value="Script\HoldExecution.svb"/>
 			</Node>
@@ -105,455 +99,59 @@
 			<Node name="script\serverscredentials.svb">
 				<Prp name="relpath" type="S" value="Script\ServersCredentials.svb"/>
 			</Node>
-			<Node name="script\setservicesstatus.svb">
-				<Prp name="relpath" type="S" value="Script\SetServicesStatus.svb"/>
-			</Node>
-			<Node name="script\setservicesstatusold.svb">
-				<Prp name="relpath" type="S" value="Script\SetServicesStatusOld.svb"/>
-			</Node>
-			<Node name="script\tc12283_atsdbmoverwarntheuseraboutmovingcopyingadb.svb">
-				<Prp name="relpath" type="S" value="Script\TC12283_ATSDBMoverWarnTheUserAboutMovingCopyingADB.svb"/>
-			</Node>
 			<Node name="script\tc12287_atslaunchpad_manageservergroups.svb">
 				<Prp name="relpath" type="S" value="Script\TC12287_ATSLaunchpad_ManageServerGroups.svb"/>
 			</Node>
 			<Node name="script\tc12290_ats_allloadservergroup.svb">
 				<Prp name="relpath" type="S" value="Script\TC12290_ATS_AllLoadServerGroup.svb"/>
 			</Node>
-			<Node name="script\tc12310_atsobjectsearch_searchasingledb.svb">
-				<Prp name="relpath" type="S" value="Script\TC12310_ATSObjectSearch_SearchASingleDB.svb"/>
-			</Node>
-			<Node name="script\tc12311_atsobjectsearch_excludesystemobjects.svb">
-				<Prp name="relpath" type="S" value="Script\TC12311_ATSObjectSearch_ExcludeSystemObjects.svb"/>
-			</Node>
-			<Node name="script\tc12313_atsobjectsearch_limitnumberofmatches.svb">
-				<Prp name="relpath" type="S" value="Script\TC12313_ATSObjectSearch_LimitNumberOfMatches.svb"/>
-			</Node>
-			<Node name="script\tc12371_atsserverping_monitortheavailability.svb">
-				<Prp name="relpath" type="S" value="Script\TC12371_ATSServerPing_MonitorTheAvailability.svb"/>
-			</Node>
-			<Node name="script\tc12391_atspasswordchecker_checkpasswordsforalistoflogins.svb">
-				<Prp name="relpath" type="S" value="Script\TC12391_ATSPasswordChecker_CheckPasswordsForAListOfLogins.svb"/>
-			</Node>
-			<Node name="script\tc12429_atsmultiquery_allowsorting.svb">
-				<Prp name="relpath" type="S" value="Script\TC12429_ATSMultiQuery_AllowSorting.svb"/>
-			</Node>
 			<Node name="script\unit1.svb">
 				<Prp name="relpath" type="S" value="Script\Unit1.svb"/>
 			</Node>
-			<Node name="script\unit2.svb">
-				<Prp name="relpath" type="S" value="Script\Unit2.svb"/>
-			</Node>
-			<Node name="script\unit3.svb">
-				<Prp name="relpath" type="S" value="Script\Unit3.svb"/>
-			</Node>
-			<Node name="script\visualizer\setservicesstatusold_svb\setservicesstatusold.svb.tcvis">
-				<Prp name="relpath" type="S" value="Script\Visualizer\SetServicesStatusOld_svb\SetServicesStatusOld.svb.tcVis"/>
-			</Node>
-			<Node name="script\visualizer\setservicesstatusold_svb\tcvi91480.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\SetServicesStatusOld_svb\tcvi91480.7z"/>
-			</Node>
-			<Node name="script\visualizer\setservicesstatusold_svb\tcvi91480.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\SetServicesStatusOld_svb\tcvi91480.png"/>
-			</Node>
-			<Node name="script\visualizer\setservicesstatusold_svb\tcvi91483.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\SetServicesStatusOld_svb\tcvi91483.7z"/>
-			</Node>
-			<Node name="script\visualizer\setservicesstatusold_svb\tcvi91483.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\SetServicesStatusOld_svb\tcvi91483.png"/>
-			</Node>
-			<Node name="script\visualizer\setservicesstatusold_svb\tcvi91484.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\SetServicesStatusOld_svb\tcvi91484.7z"/>
-			</Node>
-			<Node name="script\visualizer\setservicesstatusold_svb\tcvi91484.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\SetServicesStatusOld_svb\tcvi91484.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tc12310_atsobjectsearch_searchasingledb.svb.tcvis">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\TC12310_ATSObjectSearch_SearchASingleDB.svb.tcVis"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi172600.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi172600.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi172600.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi172600.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384149.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384149.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384149.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384149.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384154.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384154.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384154.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384154.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384155.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384155.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384155.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384155.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384156.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384156.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384156.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384156.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384157.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384157.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384157.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384157.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384158.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384158.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384158.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384158.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384159.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384159.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384159.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384159.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384164.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384164.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384164.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384164.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384165.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384165.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384165.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384165.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384166.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384166.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi6384166.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi6384166.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi638418.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi638418.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12310_atsobjectsearch_searchasingledb_svb\tcvi638418.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12310_ATSObjectSearch_SearchASingleDB_svb\tcvi638418.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tc12313_atsobjectsearch_limitnumberofmatches.svb.tcvis">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\TC12313_ATSObjectSearch_LimitNumberOfMatches.svb.tcVis"/>
-			</Node>
-			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi129920.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi129920.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi129920.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi129920.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi129921.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi129921.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi129921.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi129921.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi13264282.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi13264282.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi13264282.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi13264282.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi13264283.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi13264283.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi13264283.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi13264283.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi13264285.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi13264285.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi13264285.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi13264285.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi13264286.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi13264286.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi13264286.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi13264286.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi1326438.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi1326438.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12313_atsobjectsearch_limitnumberofmatches_svb\tcvi1326438.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12313_ATSObjectSearch_LimitNumberOfMatches_svb\tcvi1326438.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tc12371_atsserverping_monitortheavailability.svb.tcvis">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\TC12371_ATSServerPing_MonitorTheAvailability.svb.tcVis"/>
-			</Node>
-			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi145044.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi145044.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi145044.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi145044.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi145045.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi145045.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi145045.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi145045.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi145046.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi145046.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi145046.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi145046.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi145047.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi145047.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi145047.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi145047.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi145048.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi145048.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi145048.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi145048.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi145049.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi145049.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi145049.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi145049.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi213320.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi213320.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12371_atsserverping_monitortheavailability_svb\tcvi213320.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12371_ATSServerPing_MonitorTheAvailability_svb\tcvi213320.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tc12429_atsmultiquery_allowsorting.svb.tcvis">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\TC12429_ATSMultiQuery_AllowSorting.svb.tcVis"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi204480.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi204480.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi204480.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi204480.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi228520.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi228520.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi228520.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi228520.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi2285212.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi2285212.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi2285212.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi2285212.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi2285213.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi2285213.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi2285213.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi2285213.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi2285214.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi2285214.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi2285214.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi2285214.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi2285219.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi2285219.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi2285219.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi2285219.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi228522.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi228522.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi228522.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi228522.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi2285221.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi2285221.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi2285221.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi2285221.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi2285224.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi2285224.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi2285224.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi2285224.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi228525.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi228525.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi228525.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi228525.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi228526.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi228526.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi228526.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi228526.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi228527.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi228527.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi228527.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi228527.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi228529.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi228529.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi228529.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi228529.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi230840.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi230840.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi230840.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi230840.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi230841.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi230841.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi230841.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi230841.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi230842.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi230842.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi230842.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi230842.png"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi230843.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi230843.7z"/>
-			</Node>
-			<Node name="script\visualizer\tc12429_atsmultiquery_allowsorting_svb\tcvi230843.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\TC12429_ATSMultiQuery_AllowSorting_svb\tcvi230843.png"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi137480.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi137480.7z"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi137480.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi137480.png"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi137482.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi137482.7z"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi137482.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi137482.png"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi146080.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi146080.7z"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi146080.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi146080.png"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi190522.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi190522.7z"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi190522.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi190522.png"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi190524.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi190524.7z"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi190524.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi190524.png"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi190525.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi190525.7z"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi190525.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi190525.png"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi190526.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi190526.7z"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi190526.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi190526.png"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi190527.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi190527.7z"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi190527.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi190527.png"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi2140811.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi2140811.7z"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi2140811.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi2140811.png"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi2140812.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi2140812.7z"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi2140812.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi2140812.png"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi2140813.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi2140813.7z"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi2140813.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi2140813.png"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi2140814.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi2140814.7z"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi2140814.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi2140814.png"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi214082.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi214082.7z"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi214082.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi214082.png"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi214084.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi214084.7z"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi214084.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi214084.png"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi214085.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi214085.7z"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi214085.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi214085.png"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi214086.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi214086.7z"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi214086.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi214086.png"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi214089.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi214089.7z"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\tcvi214089.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\tcvi214089.png"/>
-			</Node>
-			<Node name="script\visualizer\unit2_svb\unit2.svb.tcvis">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit2_svb\Unit2.svb.tcVis"/>
-			</Node>
-			<Node name="script\visualizer\unit3_svb\tcvi148601.7z">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit3_svb\tcvi148601.7z"/>
-			</Node>
-			<Node name="script\visualizer\unit3_svb\tcvi148601.png">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit3_svb\tcvi148601.png"/>
-			</Node>
-			<Node name="script\visualizer\unit3_svb\unit3.svb.tcvis">
-				<Prp name="relpath" type="S" value="Script\Visualizer\Unit3_svb\Unit3.svb.tcVis"/>
-			</Node>
 			<Node name="sqladmin-testcases.mds">
 				<Prp name="relpath" type="S" value="SQLAdmin-TestCases.mds"/>
+			</Node>
+			<Node name="stores\files.tcfiles">
+				<Prp name="relpath" type="S" value="Stores\Files.tcFiles"/>
+			</Node>
+			<Node name="stores\files\tc12351_out.csv">
+				<Prp name="relpath" type="S" value="Stores\Files\TC12351_out.csv"/>
+			</Node>
+			<Node name="stores\files\tc12351_out.xml">
+				<Prp name="relpath" type="S" value="Stores\Files\TC12351_out.xml"/>
+			</Node>
+			<Node name="stores\regions.tcregions">
+				<Prp name="relpath" type="S" value="Stores\Regions.tcRegions"/>
+			</Node>
+			<Node name="stores\regions\datagridviewjobs_category.png">
+				<Prp name="relpath" type="S" value="Stores\Regions\dataGridViewJobs_Category.png"/>
+			</Node>
+			<Node name="stores\regions\framebody1.png">
+				<Prp name="relpath" type="S" value="Stores\Regions\frameBody1.png"/>
+			</Node>
+			<Node name="stores\regions\gridtables1.png">
+				<Prp name="relpath" type="S" value="Stores\Regions\gridTables1.png"/>
+			</Node>
+			<Node name="stores\regions\listcomparison1.png">
+				<Prp name="relpath" type="S" value="Stores\Regions\listComparison1.png"/>
+			</Node>
+			<Node name="stores\regions\listcomparison2.png">
+				<Prp name="relpath" type="S" value="Stores\Regions\listComparison2.png"/>
+			</Node>
+			<Node name="stores\regions\listcomparison3.png">
+				<Prp name="relpath" type="S" value="Stores\Regions\listComparison3.png"/>
+			</Node>
+			<Node name="stores\regions\listcomparison4.png">
+				<Prp name="relpath" type="S" value="Stores\Regions\listComparison4.png"/>
+			</Node>
+			<Node name="stores\regions\listservers1.png">
+				<Prp name="relpath" type="S" value="Stores\Regions\listServers1.png"/>
+			</Node>
+			<Node name="stores\regions\listusers1.png">
+				<Prp name="relpath" type="S" value="Stores\Regions\listUsers1.png"/>
+			</Node>
+			<Node name="stores\regions\panelmcdropdownbody173985541401.png">
+				<Prp name="relpath" type="S" value="Stores\Regions\panelMcdropdownbody173985541401.png"/>
 			</Node>
 			<Node name="stores\stores.tcstores">
 				<Prp name="relpath" type="S" value="Stores\Stores.tcStores"/>
